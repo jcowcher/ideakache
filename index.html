@@ -92,7 +92,7 @@ const S = {
   quoteText: { fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 17, lineHeight: 1.75, color: '#1e293b', marginBottom: 14 },
   meta: { display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '6px 12px' },
   author: { fontWeight: 600, fontSize: 14, cursor: 'pointer', color: '#0f172a' },
-  verifiedBadge: { background: 'none', border: 'none', cursor: 'pointer', padding: 2, fontSize: 13, transition: 'color .12s, transform .12s', display: 'inline-flex', alignItems: 'center', gap: 3, lineHeight: 1 },
+  verifiedBadge: { background: 'none', border: 'none', cursor: 'pointer', padding: 2, fontSize: 18, fontWeight: 700, transition: 'color .12s, transform .12s', display: 'inline-flex', alignItems: 'center', lineHeight: 1 },
   citationLink: { fontSize: 13, fontStyle: 'italic', color: '#94a3b8', textDecoration: 'none', marginTop: 8, display: 'inline-block', transition: 'color .12s' },
   citationArrow: { fontSize: 12, marginLeft: 3 },
   tags: { display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 12 },
@@ -143,11 +143,11 @@ function QuoteCard({ q, isFav, isVer, onToggleFav, onToggleVer, onAuthor, onConc
           onMouseOver={e => e.target.style.textDecoration='underline'}
           onMouseOut={e => e.target.style.textDecoration='none'}>{q.author}</span>
         <button style={{ ...S.verifiedBadge, color: isVer ? '#22c55e' : '#d1d5db' }}
-          onClick={() => onToggleVer(q.id)}
+          onClick={e => { e.stopPropagation(); onToggleVer(q.id); }}
           title={isVer ? 'Verified by JC — click to unverify' : 'Click to verify'}
           onMouseOver={e => e.currentTarget.style.transform='scale(1.2)'}
           onMouseOut={e => e.currentTarget.style.transform='scale(1)'}>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill={isVer ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          {isVer ? '\u2713' : '\u2713'}
         </button>
         <button style={S.favBtn} onClick={() => onToggleFav(q.id)}
           title={isFav ? 'Remove from favorites' : 'Save to favorites'}
