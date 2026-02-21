@@ -197,7 +197,7 @@ function App() {
       if (filter.type === 'author') list = list.filter(q => q.author === filter.value);
       else list = list.filter(q => q.concepts.includes(filter.value));
     }
-    if (search) {
+    if (search && search.trim() !== '*') {
       const terms = search.toLowerCase().split(/\s+/);
       list = list.filter(q => { const h = (q.text + ' ' + q.author).toLowerCase(); return terms.every(t => h.includes(t)); });
     }
@@ -264,6 +264,7 @@ function App() {
         <div style={S.landing}>
           <Clock />
           <div style={S.landingHero}>
+            <div style={S.landingSub}>A personal cache of ideas from Jeremy Cowcher</div>
             <div style={S.searchWrap}>
               <svg style={S.searchIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
               <input style={S.search} placeholder="Search quotes and authors..." value={search}
