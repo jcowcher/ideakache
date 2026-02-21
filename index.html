@@ -55,11 +55,9 @@ const S = {
   searchIcon: { position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: '#94a3b8', pointerEvents: 'none' },
   search: { width: '100%', padding: '9px 12px 9px 38px', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 14, outline: 'none', background: '#f8fafc', color: '#0f172a', transition: 'border .15s' },
   btn: { display: 'inline-flex', alignItems: 'center', gap: 6, padding: '9px 16px', background: '#6366f1', color: '#fff', border: 'none', borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap', transition: 'background .15s' },
-  tabs: { display: 'flex', gap: 2, flexWrap: 'wrap', paddingBottom: 0 },
+  tabs: { display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap', paddingBottom: 0 },
   tab: { padding: '8px 14px', border: 'none', background: 'transparent', color: '#64748b', fontSize: 13, fontWeight: 500, cursor: 'pointer', borderBottom: '2px solid transparent', borderRadius: '6px 6px 0 0', transition: 'all .12s', whiteSpace: 'nowrap' },
   tabActive: { color: '#6366f1', borderBottomColor: '#6366f1', background: '#eef2ff' },
-  tabReview: { color: '#d97706' },
-  tabReviewActive: { color: '#d97706', borderBottomColor: '#d97706', background: '#fffbeb' },
   main: { maxWidth: 1040, margin: '0 auto', padding: '20px 24px 48px' },
   filterBar: { display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16, flexWrap: 'wrap' },
   pill: { display: 'inline-flex', alignItems: 'center', gap: 6, padding: '5px 14px', background: '#6366f1', color: '#fff', borderRadius: 20, fontSize: 13, fontWeight: 500 },
@@ -150,7 +148,7 @@ function QuoteCard({ q, isFav, onToggleFav, onAuthor, onConcept, hlId, isReview 
 }
 
 function App() {
-  const [view, setView] = useState('quotes');
+  const [view, setView] = useState('authors');
   const [search, setSearch] = useState('');
   const [filter, setFilter] = useState(null);
   const [favIds, setFavIds] = useState(getFavorites);
@@ -167,6 +165,7 @@ function App() {
   const pool = view === 'review' ? REVIEW : SOURCED;
 
   const filtered = useMemo(() => {
+    if (view === 'surprise') return SOURCED.filter(q => q.id === hlId);
     let list = pool;
     if (view === 'favorites') list = QUOTES.filter(q => favIds.includes(q.id));
     if (filter) {
@@ -178,28 +177,27 @@ function App() {
       list = list.filter(q => { const h = (q.text + ' ' + q.author).toLowerCase(); return terms.every(t => h.includes(t)); });
     }
     return list;
-  }, [view, filter, search, favIds, pool]);
+  }, [view, filter, search, favIds, pool, hlId]);
 
-  const handleRandom = () => {
-    if (!filtered.length) return;
-    const pick = filtered[Math.floor(Math.random() * filtered.length)];
+  const handleSurprise = () => {
+    const pick = SOURCED[Math.floor(Math.random() * SOURCED.length)];
+    setFilter(null);
+    setSearch('');
+    setView('surprise');
     setHlId(pick.id);
-    setTimeout(() => setHlId(null), 2400);
   };
 
-  const setAuthorF = a => { setFilter({ type: 'author', value: a }); if (view === 'authors' || view === 'concepts') setView('quotes'); };
-  const setConceptF = c => { setFilter({ type: 'concept', value: c }); if (view === 'authors' || view === 'concepts') setView('quotes'); };
-  const clearF = () => setFilter(null);
-  const switchView = v => { setView(v); setFilter(null); };
+  const setAuthorF = a => { setFilter({ type: 'author', value: a }); setView('list'); };
+  const setConceptF = c => { setFilter({ type: 'concept', value: c }); setView('list'); };
+  const clearF = () => { setFilter(null); setView('authors'); };
+  const switchView = v => { setView(v); setFilter(null); setHlId(null); };
 
-  const isListView = ['quotes', 'favorites', 'review'].includes(view);
+  const isListView = ['list', 'favorites', 'review', 'surprise'].includes(view);
 
-  const TABS = [
-    ['quotes', `All Quotes (${SOURCED.length})`],
+  const NAV_TABS = [
     ['authors', 'By Author'],
     ['concepts', 'By Concept'],
     ['favorites', `Favorites${favIds.length ? ` (${favIds.length})` : ''}`],
-    ['review', `To Be Reviewed (${REVIEW.length})`],
   ];
 
   return (
@@ -208,37 +206,37 @@ function App() {
         <div style={S.headerInner}>
           <div style={S.brand}>
             <span style={S.logo}>Idea<span style={S.logoK}> Kache</span></span>
-            <span style={S.tagline}>A personal cache of ideas</span>
+            <span style={S.tagline}>A personal cache of ideas from Jeremy Cowcher</span>
           </div>
           <div style={S.topRow}>
             <div style={S.searchWrap}>
               <svg style={S.searchIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
               <input style={S.search} placeholder="Search quotes and authors..." value={search}
-                onChange={e => { setSearch(e.target.value); if (e.target.value && !isListView) switchView('quotes'); }}
+                onChange={e => { setSearch(e.target.value); if (e.target.value) setView('list'); }}
                 onFocus={e => e.target.style.borderColor='#6366f1'}
                 onBlur={e => e.target.style.borderColor='#e2e8f0'} />
             </div>
-            <button style={S.btn} onClick={handleRandom}
-              onMouseOver={e => e.currentTarget.style.background='#4f46e5'}
-              onMouseOut={e => e.currentTarget.style.background='#6366f1'}>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
-              Random
-            </button>
           </div>
           <div style={S.tabs}>
-            {TABS.map(([key, label]) => {
-              const isRev = key === 'review';
-              const active = view === key;
-              return (
-                <button key={key}
-                  style={{ ...S.tab, ...(active ? (isRev ? S.tabReviewActive : S.tabActive) : (isRev ? S.tabReview : {})) }}
-                  onClick={() => switchView(key)}
-                  onMouseOver={e => { if (!active) e.target.style.background = isRev ? '#fffbeb' : '#f1f5f9'; }}
-                  onMouseOut={e => { if (!active) e.target.style.background = 'transparent'; }}>
-                  {label}
-                </button>
-              );
-            })}
+            <div style={{ display: 'flex', gap: 2, flex: 1 }}>
+              {NAV_TABS.map(([key, label]) => {
+                const active = view === key;
+                return (
+                  <button key={key}
+                    style={{ ...S.tab, ...(active ? S.tabActive : {}) }}
+                    onClick={() => switchView(key)}
+                    onMouseOver={e => { if (!active) e.target.style.background = '#f1f5f9'; }}
+                    onMouseOut={e => { if (!active) e.target.style.background = 'transparent'; }}>
+                    {label}
+                  </button>
+                );
+              })}
+            </div>
+            <button style={S.btn} onClick={handleSurprise}
+              onMouseOver={e => e.currentTarget.style.background='#4f46e5'}
+              onMouseOut={e => e.currentTarget.style.background='#6366f1'}>
+              Kache Surprise
+            </button>
           </div>
         </div>
       </header>
@@ -259,16 +257,24 @@ function App() {
             ? <div style={S.empty}>
                 {view === 'favorites' ? 'No favorites yet. Bookmark quotes to save them here.'
                   : view === 'review' ? 'All quotes have been reviewed!'
+                  : view === 'surprise' ? 'Hit Kache Surprise to discover a quote.'
                   : 'No quotes match your search.'}
               </div>
             : <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {!filter && !search && <div style={S.count}>{filtered.length} quotes</div>}
+                {view !== 'surprise' && !filter && !search && <div style={S.count}>{filtered.length} quotes</div>}
                 {filtered.map(q => (
                   <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
                     onToggleFav={toggleFav} onAuthor={setAuthorF}
                     onConcept={setConceptF} hlId={hlId}
                     isReview={q.needsReview} />
                 ))}
+                {view === 'surprise' && <div style={{ textAlign: 'center', marginTop: 8 }}>
+                  <button style={S.btn} onClick={handleSurprise}
+                    onMouseOver={e => e.currentTarget.style.background='#4f46e5'}
+                    onMouseOut={e => e.currentTarget.style.background='#6366f1'}>
+                    Another one
+                  </button>
+                </div>}
               </div>
         )}
 
@@ -304,7 +310,7 @@ function App() {
 
       <footer style={S.footer}>
         <a href="https://ideakache.com" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: 500 }}>ideakache.com</a>
-        {' '}&middot; {SOURCED.length} sourced quotes &middot; {REVIEW.length} to be reviewed &middot; {AUTHORS.length} authors &middot; {ALL_CONCEPTS.length} concepts
+        {' '}&middot; {SOURCED.length} quotes &middot; {AUTHORS.length} authors &middot; {ALL_CONCEPTS.length} concepts
       </footer>
     </div>
   );
