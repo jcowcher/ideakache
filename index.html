@@ -88,6 +88,7 @@ const S = {
   quoteText: { fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 17, lineHeight: 1.75, color: '#1e293b', marginBottom: 14 },
   meta: { display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '6px 12px' },
   author: { fontWeight: 600, fontSize: 14, cursor: 'pointer', color: '#0f172a' },
+  verifiedBadge: { background: 'none', border: 'none', cursor: 'pointer', padding: 0, fontSize: 13, color: '#94a3b8', transition: 'color .12s', display: 'inline-flex', alignItems: 'center', gap: 3 },
   citationLink: { fontSize: 13, fontStyle: 'italic', color: '#94a3b8', textDecoration: 'none', marginTop: 8, display: 'inline-block', transition: 'color .12s' },
   citationArrow: { fontSize: 12, marginLeft: 3 },
   tags: { display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 12 },
@@ -113,7 +114,7 @@ function BkmkIcon({ on }) {
 }
 
 
-function QuoteCard({ q, isFav, onToggleFav, onAuthor, onConcept, hlId, isReview }) {
+function QuoteCard({ q, isFav, onToggleFav, onAuthor, onConcept, onVerified, hlId, isReview }) {
   const ref = useRef(null);
   const lit = hlId === q.id;
   useEffect(() => {
@@ -137,6 +138,13 @@ function QuoteCard({ q, isFav, onToggleFav, onAuthor, onConcept, hlId, isReview 
         <span style={S.author} onClick={() => onAuthor(q.author)}
           onMouseOver={e => e.target.style.textDecoration='underline'}
           onMouseOut={e => e.target.style.textDecoration='none'}>{q.author}</span>
+        {q.verified === true && (
+          <button style={S.verifiedBadge} onClick={() => onVerified()} title="Verified by JC"
+            onMouseOver={e => e.currentTarget.style.color='#6366f1'}
+            onMouseOut={e => e.currentTarget.style.color='#94a3b8'}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </button>
+        )}
         <button style={S.favBtn} onClick={() => onToggleFav(q.id)}
           title={isFav ? 'Remove from favorites' : 'Save to favorites'}
           onMouseOver={e => e.currentTarget.style.transform='scale(1.2)'}
@@ -192,6 +200,7 @@ function App() {
     if (view === 'favorites') list = QUOTES.filter(q => favIds.includes(q.id));
     if (filter) {
       if (filter.type === 'author') list = list.filter(q => q.author === filter.value);
+      else if (filter.type === 'verified') list = list.filter(q => q.verified === true);
       else list = list.filter(q => q.concepts.includes(filter.value));
     }
     if (search && search.trim() !== '*') {
@@ -211,6 +220,7 @@ function App() {
 
   const setAuthorF = a => { setFilter({ type: 'author', value: a }); setView('list'); };
   const setConceptF = c => { setFilter({ type: 'concept', value: c }); setView('list'); };
+  const setVerifiedF = () => { setFilter({ type: 'verified', value: 'Verified by JC' }); setView('list'); };
   const clearF = () => { setFilter(null); setView('home'); };
   const goHome = () => { setView('home'); setFilter(null); setSearch(''); setHlId(null); };
   const switchView = v => { setView(v); setFilter(null); setHlId(null); };
@@ -275,7 +285,7 @@ function App() {
             {LANDING_QUOTES.map(q => (
               <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
                 onToggleFav={toggleFav} onAuthor={setAuthorF}
-                onConcept={setConceptF} hlId={null}
+                onConcept={setConceptF} onVerified={setVerifiedF} hlId={null}
                 isReview={false} />
             ))}
           </div>
@@ -299,7 +309,7 @@ function App() {
           {filter && (
             <div style={S.filterBar}>
               <div style={S.pill}>
-                {filter.type === 'author' ? 'Author' : 'Concept'}: {filter.value}
+                {filter.type === 'verified' ? filter.value : `${filter.type === 'author' ? 'Author' : 'Concept'}: ${filter.value}`}
                 <button style={S.pillX} onClick={clearF}>&times;</button>
               </div>
               <span style={S.count}>{filtered.length} quote{filtered.length !== 1 ? 's' : ''}</span>
