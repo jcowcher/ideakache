@@ -216,43 +216,35 @@ function App() {
     });
   }, []);
 
-  const toggleVer = useCallback(id => {
-    setVerIds(prev => {
-      const adding = !prev.includes(id);
-      const next = adding ? [...prev, id] : prev.filter(x => x !== id);
-      saveVerified(next);
-      // Log the action
-      const log = JSON.parse(localStorage.getItem('ik_ver_log') || '[]');
-      const q = QUOTES.find(q => q.id === id);
-      log.push({
-        action: adding ? 'verified' : 'unverified',
-        id,
-        author: q ? q.author : '',
-        text: q ? q.text.slice(0, 80) : '',
-        timestamp: new Date().toISOString()
-      });
-      localStorage.setItem('ik_ver_log', JSON.stringify(log));
-      return next;
+  const logAction = (action, id) => {
+    const log = JSON.parse(localStorage.getItem('ik_ver_log') || '[]');
+    const q = QUOTES.find(q => q.id === id);
+    log.push({
+      action,
+      id,
+      author: q ? q.author : '',
+      text: q ? q.text.slice(0, 80) : '',
+      timestamp: new Date().toISOString()
     });
+    localStorage.setItem('ik_ver_log', JSON.stringify(log));
+  };
+
+  const toggleVer = useCallback(id => {
+    const current = getVerified();
+    const adding = !current.includes(id);
+    const next = adding ? [...current, id] : current.filter(x => x !== id);
+    saveVerified(next);
+    setVerIds(next);
+    logAction(adding ? 'verified' : 'unverified', id);
   }, []);
 
   const toggleRej = useCallback(id => {
-    setRejIds(prev => {
-      const adding = !prev.includes(id);
-      const next = adding ? [...prev, id] : prev.filter(x => x !== id);
-      saveRejected(next);
-      const log = JSON.parse(localStorage.getItem('ik_ver_log') || '[]');
-      const q = QUOTES.find(q => q.id === id);
-      log.push({
-        action: adding ? 'rejected' : 'unrejected',
-        id,
-        author: q ? q.author : '',
-        text: q ? q.text.slice(0, 80) : '',
-        timestamp: new Date().toISOString()
-      });
-      localStorage.setItem('ik_ver_log', JSON.stringify(log));
-      return next;
-    });
+    const current = getRejected();
+    const adding = !current.includes(id);
+    const next = adding ? [...current, id] : current.filter(x => x !== id);
+    saveRejected(next);
+    setRejIds(next);
+    logAction(adding ? 'rejected' : 'unrejected', id);
   }, []);
 
   const pool = SOURCED;
