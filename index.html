@@ -38,6 +38,10 @@ function getVerified() {
   try { return JSON.parse(localStorage.getItem('ik_verified') || '[]'); } catch { return []; }
 }
 function saveVerified(ids) { localStorage.setItem('ik_verified', JSON.stringify(ids)); }
+function getRejected() {
+  try { return JSON.parse(localStorage.getItem('ik_rejected') || '[]'); } catch { return []; }
+}
+function saveRejected(ids) { localStorage.setItem('ik_rejected', JSON.stringify(ids)); }
 
 const SOURCED = QUOTES.filter(q => !q.needsReview);
 const REVIEW = QUOTES.filter(q => q.needsReview);
@@ -118,7 +122,7 @@ function BkmkIcon({ on }) {
 }
 
 
-function QuoteCard({ q, isFav, isVer, onToggleFav, onToggleVer, onAuthor, onConcept, onVerified, hlId, isReview }) {
+function QuoteCard({ q, isFav, isVer, isRej, onToggleFav, onToggleVer, onToggleRej, onAuthor, onConcept, onVerified, onRejected, hlId, isReview }) {
   const ref = useRef(null);
   const lit = hlId === q.id;
   useEffect(() => {
@@ -148,6 +152,14 @@ function QuoteCard({ q, isFav, isVer, onToggleFav, onToggleVer, onAuthor, onConc
           onMouseOver={e => e.currentTarget.style.transform='scale(1.2)'}
           onMouseOut={e => e.currentTarget.style.transform='scale(1)'}>
           {isVer ? '\u2713' : '\u2713'}
+        </button>
+        <span style={{ color: '#e2e8f0', fontSize: 14, userSelect: 'none' }}>|</span>
+        <button style={{ ...S.verifiedBadge, color: isRej ? '#ef4444' : '#d1d5db' }}
+          onClick={e => { e.stopPropagation(); onToggleRej(q.id); }}
+          title={isRej ? 'Marked for removal — click to unmark' : 'Mark for removal'}
+          onMouseOver={e => e.currentTarget.style.transform='scale(1.2)'}
+          onMouseOut={e => e.currentTarget.style.transform='scale(1)'}>
+          {'\u2717'}
         </button>
         <button style={S.favBtn} onClick={() => onToggleFav(q.id)}
           title={isFav ? 'Remove from favorites' : 'Save to favorites'}
@@ -187,6 +199,7 @@ function App() {
   const [filter, setFilter] = useState(null);
   const [favIds, setFavIds] = useState(getFavorites);
   const [verIds, setVerIds] = useState(getVerified);
+  const [rejIds, setRejIds] = useState(getRejected);
   const [hlId, setHlId] = useState(null);
 
   const toggleFav = useCallback(id => {
@@ -217,6 +230,25 @@ function App() {
     });
   }, []);
 
+  const toggleRej = useCallback(id => {
+    setRejIds(prev => {
+      const adding = !prev.includes(id);
+      const next = adding ? [...prev, id] : prev.filter(x => x !== id);
+      saveRejected(next);
+      const log = JSON.parse(localStorage.getItem('ik_ver_log') || '[]');
+      const q = QUOTES.find(q => q.id === id);
+      log.push({
+        action: adding ? 'rejected' : 'unrejected',
+        id,
+        author: q ? q.author : '',
+        text: q ? q.text.slice(0, 80) : '',
+        timestamp: new Date().toISOString()
+      });
+      localStorage.setItem('ik_ver_log', JSON.stringify(log));
+      return next;
+    });
+  }, []);
+
   const pool = SOURCED;
 
   const filtered = useMemo(() => {
@@ -226,6 +258,7 @@ function App() {
     if (filter) {
       if (filter.type === 'author') list = list.filter(q => q.author === filter.value);
       else if (filter.type === 'verified') list = list.filter(q => verIds.includes(q.id));
+      else if (filter.type === 'rejected') list = list.filter(q => rejIds.includes(q.id));
       else list = list.filter(q => q.concepts.includes(filter.value));
     }
     if (search && search.trim() !== '*') {
@@ -233,7 +266,7 @@ function App() {
       list = list.filter(q => { const h = (q.text + ' ' + q.author).toLowerCase(); return terms.every(t => h.includes(t)); });
     }
     return list;
-  }, [view, filter, search, favIds, verIds, pool, hlId]);
+  }, [view, filter, search, favIds, verIds, rejIds, pool, hlId]);
 
   const handleSurprise = () => {
     const pick = SOURCED[Math.floor(Math.random() * SOURCED.length)];
@@ -246,6 +279,7 @@ function App() {
   const setAuthorF = a => { setFilter({ type: 'author', value: a }); setView('list'); };
   const setConceptF = c => { setFilter({ type: 'concept', value: c }); setView('list'); };
   const setVerifiedF = () => { setFilter({ type: 'verified', value: 'Verified by JC' }); setView('list'); };
+  const setRejectedF = () => { setFilter({ type: 'rejected', value: 'Marked for removal' }); setView('list'); };
   const clearF = () => { setFilter(null); setView('home'); };
   const goHome = () => { setView('home'); setFilter(null); setSearch(''); setHlId(null); };
   const switchView = v => { setView(v); setFilter(null); setHlId(null); };
@@ -310,7 +344,8 @@ function App() {
             {LANDING_QUOTES.map(q => (
               <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
                 onToggleFav={toggleFav} isVer={verIds.includes(q.id)} onToggleVer={toggleVer}
-                onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} hlId={null}
+                isRej={rejIds.includes(q.id)} onToggleRej={toggleRej}
+                onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} onRejected={setRejectedF} hlId={null}
                 isReview={false} />
             ))}
           </div>
