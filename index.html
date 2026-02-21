@@ -199,8 +199,20 @@ function App() {
 
   const toggleVer = useCallback(id => {
     setVerIds(prev => {
-      const next = prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id];
+      const adding = !prev.includes(id);
+      const next = adding ? [...prev, id] : prev.filter(x => x !== id);
       saveVerified(next);
+      // Log the action
+      const log = JSON.parse(localStorage.getItem('ik_ver_log') || '[]');
+      const q = QUOTES.find(q => q.id === id);
+      log.push({
+        action: adding ? 'verified' : 'unverified',
+        id,
+        author: q ? q.author : '',
+        text: q ? q.text.slice(0, 80) : '',
+        timestamp: new Date().toISOString()
+      });
+      localStorage.setItem('ik_ver_log', JSON.stringify(log));
       return next;
     });
   }, []);
@@ -388,6 +400,26 @@ function App() {
       <footer style={S.footer}>
         <a href="https://ideakache.com" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: 500 }} onClick={e => { e.preventDefault(); goHome(); }}>ideakache.com</a>
         {' '}&middot; {SOURCED.length} quotes &middot; {AUTHORS.length} authors &middot; {ALL_CONCEPTS.length} concepts
+        {verIds.length > 0 && <>
+          {' '}&middot;{' '}
+          <a href="#" style={{ color: '#94a3b8', textDecoration: 'none' }}
+            onMouseOver={e => e.target.style.color='#6366f1'}
+            onMouseOut={e => e.target.style.color='#94a3b8'}
+            onClick={e => {
+              e.preventDefault();
+              const log = JSON.parse(localStorage.getItem('ik_ver_log') || '[]');
+              const csv = ['Action,ID,Author,Quote,Timestamp',
+                ...log.map(r => `${r.action},${r.id},"${r.author}","${r.text.replace(/"/g,'""')}",${r.timestamp}`)
+              ].join('\n');
+              const blob = new Blob([csv], { type: 'text/csv' });
+              const a = document.createElement('a');
+              a.href = URL.createObjectURL(blob);
+              a.download = `ik-verification-log-${new Date().toISOString().slice(0,10)}.csv`;
+              a.click();
+            }}>
+            Export verification log ({verIds.length})
+          </a>
+        </>}
       </footer>
     </div>
   );
