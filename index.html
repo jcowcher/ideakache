@@ -42,22 +42,37 @@ const AUTHORS = Object.entries(
   SOURCED.reduce((m, q) => { m[q.author] = (m[q.author] || 0) + 1; return m; }, {})
 ).sort((a, b) => a[0].localeCompare(b[0]));
 
+// Pick N random quotes, stable per session
+const LANDING_QUOTES = (() => {
+  const shuffled = [...SOURCED].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, 8);
+})();
+
 const S = {
   page: { minHeight: '100vh', background: '#f8fafc', color: '#0f172a' },
-  header: { background: '#fff', borderBottom: '1px solid #e2e8f0', position: 'sticky', top: 0, zIndex: 20 },
-  headerInner: { maxWidth: 1040, margin: '0 auto', padding: '20px 24px 0' },
-  brand: { display: 'flex', alignItems: 'baseline', gap: 12, marginBottom: 4 },
-  logo: { fontSize: 24, fontWeight: 700, letterSpacing: '-0.5px', color: '#0f172a' },
-  logoK: { color: '#6366f1' },
-  tagline: { fontSize: 14, color: '#94a3b8', fontWeight: 400 },
-  topRow: { display: 'flex', alignItems: 'center', gap: 12, marginTop: 12, marginBottom: 14, flexWrap: 'wrap' },
-  searchWrap: { position: 'relative', flex: '1 1 280px', minWidth: 180 },
+  // Nav bar
+  nav: { background: '#fff', borderBottom: '1px solid #e2e8f0', position: 'sticky', top: 0, zIndex: 20 },
+  navInner: { maxWidth: 1040, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', height: 56 },
+  navLeft: { display: 'flex', alignItems: 'center', gap: 4, flex: 1 },
+  navCenter: { display: 'flex', alignItems: 'center', cursor: 'pointer' },
+  navRight: { display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 4, flex: 1 },
+  ikBadge: { width: 36, height: 36, borderRadius: 6, background: '#6366f1', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontSize: 18, fontWeight: 800, letterSpacing: '-0.5px', userSelect: 'none' },
+  navLink: { padding: '6px 14px', border: 'none', background: 'transparent', color: '#64748b', fontSize: 13, fontWeight: 500, cursor: 'pointer', borderRadius: 6, transition: 'all .12s', whiteSpace: 'nowrap', textDecoration: 'none' },
+  navLinkActive: { color: '#6366f1', background: '#eef2ff' },
+  surpriseBtn: { padding: '6px 14px', border: 'none', background: 'transparent', color: '#64748b', fontSize: 13, fontWeight: 500, cursor: 'pointer', borderRadius: 6, transition: 'all .12s', whiteSpace: 'nowrap' },
+  // Clock
+  clock: { textAlign: 'center', padding: '20px 24px 4px', fontSize: 12, color: '#94a3b8', letterSpacing: '0.05em', fontVariantNumeric: 'tabular-nums' },
+  // Landing
+  landing: { maxWidth: 1040, margin: '0 auto', padding: '0 24px 48px' },
+  landingHero: { textAlign: 'center', padding: '48px 0 40px' },
+  landingTitle: { fontSize: 32, fontWeight: 700, letterSpacing: '-0.5px', color: '#0f172a', marginBottom: 8 },
+  landingTitleK: { color: '#6366f1' },
+  landingSub: { fontSize: 15, color: '#94a3b8', marginBottom: 24 },
+  searchWrap: { position: 'relative', maxWidth: 480, margin: '0 auto' },
   searchIcon: { position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: '#94a3b8', pointerEvents: 'none' },
-  search: { width: '100%', padding: '9px 12px 9px 38px', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 14, outline: 'none', background: '#f8fafc', color: '#0f172a', transition: 'border .15s' },
-  btn: { display: 'inline-flex', alignItems: 'center', gap: 6, padding: '9px 16px', background: '#6366f1', color: '#fff', border: 'none', borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap', transition: 'background .15s' },
-  tabs: { display: 'flex', alignItems: 'center', gap: 2, flexWrap: 'wrap', paddingBottom: 0 },
-  tab: { padding: '8px 14px', border: 'none', background: 'transparent', color: '#64748b', fontSize: 13, fontWeight: 500, cursor: 'pointer', borderBottom: '2px solid transparent', borderRadius: '6px 6px 0 0', transition: 'all .12s', whiteSpace: 'nowrap' },
-  tabActive: { color: '#6366f1', borderBottomColor: '#6366f1', background: '#eef2ff' },
+  search: { width: '100%', padding: '10px 12px 10px 38px', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 14, outline: 'none', background: '#fff', color: '#0f172a', transition: 'border .15s' },
+  sampleLabel: { fontSize: 12, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.06em', fontWeight: 600, marginBottom: 12 },
+  // Content area
   main: { maxWidth: 1040, margin: '0 auto', padding: '20px 24px 48px' },
   filterBar: { display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16, flexWrap: 'wrap' },
   pill: { display: 'inline-flex', alignItems: 'center', gap: 6, padding: '5px 14px', background: '#6366f1', color: '#fff', borderRadius: 20, fontSize: 13, fontWeight: 500 },
@@ -66,6 +81,8 @@ const S = {
   grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(240px,1fr))', gap: 8 },
   browseItem: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px 14px', background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, cursor: 'pointer', fontSize: 14, transition: 'all .12s' },
   browseCount: { color: '#94a3b8', fontSize: 13, flexShrink: 0 },
+  btn: { display: 'inline-flex', alignItems: 'center', gap: 6, padding: '9px 16px', background: '#6366f1', color: '#fff', border: 'none', borderRadius: 8, fontSize: 13, fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap', transition: 'background .15s' },
+  // Quote card
   card: { background: '#fff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '20px 24px', transition: 'border-color .15s, box-shadow .2s' },
   cardReview: { background: '#fffdf5', borderColor: '#fde68a' },
   quoteText: { fontSize: 16, lineHeight: 1.7, color: '#1e293b', marginBottom: 14 },
@@ -81,6 +98,14 @@ const S = {
   empty: { textAlign: 'center', padding: '48px 24px', color: '#94a3b8', fontSize: 15 },
   footer: { textAlign: 'center', padding: '32px 24px', color: '#94a3b8', fontSize: 13, borderTop: '1px solid #e2e8f0' },
 };
+
+function Clock() {
+  const [now, setNow] = useState(new Date());
+  useEffect(() => { const t = setInterval(() => setNow(new Date()), 1000); return () => clearInterval(t); }, []);
+  const d = `${now.getMonth()+1}/${now.getDate()}/${now.getFullYear()}`;
+  const t = `${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}:${String(now.getSeconds()).padStart(2,'0')}`;
+  return <div style={S.clock}>{d} {t}</div>;
+}
 
 function BkmkIcon({ on }) {
   return on
@@ -148,7 +173,7 @@ function QuoteCard({ q, isFav, onToggleFav, onAuthor, onConcept, hlId, isReview 
 }
 
 function App() {
-  const [view, setView] = useState('authors');
+  const [view, setView] = useState('home');
   const [search, setSearch] = useState('');
   const [filter, setFilter] = useState(null);
   const [favIds, setFavIds] = useState(getFavorites);
@@ -162,7 +187,7 @@ function App() {
     });
   }, []);
 
-  const pool = view === 'review' ? REVIEW : SOURCED;
+  const pool = SOURCED;
 
   const filtered = useMemo(() => {
     if (view === 'surprise') return SOURCED.filter(q => q.id === hlId);
@@ -189,26 +214,58 @@ function App() {
 
   const setAuthorF = a => { setFilter({ type: 'author', value: a }); setView('list'); };
   const setConceptF = c => { setFilter({ type: 'concept', value: c }); setView('list'); };
-  const clearF = () => { setFilter(null); setView('authors'); };
+  const clearF = () => { setFilter(null); setView('home'); };
+  const goHome = () => { setView('home'); setFilter(null); setSearch(''); setHlId(null); };
   const switchView = v => { setView(v); setFilter(null); setHlId(null); };
 
-  const isListView = ['list', 'favorites', 'review', 'surprise'].includes(view);
-
-  const NAV_TABS = [
-    ['authors', 'By Author'],
-    ['concepts', 'By Concept'],
-    ['favorites', `Favorites${favIds.length ? ` (${favIds.length})` : ''}`],
-  ];
+  const isListView = ['list', 'favorites', 'surprise'].includes(view);
 
   return (
     <div style={S.page}>
-      <header style={S.header}>
-        <div style={S.headerInner}>
-          <div style={S.brand}>
-            <span style={S.logo}>Idea<span style={S.logoK}> Kache</span></span>
-            <span style={S.tagline}>A personal cache of ideas from Jeremy Cowcher</span>
+      {/* Nav bar */}
+      <nav style={S.nav}>
+        <div style={S.navInner}>
+          <div style={S.navLeft}>
+            <button style={{ ...S.navLink, ...(view === 'authors' ? S.navLinkActive : {}) }}
+              onClick={() => switchView('authors')}
+              onMouseOver={e => { if (view !== 'authors') e.currentTarget.style.background='#f1f5f9'; }}
+              onMouseOut={e => { if (view !== 'authors') e.currentTarget.style.background='transparent'; }}>
+              Authors
+            </button>
+            <button style={{ ...S.navLink, ...(view === 'concepts' ? S.navLinkActive : {}) }}
+              onClick={() => switchView('concepts')}
+              onMouseOver={e => { if (view !== 'concepts') e.currentTarget.style.background='#f1f5f9'; }}
+              onMouseOut={e => { if (view !== 'concepts') e.currentTarget.style.background='transparent'; }}>
+              Concepts
+            </button>
+            <button style={{ ...S.navLink, ...(view === 'favorites' ? S.navLinkActive : {}) }}
+              onClick={() => switchView('favorites')}
+              onMouseOver={e => { if (view !== 'favorites') e.currentTarget.style.background='#f1f5f9'; }}
+              onMouseOut={e => { if (view !== 'favorites') e.currentTarget.style.background='transparent'; }}>
+              Favorites{favIds.length ? ` (${favIds.length})` : ''}
+            </button>
           </div>
-          <div style={S.topRow}>
+          <div style={S.navCenter} onClick={goHome} title="Home">
+            <div style={S.ikBadge}>IK</div>
+          </div>
+          <div style={S.navRight}>
+            <button style={{ ...S.surpriseBtn, ...(view === 'surprise' ? S.navLinkActive : {}) }}
+              onClick={handleSurprise}
+              onMouseOver={e => { if (view !== 'surprise') e.currentTarget.style.background='#f1f5f9'; }}
+              onMouseOut={e => { if (view !== 'surprise') e.currentTarget.style.background='transparent'; }}>
+              Kache Surprise
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      {/* Landing page */}
+      {view === 'home' && (
+        <div style={S.landing}>
+          <Clock />
+          <div style={S.landingHero}>
+            <div style={S.landingTitle}>Idea<span style={S.landingTitleK}> Kache</span></div>
+            <div style={S.landingSub}>A personal cache of ideas from Jeremy Cowcher</div>
             <div style={S.searchWrap}>
               <svg style={S.searchIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
               <input style={S.search} placeholder="Search quotes and authors..." value={search}
@@ -217,99 +274,100 @@ function App() {
                 onBlur={e => e.target.style.borderColor='#e2e8f0'} />
             </div>
           </div>
-          <div style={S.tabs}>
-            <div style={{ display: 'flex', gap: 2, flex: 1 }}>
-              {NAV_TABS.map(([key, label]) => {
-                const active = view === key;
+          <div style={S.sampleLabel}>A few from the collection</div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+            {LANDING_QUOTES.map(q => (
+              <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
+                onToggleFav={toggleFav} onAuthor={setAuthorF}
+                onConcept={setConceptF} hlId={null}
+                isReview={false} />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Content views */}
+      {view !== 'home' && (
+        <main style={S.main}>
+          {/* Search bar for non-home views */}
+          {!isListView && (
+            <div style={{ ...S.searchWrap, maxWidth: '100%', marginBottom: 20 }}>
+              <svg style={S.searchIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input style={S.search} placeholder="Search quotes and authors..." value={search}
+                onChange={e => { setSearch(e.target.value); if (e.target.value) setView('list'); }}
+                onFocus={e => e.target.style.borderColor='#6366f1'}
+                onBlur={e => e.target.style.borderColor='#e2e8f0'} />
+            </div>
+          )}
+
+          {filter && (
+            <div style={S.filterBar}>
+              <div style={S.pill}>
+                {filter.type === 'author' ? 'Author' : 'Concept'}: {filter.value}
+                <button style={S.pillX} onClick={clearF}>&times;</button>
+              </div>
+              <span style={S.count}>{filtered.length} quote{filtered.length !== 1 ? 's' : ''}</span>
+            </div>
+          )}
+
+          {isListView && (
+            filtered.length === 0
+              ? <div style={S.empty}>
+                  {view === 'favorites' ? 'No favorites yet. Bookmark quotes to save them here.'
+                    : view === 'surprise' ? 'Hit Kache Surprise to discover a quote.'
+                    : 'No quotes match your search.'}
+                </div>
+              : <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                  {view !== 'surprise' && !filter && !search && <div style={S.count}>{filtered.length} quotes</div>}
+                  {filtered.map(q => (
+                    <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
+                      onToggleFav={toggleFav} onAuthor={setAuthorF}
+                      onConcept={setConceptF} hlId={hlId}
+                      isReview={q.needsReview} />
+                  ))}
+                  {view === 'surprise' && <div style={{ textAlign: 'center', marginTop: 8 }}>
+                    <button style={S.btn} onClick={handleSurprise}
+                      onMouseOver={e => e.currentTarget.style.background='#4f46e5'}
+                      onMouseOut={e => e.currentTarget.style.background='#6366f1'}>
+                      Another one
+                    </button>
+                  </div>}
+                </div>
+          )}
+
+          {view === 'authors' && (
+            <div style={S.grid}>
+              {AUTHORS.map(([name, count]) => (
+                <div key={name} style={S.browseItem} onClick={() => setAuthorF(name)}
+                  onMouseOver={e => { e.currentTarget.style.borderColor='#6366f1'; e.currentTarget.style.background='#eef2ff'; }}
+                  onMouseOut={e => { e.currentTarget.style.borderColor='#e2e8f0'; e.currentTarget.style.background='#fff'; }}>
+                  <span style={{ fontWeight: 500, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginRight: 8 }}>{name}</span>
+                  <span style={S.browseCount}>{count}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {view === 'concepts' && (
+            <div style={S.grid}>
+              {ALL_CONCEPTS.map(c => {
+                const n = SOURCED.filter(q => q.concepts.includes(c)).length;
                 return (
-                  <button key={key}
-                    style={{ ...S.tab, ...(active ? S.tabActive : {}) }}
-                    onClick={() => switchView(key)}
-                    onMouseOver={e => { if (!active) e.target.style.background = '#f1f5f9'; }}
-                    onMouseOut={e => { if (!active) e.target.style.background = 'transparent'; }}>
-                    {label}
-                  </button>
+                  <div key={c} style={S.browseItem} onClick={() => setConceptF(c)}
+                    onMouseOver={e => { e.currentTarget.style.borderColor='#6366f1'; e.currentTarget.style.background='#eef2ff'; }}
+                    onMouseOut={e => { e.currentTarget.style.borderColor='#e2e8f0'; e.currentTarget.style.background='#fff'; }}>
+                    <span style={{ fontWeight: 500 }}>{c}</span>
+                    <span style={S.browseCount}>{n}</span>
+                  </div>
                 );
               })}
             </div>
-            <button style={S.btn} onClick={handleSurprise}
-              onMouseOver={e => e.currentTarget.style.background='#4f46e5'}
-              onMouseOut={e => e.currentTarget.style.background='#6366f1'}>
-              Kache Surprise
-            </button>
-          </div>
-        </div>
-      </header>
-
-      <main style={S.main}>
-        {filter && (
-          <div style={S.filterBar}>
-            <div style={S.pill}>
-              {filter.type === 'author' ? 'Author' : 'Concept'}: {filter.value}
-              <button style={S.pillX} onClick={clearF}>&times;</button>
-            </div>
-            <span style={S.count}>{filtered.length} quote{filtered.length !== 1 ? 's' : ''}</span>
-          </div>
-        )}
-
-        {isListView && (
-          filtered.length === 0
-            ? <div style={S.empty}>
-                {view === 'favorites' ? 'No favorites yet. Bookmark quotes to save them here.'
-                  : view === 'review' ? 'All quotes have been reviewed!'
-                  : view === 'surprise' ? 'Hit Kache Surprise to discover a quote.'
-                  : 'No quotes match your search.'}
-              </div>
-            : <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                {view !== 'surprise' && !filter && !search && <div style={S.count}>{filtered.length} quotes</div>}
-                {filtered.map(q => (
-                  <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
-                    onToggleFav={toggleFav} onAuthor={setAuthorF}
-                    onConcept={setConceptF} hlId={hlId}
-                    isReview={q.needsReview} />
-                ))}
-                {view === 'surprise' && <div style={{ textAlign: 'center', marginTop: 8 }}>
-                  <button style={S.btn} onClick={handleSurprise}
-                    onMouseOver={e => e.currentTarget.style.background='#4f46e5'}
-                    onMouseOut={e => e.currentTarget.style.background='#6366f1'}>
-                    Another one
-                  </button>
-                </div>}
-              </div>
-        )}
-
-        {view === 'authors' && (
-          <div style={S.grid}>
-            {AUTHORS.map(([name, count]) => (
-              <div key={name} style={S.browseItem} onClick={() => setAuthorF(name)}
-                onMouseOver={e => { e.currentTarget.style.borderColor='#6366f1'; e.currentTarget.style.background='#eef2ff'; }}
-                onMouseOut={e => { e.currentTarget.style.borderColor='#e2e8f0'; e.currentTarget.style.background='#fff'; }}>
-                <span style={{ fontWeight: 500, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', marginRight: 8 }}>{name}</span>
-                <span style={S.browseCount}>{count}</span>
-              </div>
-            ))}
-          </div>
-        )}
-
-        {view === 'concepts' && (
-          <div style={S.grid}>
-            {ALL_CONCEPTS.map(c => {
-              const n = SOURCED.filter(q => q.concepts.includes(c)).length;
-              return (
-                <div key={c} style={S.browseItem} onClick={() => setConceptF(c)}
-                  onMouseOver={e => { e.currentTarget.style.borderColor='#6366f1'; e.currentTarget.style.background='#eef2ff'; }}
-                  onMouseOut={e => { e.currentTarget.style.borderColor='#e2e8f0'; e.currentTarget.style.background='#fff'; }}>
-                  <span style={{ fontWeight: 500 }}>{c}</span>
-                  <span style={S.browseCount}>{n}</span>
-                </div>
-              );
-            })}
-          </div>
-        )}
-      </main>
+          )}
+        </main>
+      )}
 
       <footer style={S.footer}>
-        <a href="https://ideakache.com" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: 500 }}>ideakache.com</a>
+        <a href="https://ideakache.com" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: 500 }} onClick={e => { e.preventDefault(); goHome(); }}>ideakache.com</a>
         {' '}&middot; {SOURCED.length} quotes &middot; {AUTHORS.length} authors &middot; {ALL_CONCEPTS.length} concepts
       </footer>
     </div>
