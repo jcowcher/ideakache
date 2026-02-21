@@ -34,6 +34,10 @@ function getFavorites() {
   try { return JSON.parse(localStorage.getItem('ik_favs') || '[]'); } catch { return []; }
 }
 function saveFavorites(ids) { localStorage.setItem('ik_favs', JSON.stringify(ids)); }
+function getVerified() {
+  try { return JSON.parse(localStorage.getItem('ik_verified') || '[]'); } catch { return []; }
+}
+function saveVerified(ids) { localStorage.setItem('ik_verified', JSON.stringify(ids)); }
 
 const SOURCED = QUOTES.filter(q => !q.needsReview);
 const REVIEW = QUOTES.filter(q => q.needsReview);
@@ -88,7 +92,7 @@ const S = {
   quoteText: { fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 17, lineHeight: 1.75, color: '#1e293b', marginBottom: 14 },
   meta: { display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '6px 12px' },
   author: { fontWeight: 600, fontSize: 14, cursor: 'pointer', color: '#0f172a' },
-  verifiedBadge: { background: 'none', border: 'none', cursor: 'pointer', padding: 0, fontSize: 13, color: '#94a3b8', transition: 'color .12s', display: 'inline-flex', alignItems: 'center', gap: 3 },
+  verifiedBadge: { background: 'none', border: 'none', cursor: 'pointer', padding: 2, fontSize: 13, transition: 'color .12s, transform .12s', display: 'inline-flex', alignItems: 'center', gap: 3, lineHeight: 1 },
   citationLink: { fontSize: 13, fontStyle: 'italic', color: '#94a3b8', textDecoration: 'none', marginTop: 8, display: 'inline-block', transition: 'color .12s' },
   citationArrow: { fontSize: 12, marginLeft: 3 },
   tags: { display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 12 },
@@ -114,7 +118,7 @@ function BkmkIcon({ on }) {
 }
 
 
-function QuoteCard({ q, isFav, onToggleFav, onAuthor, onConcept, onVerified, hlId, isReview }) {
+function QuoteCard({ q, isFav, isVer, onToggleFav, onToggleVer, onAuthor, onConcept, onVerified, hlId, isReview }) {
   const ref = useRef(null);
   const lit = hlId === q.id;
   useEffect(() => {
@@ -138,13 +142,13 @@ function QuoteCard({ q, isFav, onToggleFav, onAuthor, onConcept, onVerified, hlI
         <span style={S.author} onClick={() => onAuthor(q.author)}
           onMouseOver={e => e.target.style.textDecoration='underline'}
           onMouseOut={e => e.target.style.textDecoration='none'}>{q.author}</span>
-        {q.verified === true && (
-          <button style={S.verifiedBadge} onClick={() => onVerified()} title="Verified by JC"
-            onMouseOver={e => e.currentTarget.style.color='#6366f1'}
-            onMouseOut={e => e.currentTarget.style.color='#94a3b8'}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-          </button>
-        )}
+        <button style={{ ...S.verifiedBadge, color: isVer ? '#22c55e' : '#d1d5db' }}
+          onClick={() => onToggleVer(q.id)}
+          title={isVer ? 'Verified by JC — click to unverify' : 'Click to verify'}
+          onMouseOver={e => e.currentTarget.style.transform='scale(1.2)'}
+          onMouseOut={e => e.currentTarget.style.transform='scale(1)'}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill={isVer ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        </button>
         <button style={S.favBtn} onClick={() => onToggleFav(q.id)}
           title={isFav ? 'Remove from favorites' : 'Save to favorites'}
           onMouseOver={e => e.currentTarget.style.transform='scale(1.2)'}
@@ -182,12 +186,21 @@ function App() {
   const [search, setSearch] = useState('');
   const [filter, setFilter] = useState(null);
   const [favIds, setFavIds] = useState(getFavorites);
+  const [verIds, setVerIds] = useState(getVerified);
   const [hlId, setHlId] = useState(null);
 
   const toggleFav = useCallback(id => {
     setFavIds(prev => {
       const next = prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id];
       saveFavorites(next);
+      return next;
+    });
+  }, []);
+
+  const toggleVer = useCallback(id => {
+    setVerIds(prev => {
+      const next = prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id];
+      saveVerified(next);
       return next;
     });
   }, []);
@@ -200,7 +213,7 @@ function App() {
     if (view === 'favorites') list = QUOTES.filter(q => favIds.includes(q.id));
     if (filter) {
       if (filter.type === 'author') list = list.filter(q => q.author === filter.value);
-      else if (filter.type === 'verified') list = list.filter(q => q.verified === true);
+      else if (filter.type === 'verified') list = list.filter(q => verIds.includes(q.id));
       else list = list.filter(q => q.concepts.includes(filter.value));
     }
     if (search && search.trim() !== '*') {
@@ -208,7 +221,7 @@ function App() {
       list = list.filter(q => { const h = (q.text + ' ' + q.author).toLowerCase(); return terms.every(t => h.includes(t)); });
     }
     return list;
-  }, [view, filter, search, favIds, pool, hlId]);
+  }, [view, filter, search, favIds, verIds, pool, hlId]);
 
   const handleSurprise = () => {
     const pick = SOURCED[Math.floor(Math.random() * SOURCED.length)];
@@ -284,8 +297,8 @@ function App() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             {LANDING_QUOTES.map(q => (
               <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
-                onToggleFav={toggleFav} onAuthor={setAuthorF}
-                onConcept={setConceptF} onVerified={setVerifiedF} hlId={null}
+                onToggleFav={toggleFav} isVer={verIds.includes(q.id)} onToggleVer={toggleVer}
+                onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} hlId={null}
                 isReview={false} />
             ))}
           </div>
