@@ -122,7 +122,7 @@ function BkmkIcon({ on }) {
 }
 
 
-function QuoteCard({ q, isFav, isVer, isRej, onToggleFav, onToggleVer, onToggleRej, onAuthor, onConcept, onVerified, onRejected, hlId, isReview }) {
+function QuoteCard({ q, isFav, isVer, isRej, onToggleFav, onToggleVer, onToggleRej, onAuthor, onConcept, onVerified, onRejected, onNeedsReview, hlId, isReview }) {
   const ref = useRef(null);
   const lit = hlId === q.id;
   useEffect(() => {
@@ -153,7 +153,13 @@ function QuoteCard({ q, isFav, isVer, isRej, onToggleFav, onToggleVer, onToggleR
           onMouseOut={e => e.currentTarget.style.transform='scale(1)'}>
           {isVer ? '\u2713' : '\u2713'}
         </button>
-        <span style={{ color: '#94a3b8', fontSize: 14, userSelect: 'none', padding: '0 2px' }}>-</span>
+        <button style={{ ...S.verifiedBadge, color: '#94a3b8' }}
+          onClick={e => { e.stopPropagation(); onNeedsReview(); }}
+          title="Needs further review"
+          onMouseOver={e => e.currentTarget.style.color='#6366f1'}
+          onMouseOut={e => e.currentTarget.style.color='#94a3b8'}>
+          -
+        </button>
         <button style={{ ...S.verifiedBadge, color: isRej ? '#ef4444' : '#d1d5db' }}
           onClick={e => { e.stopPropagation(); onToggleRej(q.id); }}
           title={isRej ? 'Marked for removal — click to unmark' : 'Mark for removal'}
@@ -259,6 +265,7 @@ function App() {
       if (filter.type === 'author') list = list.filter(q => q.author === filter.value);
       else if (filter.type === 'verified') list = list.filter(q => verIds.includes(q.id));
       else if (filter.type === 'rejected') list = list.filter(q => rejIds.includes(q.id));
+      else if (filter.type === 'needsReview') list = list.filter(q => !verIds.includes(q.id) && !rejIds.includes(q.id));
       else list = list.filter(q => q.concepts.includes(filter.value));
     }
     if (search && search.trim() !== '*') {
@@ -280,6 +287,7 @@ function App() {
   const setConceptF = c => { setFilter({ type: 'concept', value: c }); setView('list'); };
   const setVerifiedF = () => { setFilter({ type: 'verified', value: 'Verified by JC' }); setView('list'); };
   const setRejectedF = () => { setFilter({ type: 'rejected', value: 'Marked for removal' }); setView('list'); };
+  const setNeedsReviewF = () => { setFilter({ type: 'needsReview', value: 'Needs further review' }); setView('list'); };
   const clearF = () => { setFilter(null); setView('home'); };
   const goHome = () => { setView('home'); setFilter(null); setSearch(''); setHlId(null); };
   const switchView = v => { setView(v); setFilter(null); setHlId(null); };
@@ -345,7 +353,7 @@ function App() {
               <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
                 onToggleFav={toggleFav} isVer={verIds.includes(q.id)} onToggleVer={toggleVer}
                 isRej={rejIds.includes(q.id)} onToggleRej={toggleRej}
-                onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} onRejected={setRejectedF} hlId={null}
+                onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} onRejected={setRejectedF} onNeedsReview={setNeedsReviewF} hlId={null}
                 isReview={false} />
             ))}
           </div>
