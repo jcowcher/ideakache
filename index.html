@@ -340,8 +340,8 @@ function App() {
                   {view !== 'surprise' && !filter && !search && <div style={S.count}>{filtered.length} quotes</div>}
                   {filtered.map(q => (
                     <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
-                      onToggleFav={toggleFav} onAuthor={setAuthorF}
-                      onConcept={setConceptF} hlId={hlId}
+                      onToggleFav={toggleFav} isVer={verIds.includes(q.id)} onToggleVer={toggleVer}
+                      onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} hlId={hlId}
                       isReview={q.needsReview} />
                   ))}
                   {view === 'surprise' && <div style={{ textAlign: 'center', marginTop: 8 }}>
