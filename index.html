@@ -388,7 +388,8 @@ function App() {
                   {filtered.map(q => (
                     <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
                       onToggleFav={toggleFav} isVer={verIds.includes(q.id)} onToggleVer={toggleVer}
-                      onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} hlId={hlId}
+                      isRej={rejIds.includes(q.id)} onToggleRej={toggleRej}
+                      onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} onRejected={setRejectedF} onNeedsReview={setNeedsReviewF} hlId={hlId}
                       isReview={q.needsReview} />
                   ))}
                   {view === 'surprise' && <div style={{ textAlign: 'center', marginTop: 8 }}>
@@ -435,7 +436,7 @@ function App() {
       <footer style={S.footer}>
         <a href="https://ideakache.com" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: 500 }} onClick={e => { e.preventDefault(); goHome(); }}>ideakache.com</a>
         {' '}&middot; {SOURCED.length} quotes &middot; {AUTHORS.length} authors &middot; {ALL_CONCEPTS.length} concepts
-        {verIds.length > 0 && <>
+        {(verIds.length > 0 || rejIds.length > 0) && <>
           {' '}&middot;{' '}
           <a href="#" style={{ color: '#94a3b8', textDecoration: 'none' }}
             onMouseOver={e => e.target.style.color='#6366f1'}
@@ -452,7 +453,7 @@ function App() {
               a.download = `ik-verification-log-${new Date().toISOString().slice(0,10)}.csv`;
               a.click();
             }}>
-            Export verification log ({verIds.length})
+            Export log ({verIds.length} verified, {rejIds.length} rejected)
           </a>
         </>}
       </footer>
