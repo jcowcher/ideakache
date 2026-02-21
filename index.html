@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Idea Kache — A personal cache of ideas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -16,7 +16,7 @@
   }
   .highlight-anim { animation: highlightFade 2s ease-out forwards; }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+  body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; }
   ::selection { background: #c7d2fe; }
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
@@ -85,7 +85,7 @@ const S = {
   // Quote card
   card: { background: '#fff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '20px 24px', transition: 'border-color .15s, box-shadow .2s' },
   cardReview: { background: '#fffdf5', borderColor: '#fde68a' },
-  quoteText: { fontSize: 16, lineHeight: 1.7, color: '#1e293b', marginBottom: 14 },
+  quoteText: { fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 17, lineHeight: 1.75, color: '#1e293b', marginBottom: 14 },
   meta: { display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '6px 12px' },
   author: { fontWeight: 600, fontSize: 14, cursor: 'pointer', color: '#0f172a' },
   citationChip: { display: 'inline-flex', alignItems: 'center', gap: 5, padding: '4px 12px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 20, fontSize: 12, color: '#64748b', textDecoration: 'none', transition: 'all .12s', marginTop: 10, lineHeight: 1.4 },
