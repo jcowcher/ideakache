@@ -153,7 +153,7 @@ function QuoteCard({ q, isFav, isVer, isRej, onToggleFav, onToggleVer, onToggleR
           onMouseOut={e => e.currentTarget.style.transform='scale(1)'}>
           {isVer ? '\u2713' : '\u2713'}
         </button>
-        <span style={{ color: '#e2e8f0', fontSize: 14, userSelect: 'none' }}>|</span>
+        <span style={{ color: '#94a3b8', fontSize: 14, userSelect: 'none', padding: '0 2px' }}>-</span>
         <button style={{ ...S.verifiedBadge, color: isRej ? '#ef4444' : '#d1d5db' }}
           onClick={e => { e.stopPropagation(); onToggleRej(q.id); }}
           title={isRej ? 'Marked for removal — click to unmark' : 'Mark for removal'}
