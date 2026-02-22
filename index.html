@@ -65,7 +65,7 @@ const S = {
   navLeft: { display: 'flex', alignItems: 'center', gap: 4, flex: 1 },
   navCenter: { display: 'flex', alignItems: 'center', cursor: 'pointer' },
   navRight: { display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 4, flex: 1 },
-  ikBadge: { width: 36, height: 36, borderRadius: 6, background: '#6366f1', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontSize: 18, fontWeight: 800, letterSpacing: '-0.5px', userSelect: 'none' },
+  ikBadge: { padding: '6px 14px', borderRadius: 6, background: '#6366f1', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontSize: 14, fontWeight: 700, letterSpacing: '-0.3px', userSelect: 'none', whiteSpace: 'nowrap' },
   navLink: { padding: '6px 14px', border: 'none', background: 'transparent', color: '#64748b', fontSize: 13, fontWeight: 500, cursor: 'pointer', borderRadius: 6, transition: 'all .12s', whiteSpace: 'nowrap', textDecoration: 'none' },
   navLinkActive: { color: '#6366f1', background: '#eef2ff' },
   surpriseBtn: { padding: '6px 14px', border: 'none', background: 'transparent', color: '#64748b', fontSize: 13, fontWeight: 500, cursor: 'pointer', borderRadius: 6, transition: 'all .12s', whiteSpace: 'nowrap' },
@@ -323,7 +323,7 @@ function App() {
               </button>
             </div>
             <div style={S.navRight} onClick={goHome} title="Home">
-              <div style={S.ikBadge}>IK</div>
+              <div style={S.ikBadge}>IdeaKache</div>
             </div>
           </div>
         </div>
