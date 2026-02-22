@@ -75,7 +75,7 @@ const S = {
   landingHero: { textAlign: 'center', padding: '48px 0 40px' },
   landingTitle: { fontSize: 32, fontWeight: 700, letterSpacing: '-0.5px', color: '#0f172a', marginBottom: 8 },
   landingTitleK: { color: '#6366f1' },
-  landingSub: { fontSize: 15, color: '#94a3b8', marginBottom: 24, fontStyle: 'italic', marginTop: -8 },
+  landingSub: { fontSize: 15, color: '#94a3b8', fontStyle: 'italic' },
   searchWrap: { position: 'relative', maxWidth: 480, margin: '0 auto' },
   searchIcon: { position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: '#94a3b8', pointerEvents: 'none' },
   search: { width: '100%', padding: '10px 12px 10px 38px', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 14, outline: 'none', background: '#fff', color: '#0f172a', transition: 'border .15s' },
@@ -329,8 +329,10 @@ function App() {
       {view === 'home' && (
         <div style={S.landing}>
           <Clock />
-          <div style={S.landingHero}>
+          <div style={{ textAlign: 'center', padding: '24px 0' }}>
             <div style={S.landingSub}>A personal cache of ideas from Jeremy Cowcher</div>
+          </div>
+          <div style={S.landingHero}>
             <div style={S.searchWrap}>
               <svg style={S.searchIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
               <input style={S.search} placeholder="Search quotes and authors..." value={search}
