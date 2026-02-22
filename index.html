@@ -60,7 +60,8 @@ const S = {
   page: { minHeight: '100vh', background: '#f8fafc', color: '#0f172a' },
   // Nav bar
   nav: { background: '#fff', borderBottom: '1px solid #e2e8f0', position: 'sticky', top: 0, zIndex: 20 },
-  navInner: { maxWidth: 1040, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', height: 56 },
+  navInner: { maxWidth: 1040, margin: '0 auto', padding: '8px 24px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 },
+  navRow: { display: 'flex', alignItems: 'center', width: '100%' },
   navLeft: { display: 'flex', alignItems: 'center', gap: 4, flex: 1 },
   navCenter: { display: 'flex', alignItems: 'center', cursor: 'pointer' },
   navRight: { display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 4, flex: 1 },
@@ -291,37 +292,39 @@ function App() {
       {/* Nav bar */}
       <nav style={S.nav}>
         <div style={S.navInner}>
-          <div style={S.navLeft}>
-            <button style={{ ...S.navLink, ...(view === 'authors' ? S.navLinkActive : {}) }}
-              onClick={() => switchView('authors')}
-              onMouseOver={e => { if (view !== 'authors') e.currentTarget.style.background='#f1f5f9'; }}
-              onMouseOut={e => { if (view !== 'authors') e.currentTarget.style.background='transparent'; }}>
-              Authors
-            </button>
-            <button style={{ ...S.navLink, ...(view === 'concepts' ? S.navLinkActive : {}) }}
-              onClick={() => switchView('concepts')}
-              onMouseOver={e => { if (view !== 'concepts') e.currentTarget.style.background='#f1f5f9'; }}
-              onMouseOut={e => { if (view !== 'concepts') e.currentTarget.style.background='transparent'; }}>
-              Concepts
-            </button>
-            <button style={{ ...S.navLink, ...(view === 'favorites' ? S.navLinkActive : {}) }}
-              onClick={() => switchView('favorites')}
-              onMouseOver={e => { if (view !== 'favorites') e.currentTarget.style.background='#f1f5f9'; }}
-              onMouseOut={e => { if (view !== 'favorites') e.currentTarget.style.background='transparent'; }}>
-              Favorites{favIds.length ? ` (${favIds.length})` : ''}
-            </button>
-            <button style={{ ...S.surpriseBtn, ...(view === 'surprise' ? S.navLinkActive : {}) }}
-              onClick={handleSurprise}
-              onMouseOver={e => { if (view !== 'surprise') e.currentTarget.style.background='#f1f5f9'; }}
-              onMouseOut={e => { if (view !== 'surprise') e.currentTarget.style.background='transparent'; }}>
-              Kache Surprise
-            </button>
-          </div>
           <div style={S.navCenter}>
             <Clock />
           </div>
-          <div style={S.navRight} onClick={goHome} title="Home">
-            <div style={S.ikBadge}>IK</div>
+          <div style={S.navRow}>
+            <div style={S.navLeft}>
+              <button style={{ ...S.navLink, ...(view === 'authors' ? S.navLinkActive : {}) }}
+                onClick={() => switchView('authors')}
+                onMouseOver={e => { if (view !== 'authors') e.currentTarget.style.background='#f1f5f9'; }}
+                onMouseOut={e => { if (view !== 'authors') e.currentTarget.style.background='transparent'; }}>
+                Authors
+              </button>
+              <button style={{ ...S.navLink, ...(view === 'concepts' ? S.navLinkActive : {}) }}
+                onClick={() => switchView('concepts')}
+                onMouseOver={e => { if (view !== 'concepts') e.currentTarget.style.background='#f1f5f9'; }}
+                onMouseOut={e => { if (view !== 'concepts') e.currentTarget.style.background='transparent'; }}>
+                Concepts
+              </button>
+              <button style={{ ...S.navLink, ...(view === 'favorites' ? S.navLinkActive : {}) }}
+                onClick={() => switchView('favorites')}
+                onMouseOver={e => { if (view !== 'favorites') e.currentTarget.style.background='#f1f5f9'; }}
+                onMouseOut={e => { if (view !== 'favorites') e.currentTarget.style.background='transparent'; }}>
+                Favorites{favIds.length ? ` (${favIds.length})` : ''}
+              </button>
+              <button style={{ ...S.surpriseBtn, ...(view === 'surprise' ? S.navLinkActive : {}) }}
+                onClick={handleSurprise}
+                onMouseOver={e => { if (view !== 'surprise') e.currentTarget.style.background='#f1f5f9'; }}
+                onMouseOut={e => { if (view !== 'surprise') e.currentTarget.style.background='transparent'; }}>
+                Kache Surprise
+              </button>
+            </div>
+            <div style={S.navRight} onClick={goHome} title="Home">
+              <div style={S.ikBadge}>IK</div>
+            </div>
           </div>
         </div>
       </nav>
