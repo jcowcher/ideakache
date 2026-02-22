@@ -72,7 +72,7 @@ const S = {
   clock: { textAlign: 'center', padding: '20px 24px 4px', fontSize: 12, color: '#94a3b8', letterSpacing: '0.05em', fontVariantNumeric: 'tabular-nums' },
   // Landing
   landing: { maxWidth: 1040, margin: '0 auto', padding: '0 24px 48px' },
-  landingHero: { textAlign: 'center', padding: '48px 0 40px' },
+  landingHero: { textAlign: 'center', padding: '0 0 40px' },
   landingTitle: { fontSize: 32, fontWeight: 700, letterSpacing: '-0.5px', color: '#0f172a', marginBottom: 8 },
   landingTitleK: { color: '#6366f1' },
   landingSub: { fontSize: 15, color: '#94a3b8', fontStyle: 'italic' },
@@ -310,11 +310,6 @@ function App() {
               onMouseOut={e => { if (view !== 'favorites') e.currentTarget.style.background='transparent'; }}>
               Favorites{favIds.length ? ` (${favIds.length})` : ''}
             </button>
-          </div>
-          <div style={S.navCenter} onClick={goHome} title="Home">
-            <div style={S.ikBadge}>IK</div>
-          </div>
-          <div style={S.navRight}>
             <button style={{ ...S.surpriseBtn, ...(view === 'surprise' ? S.navLinkActive : {}) }}
               onClick={handleSurprise}
               onMouseOver={e => { if (view !== 'surprise') e.currentTarget.style.background='#f1f5f9'; }}
@@ -322,14 +317,19 @@ function App() {
               Kache Surprise
             </button>
           </div>
+          <div style={S.navCenter}>
+            <Clock />
+          </div>
+          <div style={S.navRight} onClick={goHome} title="Home">
+            <div style={S.ikBadge}>IK</div>
+          </div>
         </div>
       </nav>
 
       {/* Landing page */}
       {view === 'home' && (
         <div style={S.landing}>
-          <Clock />
-          <div style={{ textAlign: 'center', padding: '24px 0' }}>
+          <div style={{ textAlign: 'center', padding: '40px 0' }}>
             <div style={S.landingSub}>A personal cache of ideas from Jeremy Cowcher</div>
           </div>
           <div style={S.landingHero}>
