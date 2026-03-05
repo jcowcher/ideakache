@@ -342,10 +342,10 @@ function App() {
         <div style={S.notebook}>
           <div style={{position: 'absolute', top: 24, left: 0, right: 0}}><Clock /></div>
           <div key={fadeKey} style={S.notebookQuote}>
-            \u201C{landingQuote.text}\u201D
+            {"\u201C"}{landingQuote.text}{"\u201D"}
           </div>
           <div key={'a' + fadeKey} style={{...S.notebookAuthor, animation: 'notebookFadeIn 0.8s ease-out 0.1s both'}}>
-            \u2014 {landingQuote.author}
+            {"\u2014"} {landingQuote.author}
           </div>
           <button style={S.notebookShuffle} onClick={shuffleQuote} title="Another quote"
             onMouseOver={e => { e.currentTarget.style.borderColor='#8b7355'; e.currentTarget.style.color='#2c1810'; }}
