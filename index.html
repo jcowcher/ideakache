@@ -68,16 +68,16 @@ const S = {
   navLinkActive: { color: '#6366f1', background: '#eef2ff' },
   surpriseBtn: { padding: '6px 14px', border: 'none', background: 'transparent', color: '#64748b', fontSize: 13, fontWeight: 500, cursor: 'pointer', borderRadius: 6, transition: 'all .12s', whiteSpace: 'nowrap' },
   // Clock
-  clock: { textAlign: 'center', padding: '20px 24px 4px', fontSize: 12, color: '#94a3b8', letterSpacing: '0.05em', fontVariantNumeric: 'tabular-nums' },
+  clock: { textAlign: 'center', padding: '20px 24px 4px', fontSize: 12, color: 'inherit', letterSpacing: '0.05em', fontVariantNumeric: 'tabular-nums' },
   // Landing
-  notebook: { minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#faf6f0', padding: '40px 24px', position: 'relative' },
-  notebookQuote: { fontFamily: "'Libre Baskerville', Georgia, serif", fontStyle: 'italic', fontSize: 'clamp(18px, 3vw, 24px)', lineHeight: 1.4, color: '#2c1810', textAlign: 'center', maxWidth: 680, animation: 'notebookFadeIn 0.8s ease-out' },
-  notebookAuthor: { fontFamily: "'Source Serif 4', serif", fontSize: 16, color: '#8b7355', marginTop: 20, textAlign: 'center', fontStyle: 'italic', letterSpacing: '0.02em' },
-  notebookFrame: { background: '#fff', borderRadius: 16, padding: '48px 40px', maxWidth: 640, width: '100%', boxShadow: '0 2px 24px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04)', position: 'relative' },
-  notebookSpine: { position: 'absolute', left: 0, top: 24, bottom: 24, width: 3, background: '#e8d5c0', borderRadius: 2 },
-  notebookLines: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: 16, overflow: 'hidden', pointerEvents: 'none', background: 'repeating-linear-gradient(transparent, transparent 31px, #f0e8dc 31px, #f0e8dc 32px)', opacity: 0.5 },
-  notebookShuffle: { marginTop: 40, background: 'none', border: '1.5px solid #d4c4a8', borderRadius: '50%', width: 44, height: 44, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: '#8b7355', transition: 'all 0.2s', fontSize: 18 },
-  notebookEnter: { position: 'absolute', bottom: 32, background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'Source Serif 4', serif", fontSize: 14, color: '#b8a88a', letterSpacing: '0.08em', fontWeight: 600, transition: 'color 0.2s' },
+  notebook: { minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#0a0a0a', padding: '40px 24px', position: 'relative' },
+  notebookQuote: { fontFamily: "'Libre Baskerville', Georgia, serif", fontStyle: 'italic', fontSize: 'clamp(18px, 3vw, 24px)', lineHeight: 1.6, color: '#e8e0d4', textAlign: 'center', maxWidth: 580, animation: 'notebookFadeIn 0.8s ease-out', letterSpacing: '0.01em' },
+  notebookAuthor: { fontFamily: "'Source Serif 4', serif", fontSize: 13, color: '#8a7d6b', marginTop: 24, textAlign: 'center', fontStyle: 'normal', letterSpacing: '0.12em', textTransform: 'uppercase', fontWeight: 400 },
+  notebookFrame: { background: '#1a1a1a', borderRadius: 12, padding: '56px 48px', maxWidth: 620, width: '100%', boxShadow: '0 8px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.06), inset 0 1px 0 rgba(255,255,255,0.04)', position: 'relative' },
+  notebookSpine: { position: 'absolute', left: 0, top: 0, bottom: 0, width: 4, background: 'linear-gradient(180deg, #c9a96e 0%, #b8943f 50%, #c9a96e 100%)', borderRadius: '12px 0 0 12px' },
+  notebookLines: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: 12, overflow: 'hidden', pointerEvents: 'none', background: 'none' },
+  notebookShuffle: { marginTop: 36, background: 'none', border: '1px solid rgba(201,169,110,0.3)', borderRadius: '50%', width: 40, height: 40, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: '#c9a96e', transition: 'all 0.25s', fontSize: 16 },
+  notebookEnter: { position: 'absolute', bottom: 32, background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'Source Serif 4', serif", fontSize: 13, color: 'rgba(201,169,110,0.5)', letterSpacing: '0.18em', fontWeight: 400, transition: 'color 0.25s' },
   searchWrap: { position: 'relative', maxWidth: 480, margin: '0 auto' },
   searchIcon: { position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: '#94a3b8', pointerEvents: 'none' },
   search: { width: '100%', padding: '10px 12px 10px 38px', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 14, outline: 'none', background: '#fff', color: '#0f172a', transition: 'border .15s' },
@@ -158,7 +158,7 @@ function QuoteCard({ q, isFav, isVer, isRej, onToggleFav, onToggleVer, onToggleR
         <button style={{ ...S.verifiedBadge, color: '#94a3b8' }}
           onClick={e => { e.stopPropagation(); onNeedsReview(); }}
           title="Needs further review"
-          onMouseOver={e => e.currentTarget.style.color='#6366f1'}
+          onMouseOver={e => e.currentTarget.style.color='#c9a96e'}
           onMouseOut={e => e.currentTarget.style.color='#94a3b8'}>
           -
         </button>
@@ -179,7 +179,7 @@ function QuoteCard({ q, isFav, isVer, isRej, onToggleFav, onToggleVer, onToggleR
       {hasCitation && (
         q.url ? (
           <a href={q.url} target="_blank" rel="noopener noreferrer" style={S.citationLink}
-            onMouseOver={e => e.currentTarget.style.color='#6366f1'}
+            onMouseOver={e => e.currentTarget.style.color='#c9a96e'}
             onMouseOut={e => e.currentTarget.style.color='#94a3b8'}>
             {q.source || 'Source'}<span style={S.citationArrow}>{'\u2197'}</span>
           </a>
@@ -304,7 +304,7 @@ function App() {
       {view !== 'home' && <nav style={S.nav}>
         <div style={S.navInner}>
           <div style={S.navCenter}>
-            <Clock />
+            <div style={{color: "#94a3b8"}}><Clock /></div>
           </div>
           <div style={S.navRow}>
             <div style={S.navLeft}>
@@ -343,7 +343,7 @@ function App() {
       {/* Landing page — notebook style */}
       {view === 'home' && (
         <div style={S.notebook}>
-          <div style={{position: 'absolute', top: 24, left: 0, right: 0}}><Clock /></div>
+          <div style={{position: 'absolute', top: 24, left: 0, right: 0, color: 'rgba(201,169,110,0.4)'}}><Clock /></div>
           <div style={S.notebookFrame}>
             <div style={S.notebookSpine} />
             <div style={S.notebookLines} />
@@ -355,8 +355,8 @@ function App() {
             </div>
           </div>
           <button style={S.notebookShuffle} onClick={shuffleQuote} title="Another quote"
-            onMouseOver={e => { e.currentTarget.style.borderColor='#8b7355'; e.currentTarget.style.color='#2c1810'; }}
-            onMouseOut={e => { e.currentTarget.style.borderColor='#d4c4a8'; e.currentTarget.style.color='#8b7355'; }}>
+            onMouseOver={e => { e.currentTarget.style.borderColor='#c9a96e'; e.currentTarget.style.color='#e8d5b0'; }}
+            onMouseOut={e => { e.currentTarget.style.borderColor='rgba(201,169,110,0.3)'; e.currentTarget.style.color='#c9a96e'; }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/>
               <path d="M2.5 11.5a10 10 0 0 1 18.4-4.5"/><path d="M21.5 12.5a10 10 0 0 1-18.4 4.5"/>
@@ -364,11 +364,11 @@ function App() {
           </button>
           <div style={{position: 'absolute', bottom: 32, textAlign: 'center'}}>
             <button style={{...S.notebookEnter, position: 'static'}} onClick={() => switchView('list')}
-              onMouseOver={e => e.currentTarget.style.color='#6366f1'}
-              onMouseOut={e => e.currentTarget.style.color='#b8a88a'}>
+              onMouseOver={e => e.currentTarget.style.color='#c9a96e'}
+              onMouseOut={e => e.currentTarget.style.color='rgba(201,169,110,0.5)'}>
               IDEAKACHE
             </button>
-            <div style={{fontSize: 12, color: '#b8a88a', marginTop: 4, fontStyle: 'italic', fontFamily: "'Source Serif 4', serif"}}>Ideas, concepts and quotes curated by Jeremy Cowcher</div>
+            <div style={{fontSize: 11, color: 'rgba(201,169,110,0.35)', marginTop: 6, fontStyle: 'italic', letterSpacing: '0.04em', fontFamily: "'Source Serif 4', serif"}}>Ideas, concepts and quotes curated by Jeremy Cowcher</div>
           </div>
         </div>
       )}
