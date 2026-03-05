@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Idea Kache — A personal cache of ideas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -15,6 +15,10 @@
     100% { box-shadow: 0 0 0 4px rgba(99,102,241,0); transform: scale(1); }
   }
   .highlight-anim { animation: highlightFade 2s ease-out forwards; }
+  @keyframes notebookFadeIn {
+    0% { opacity: 0; transform: translateY(8px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif; }
   ::selection { background: #c7d2fe; }
@@ -49,11 +53,6 @@ const AUTHORS = Object.entries(
   SOURCED.reduce((m, q) => { m[q.author] = (m[q.author] || 0) + 1; return m; }, {})
 ).sort((a, b) => a[0].localeCompare(b[0]));
 
-// Pick N random quotes, stable per session
-const LANDING_QUOTES = (() => {
-  const shuffled = [...SOURCED].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, 8);
-})();
 
 const S = {
   page: { minHeight: '100vh', background: '#f8fafc', color: '#0f172a' },
@@ -71,11 +70,11 @@ const S = {
   // Clock
   clock: { textAlign: 'center', padding: '20px 24px 4px', fontSize: 12, color: '#94a3b8', letterSpacing: '0.05em', fontVariantNumeric: 'tabular-nums' },
   // Landing
-  landing: { maxWidth: 1040, margin: '0 auto', padding: '0 24px 48px' },
-  landingHero: { textAlign: 'center', padding: '0 0 40px' },
-  landingTitle: { fontSize: 32, fontWeight: 700, letterSpacing: '-0.5px', color: '#0f172a', marginBottom: 8 },
-  landingTitleK: { color: '#6366f1' },
-  landingSub: { fontSize: 15, color: '#94a3b8', fontStyle: 'italic' },
+  notebook: { minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#faf6f0', padding: '40px 24px', position: 'relative' },
+  notebookQuote: { fontFamily: "'Caveat', cursive", fontSize: 'clamp(28px, 5vw, 44px)', lineHeight: 1.4, color: '#2c1810', textAlign: 'center', maxWidth: 680, animation: 'notebookFadeIn 0.8s ease-out' },
+  notebookAuthor: { fontFamily: "'Source Serif 4', serif", fontSize: 16, color: '#8b7355', marginTop: 20, textAlign: 'center', fontStyle: 'italic', letterSpacing: '0.02em' },
+  notebookShuffle: { marginTop: 40, background: 'none', border: '1.5px solid #d4c4a8', borderRadius: '50%', width: 44, height: 44, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: '#8b7355', transition: 'all 0.2s', fontSize: 18 },
+  notebookEnter: { position: 'absolute', bottom: 32, background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'Source Serif 4', serif", fontSize: 14, color: '#b8a88a', letterSpacing: '0.08em', fontWeight: 600, transition: 'color 0.2s' },
   searchWrap: { position: 'relative', maxWidth: 480, margin: '0 auto' },
   searchIcon: { position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: '#94a3b8', pointerEvents: 'none' },
   search: { width: '100%', padding: '10px 12px 10px 38px', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 14, outline: 'none', background: '#fff', color: '#0f172a', transition: 'border .15s' },
@@ -207,6 +206,14 @@ function App() {
   const [verIds, setVerIds] = useState(getVerified);
   const [rejIds, setRejIds] = useState(getRejected);
   const [hlId, setHlId] = useState(null);
+  const [landingQuote, setLandingQuote] = useState(() => SOURCED[Math.floor(Math.random() * SOURCED.length)]);
+  const [fadeKey, setFadeKey] = useState(0);
+  const shuffleQuote = useCallback(() => {
+    let next;
+    do { next = SOURCED[Math.floor(Math.random() * SOURCED.length)]; } while (next.id === landingQuote.id && SOURCED.length > 1);
+    setLandingQuote(next);
+    setFadeKey(k => k + 1);
+  }, [landingQuote]);
 
   const toggleFav = useCallback(id => {
     setFavIds(prev => {
@@ -290,8 +297,8 @@ function App() {
 
   return (
     <div style={S.page}>
-      {/* Nav bar */}
-      <nav style={S.nav}>
+      {/* Nav bar - hidden on landing */}
+      {view !== 'home' && <nav style={S.nav}>
         <div style={S.navInner}>
           <div style={S.navCenter}>
             <Clock />
@@ -328,34 +335,30 @@ function App() {
             </div>
           </div>
         </div>
-      </nav>
+      </nav>}
 
-      {/* Landing page */}
+      {/* Landing page — notebook style */}
       {view === 'home' && (
-        <div style={S.landing}>
-          <div style={{ textAlign: 'center', padding: '40px 0' }}>
-            <div style={S.landingSub}>A personal cache of ideas from Jeremy Cowcher</div>
+        <div style={S.notebook}>
+          <div key={fadeKey} style={S.notebookQuote}>
+            \u201C{landingQuote.text}\u201D
           </div>
-          <div style={S.landingHero}>
-            <div style={S.searchWrap}>
-              <svg style={S.searchIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-              <input style={S.search} placeholder="Search quotes and authors..." value={search}
-                onChange={e => setSearch(e.target.value)}
-                onKeyDown={e => { if (e.key === 'Enter' && search.trim()) setView('list'); }}
-                onFocus={e => e.target.style.borderColor='#6366f1'}
-                onBlur={e => e.target.style.borderColor='#e2e8f0'} />
-            </div>
+          <div key={'a' + fadeKey} style={{...S.notebookAuthor, animation: 'notebookFadeIn 0.8s ease-out 0.1s both'}}>
+            \u2014 {landingQuote.author}
           </div>
-          <div style={S.sampleLabel}>A few from the collection</div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            {LANDING_QUOTES.map(q => (
-              <QuoteCard key={q.id} q={q} isFav={favIds.includes(q.id)}
-                onToggleFav={toggleFav} isVer={verIds.includes(q.id)} onToggleVer={toggleVer}
-                isRej={rejIds.includes(q.id)} onToggleRej={toggleRej}
-                onAuthor={setAuthorF} onConcept={setConceptF} onVerified={setVerifiedF} onRejected={setRejectedF} onNeedsReview={setNeedsReviewF} hlId={null}
-                isReview={false} />
-            ))}
-          </div>
+          <button style={S.notebookShuffle} onClick={shuffleQuote} title="Another quote"
+            onMouseOver={e => { e.currentTarget.style.borderColor='#8b7355'; e.currentTarget.style.color='#2c1810'; }}
+            onMouseOut={e => { e.currentTarget.style.borderColor='#d4c4a8'; e.currentTarget.style.color='#8b7355'; }}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/>
+              <path d="M2.5 11.5a10 10 0 0 1 18.4-4.5"/><path d="M21.5 12.5a10 10 0 0 1-18.4 4.5"/>
+            </svg>
+          </button>
+          <button style={S.notebookEnter} onClick={() => switchView('list')}
+            onMouseOver={e => e.currentTarget.style.color='#6366f1'}
+            onMouseOut={e => e.currentTarget.style.color='#b8a88a'}>
+            IDEAKACHE
+          </button>
         </div>
       )}
 
