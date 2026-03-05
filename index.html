@@ -73,6 +73,9 @@ const S = {
   notebook: { minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#faf6f0', padding: '40px 24px', position: 'relative' },
   notebookQuote: { fontFamily: "'Libre Baskerville', Georgia, serif", fontStyle: 'italic', fontSize: 'clamp(28px, 5vw, 44px)', lineHeight: 1.4, color: '#2c1810', textAlign: 'center', maxWidth: 680, animation: 'notebookFadeIn 0.8s ease-out' },
   notebookAuthor: { fontFamily: "'Source Serif 4', serif", fontSize: 16, color: '#8b7355', marginTop: 20, textAlign: 'center', fontStyle: 'italic', letterSpacing: '0.02em' },
+  notebookFrame: { background: '#fff', borderRadius: 16, padding: '48px 40px', maxWidth: 640, width: '100%', boxShadow: '0 2px 24px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04)', position: 'relative' },
+  notebookSpine: { position: 'absolute', left: 0, top: 24, bottom: 24, width: 3, background: '#e8d5c0', borderRadius: 2 },
+  notebookLines: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderRadius: 16, overflow: 'hidden', pointerEvents: 'none', background: 'repeating-linear-gradient(transparent, transparent 31px, #f0e8dc 31px, #f0e8dc 32px)', opacity: 0.5 },
   notebookShuffle: { marginTop: 40, background: 'none', border: '1.5px solid #d4c4a8', borderRadius: '50%', width: 44, height: 44, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: '#8b7355', transition: 'all 0.2s', fontSize: 18 },
   notebookEnter: { position: 'absolute', bottom: 32, background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'Source Serif 4', serif", fontSize: 14, color: '#b8a88a', letterSpacing: '0.08em', fontWeight: 600, transition: 'color 0.2s' },
   searchWrap: { position: 'relative', maxWidth: 480, margin: '0 auto' },
@@ -341,11 +344,15 @@ function App() {
       {view === 'home' && (
         <div style={S.notebook}>
           <div style={{position: 'absolute', top: 24, left: 0, right: 0}}><Clock /></div>
-          <div key={fadeKey} style={S.notebookQuote}>
-            {"\u201C"}{landingQuote.text}{"\u201D"}
-          </div>
-          <div key={'a' + fadeKey} style={{...S.notebookAuthor, animation: 'notebookFadeIn 0.8s ease-out 0.1s both'}}>
-            {"\u2014"} {landingQuote.author}
+          <div style={S.notebookFrame}>
+            <div style={S.notebookSpine} />
+            <div style={S.notebookLines} />
+            <div key={fadeKey} style={{...S.notebookQuote, position: 'relative', zIndex: 1}}>
+              {"\u201C"}{landingQuote.text}{"\u201D"}
+            </div>
+            <div key={'a' + fadeKey} style={{...S.notebookAuthor, animation: 'notebookFadeIn 0.8s ease-out 0.1s both', position: 'relative', zIndex: 1}}>
+              {"\u2014"} {landingQuote.author}
+            </div>
           </div>
           <button style={S.notebookShuffle} onClick={shuffleQuote} title="Another quote"
             onMouseOver={e => { e.currentTarget.style.borderColor='#8b7355'; e.currentTarget.style.color='#2c1810'; }}
