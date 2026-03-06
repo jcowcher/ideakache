@@ -1,0 +1,5375 @@
+IDEAKACHE QUOTE REVIEW
+============================================================
+Instructions:
+- Edit any field inline
+- To delete a quote, change Status to DELETE
+- Status options: OK, NEEDS REVIEW, DELETE
+- Leave URL blank if unknown
+- Concepts are comma-separated
+============================================================
+
+---
+ID: 0
+Text: 90% of people go along with what they see
+Author: Amin Elhassan
+Source: The Tim Ferriss Show
+URL: 
+Concepts: relationships; wisdom
+Status: Delete
+---
+
+---
+ID: 1
+Text: 99% of the world is okay with mediocrity or worse. But, at best, mediocrity
+Author: Kobe Bryant per Draymond Green
+Source: Sports Illustrated
+URL: https://www.si.com/nba/lakers/news/draymond-green-on-kobe-bryant-i-dont-want-to-talk-to-nobody-about-kobe-id-rather-talk-to-kobe#:~:text=Like%20everybody's%20trying%20to%20take,But%2C%20at%20best%2C%20mediocrity.
+Concepts: Mindset
+Status: Confirmed
+---
+
+---
+ID: 2
+Text: A bird sitting on a tree is never afraid of the branch breaking, because its trust is not on the branch but on its own wings
+Author: Charlie Wardle, Understanding & Building Confidence
+Source: Understanding & Building Confidence
+URL: 
+Concepts: Courage; Self-Belief
+Status: Good for now - multiple attributions online, waiting on primary confirmation
+---
+
+---
+ID: 4
+Text: A candle loses nothing by lighting other candles
+Author: Austin Okere
+Source: LinkedIn
+URL: https://www.linkedin.com/pulse/founders-speech-launch-ausso-leadership-academy-austin-austin-okere
+Concepts: Leadership; Relationships
+Status: Confirmed
+---
+
+---
+ID: 5
+Text: A charismatic leader ... makes your feel good about her or him ... that great leader walks into the room and you feel bigger
+Author: Jennifer Garvey Berger
+Source: The Knowledge Project Podcast
+URL: https://fs.blog/knowledge-project-podcast/jennifer-garvey-berger/
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 6
+Text: An organization bound by love is far more powerful than one bound by fear
+Author: Herb Kelleher
+Source: SMU Commencement Speech, 2003
+URL: https://www.smu.edu/enrollmentservices/registrar/academicceremonies/aboutus/history/~/media/site/enrollmentservices/registrar/academicceremonies/speakerhistory/speeches/2003-herb-kelleher-speech.pdf
+Concepts: Entrepreneurship; Leadership; Relationships
+Status: Confirmed
+---
+
+---
+ID: 7
+Text: A complex system, such as a nuclear reactor or the human body, will malfunction if any of its essential components fails. Even when likelihood of failure in each component is slight, the probability of an overall failure can be high if many components are involved
+Author: Daniel Kahneman and Amos Tversky, per Farnam Street
+Source: Farnam Street
+URL: https://fs.blog/mental-model-conjunctive-and-disjunctive-events-bias/
+Concepts: Failure; 
+Status: Confirmed
+---
+
+---
+ID: 8
+Text: A fit body, a calm mind, a house full of love. These things cannot be bought - they must be earned
+Author: Naval Ravikant
+Source: Naval
+URL: https://nav.al/finally-wealthy; https://x.com/naval/status/966512979066765313
+Concepts: Wealth; Health; Relationships
+Status: Confirmed
+---
+
+---
+ID: 12
+Text: A person who's happy will make others happy; a person who has courage and faith will never die in misery
+Author: Anne Frank
+Source: The Diary of a Young Girl
+URL: 
+Concepts: Courage; Relationships
+Status: Good for now - multiple attributions online, waiting on primary confirmation
+---
+
+---
+ID: 13
+Text: A platform is when the economic value of everybody that uses it, exceeds the value of the company that creates it
+Author: Bill Gates (as told by Chamath Palihapitiya)
+Source: Chamath at StrictlyVC's Insider Series
+URL: https://semilshah.com/2015/09/17/transcript-chamath-at-strictlyvcs-insider-series/
+Concepts: Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 14
+Text: A remarkable customer experience starts with heart, intuition, curiosity, play, guts, taste. You won’t find any of it in a survey
+Author: Jeff Bezos
+Source: Amazon shareholder letters
+URL: https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders
+Concepts: Entrepreneurship; Learning
+Status: Confirmed
+---
+
+---
+ID: 15
+Text: A ship in harbor is safe, but that is not what ships are built for
+Author: John A. Sheed
+Source: Salt from My Attic
+URL: https://quoteinvestigator.com/2013/12/09/safe-harbor/#6a74e39e-de59-488f-b619-20cadc14757b-link
+Concepts: Courage; Leadership
+Status: Confirmed
+---
+
+---
+ID: 17
+Text: A strategy is only a strategy if there are successful businesses doing the opposite of what you do
+Author: Rory Sutherland
+Source: On Brand podcast with Jimmy Williams
+URL: https://shows.acast.com/on-brand-with-rory-sutherland/episodes/how-oven-chips-changed-the-insurance-industry-jimmy-williams
+Concepts: Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 18
+Text: A wholly different class of risk is forced behavioral change. It can happen, but the assumptions are more fraught. Behavioral rigidity in humans is a very real phenomenon; human nature evolves at glacial speeds
+Author: Eugene Wei
+Source: Remains of the Day, Issue 07
+URL: https://eugenewei.substack.com/p/remains-of-the-day-issue-07
+Concepts: Learning
+Status: Confirmed
+---
+
+---
+ID: 19
+Text: A woodpecker can tap twenty times on a thousand trees and get nowhere, but stay busy. Or he can tap twenty-thousand times on one tree and get dinner
+Author: Seth Godin
+Source: The Dip: A Little Book That Teaches You When to Quit
+URL: 
+Concepts: Decision-Making
+Status: Confirmed
+Notes: Downloaded from NYPL and read it in the browser
+---
+
+---
+ID: 21
+Text: All cruelty springs from weakness
+Author: Seneca
+Source: 
+URL: 
+Concepts: wisdom, courage
+Status: Delete
+---
+
+---
+ID: 22
+Text: All we know is that the negativity should be avoided so we don’t respond and move on. No point in making enemies since they will likely be in a better mood tomorrow (hence why we don’t respond to negativity and delete all negative comments from the blog)
+Author: Wall Street Playboys
+Source: 
+URL: 
+Concepts: self-improvement, time
+Status: Delete
+---
+
+---
+ID: 23
+Text: Almost no one does wrong on purpose
+Author: Socrates
+Source: 
+URL: 
+Concepts: failure, mindset
+Status: Delete
+---
+
+---
+ID: 24
+Text: Although the world is full of suffering, it is also full of the overcoming of it
+Author: Helen Keller
+Source: 
+URL: 
+Concepts: stoicism, wisdom
+Status: Delete
+---
+
+---
+ID: 25
+Text: Always demand a deadline because it weeds out the extraneous and the ordinary. A deadline prevents you from trying to make it perfect, so you have to make it different. Different is better
+Author: Kevin Kelly
+Source: Excellent Advice for Living
+URL: 
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 26
+Text: Always do what you are afraid to do
+Author: Ralph Waldo Emerson
+Source: Essays: First and Second Series
+URL: 
+Concepts: Courage
+Status: Confirmed
+Notes: Downloaded from NYPL and read it in the browser
+---
+
+---
+ID: 29
+Text: And all the really successful people I know have a very strong action bias. They just do things. The easiest way to figure out if something is viable or not is by doing it. At least do the first step, and the second step, and the third, and then decide. 
+Author: Naval Ravikant
+Source: Naval
+URL: https://nav.al/rational-optimists
+Concepts: Courage; Self-Belief
+Status: Confirmed
+---
+
+---
+ID: 30
+Text: And if you look at Bezos, or you look at Andreesen, or you look at Jerry Yang and David Filo, or you look at the founders of Google, or you look at, name another great internet company. It's even true of the Sun founders. They all seem to be white, male, nerds, who've dropped out of Harvard or Stanford, and they have absolutely no social life. So when I see that pattern coming in, which was true of Google, it was very easy to decide we would invest
+Author: John Doerr
+Source: A Letter A Day
+URL: https://aletteraday.substack.com/p/letter-99-mike-moritz-and-john-doerr?
+Concepts: Decision-Making; Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 31
+Text: Anger doesn't create quality
+Author: Eric Ripert
+Source: Tim Ferriss Podcast
+URL: https://tim.blog/2018/02/02/the-tim-ferriss-show-transcripts-eric-ripert/
+Concepts: Leadership; Relationships
+Status: Confirmed
+---
+
+---
+ID: 32
+Text: Anytime that you have something that's continually rebranding, that continuously has to come back and call itself something new, that's a good indication that it's a scam
+Author: Aaron VanDevender
+Source: 20VC
+URL: https://www.thetwentyminutevc.com/aaronvandevender
+Concepts: Learning; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 33
+Text: Anytime you presume what someone else will like, you will lose
+Author: Barry Diller
+Source: The Keys to the Kingdom: How Michael Eisner Lost His Grip
+URL: 
+Concepts: Learning
+Status: Good for now - multiple attributions online, waiting on primary confirmation
+---
+
+---
+ID: 34
+Text: There's really no secret about our approach. We keep moving forward- opening up new doors and doing new things-because we're curious. And curiosity keeps leading us down new paths. We're always exploring
+and experimenting
+Author: Walt Disney
+Source: Walt Disney Archives
+URL: https://d23.com/walts-quotes-category/technology/
+Concepts: Learning
+Status: Confirmed
+---
+
+---
+ID: 35
+Text: As a general rule, the person who sees the elephant is the one hallucinating, not the one who can't see the elephant
+Author: Scott Adams
+Source: Imaginary News (scottadamssays.com)
+URL: https://www.scottadamssays.com/imaginary-news/
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 36
+Text: The wrong thing to do is to ask for their opinion because when you ask for opinion you get a critic. You get someone who steps back from you and goes inside, introspects to examine the pros and cons and the critique that he or she can deliver for your idea. If instead you activate the principle of unity by changing one word, instead of asking for that person’s opinion you ask for that person’s advice on your idea. Now instead of getting a critic you get a partner, you get somebody who is in it with you, you get somebody who is a collaborator
+Author: Robert Cialdini
+Source: Think Fast Talk Smart Podcast
+URL: https://www.gsb.stanford.edu/insights/change-my-mind-using-pre-suasion-influence-others
+Concepts: Learning; Relationships
+Status: Confirmed
+---
+
+---
+ID: 37
+Text: Instead of moving into advice-giving, solution-providing mode, you ask the Focus Question: "What's the real challenge here for you?"
+Author: Michael Bungay Stanier
+Source: The Coaching Habit: Say Less, Ask More & Change the Way You Lead Forever
+URL: https://bookshop.org/p/books/the-coaching-habit-say-less-ask-more-change-the-way-you-lead-forever-michael-bungay-stanier/4798255733cc646f?ean=9780978440749&next=t&utm_source=google&utm_medium=cpc&utm_campaign=%7Bcampaignname%7D&utm_content=6443417794&gad_source=1&gad_campaignid=16235479093&gbraid=0AAAAACfld40k1eUHIAa4WSoO_wI0_G1vo&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKy93fHHZlXAYNRmEG61hW7iWETrmrOJfV3_N5sRwCVfIk9RfzT3PZExoCjyIQAvD_BwE; https://www.amazon.com/Coaching-Habit-Less-Change-Forever/dp/0978440749
+Concepts: Leadership
+Status: Confirmed
+Notes: Read in physical copy of the book
+---
+
+---
+ID: 38
+Text: [W]e would say if we can’t answer the three “whys” about anything or about any rule, let’s just throw it out and let’s see what’s left
+Author: Ricardo Semler 
+Source: Tim Ferriss Podcast
+URL: https://tim.blog/2018/06/05/the-tim-ferriss-show-transcripts-ricardo-semler/
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 39
+Text: Attention is the rarest and purest form of generosity
+Author: Simone Weil
+Source: First and Last Notebooks
+URL: https://www.themarginalian.org/2015/08/19/simone-weil-attention-gravity-and-grace/
+Concepts: Relationships
+Status: Confirmed
+---
+
+---
+ID: 40
+Text: I think it just helps to be very aware that fundamentally, there are no adults. Everyone is making it up as they go along. You have to find your own path, picking, choosing, taking and discarding as you see fit.
+Author: Naval Ravikant
+Source: Product Hunt
+URL: https://blog.producthunt.com/is-naval-ravikant-the-nicest-guy-in-tech-7f5261d1c23c
+Concepts: Self-Belief; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 41
+Text: Be excellent to each other
+Author: Rich Barton
+Source: 
+URL: 
+Concepts: 
+Status: Delete
+---
+
+---
+ID: 42
+Text: [B]e in command and out of control. By that, I mean that the overall guidance and the intent were provided by me and the senior leadership, but the forces in the field wouldn't depend on intricate orders coming from the top. They were to use their own initiative and be innovative as they went forward
+Author: Paul Van Riper
+Source: Malcolm Gladwell
+Blink: The Power of Thinking Without Thinking
+URL: https://bookshop.org/p/books/blink-the-power-of-thinking-without-thinking-malcolm-gladwell/6f15cd9de6063452?ean=9780316010665&next=t&utm_source=google&utm_medium=cpc&utm_campaign=%7Bcampaignname%7D&utm_content=6443417794&gad_source=1&gad_campaignid=16235479093&gbraid=0AAAAACfld40k1eUHIAa4WSoO_wI0_G1vo&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKyyAPj011p4HxU_guHtt5mD-RyqRBrCxAqNB0qRo0spFErQ0xqaHlGRoC3AIQAvD_BwE; https://www.amazon.com/Blink-Power-Thinking-Without-ebook/dp/B000PAAH3K; 
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 43
+Text: Advice is a form of nostalgia. For this reason, we should view advice from others primarily as an opportunity for greater insight into the mind of the advice-giver, rather than as something useful to be acted upon ourselves
+Author: Ben Casnocha
+Source: 
+URL: https://casnocha.com/2010/01/15-thoughts-on-advice-giving-and-receiving.html
+Concepts: Learning
+Status: Confirmed
+---
+
+---
+ID: 44
+Text: Bees have to move very fast to stay still
+Author: David Foster Wallace
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 45
+Text: Being able to break down a large project into tasks and those tasks into check lists is a super power
+Author: Dare Obasanjo
+Source: 
+URL: https://twitter.com/Carnage4Life/status/1550054122107179008
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 46
+Text: Better to do something good and be late than bad and be early
+Author: Elon Musk
+Source: Rolling Stone
+URL: https://www.rollingstone.com/culture/culture-features/elon-musk-the-architect-of-tomorrow-120850/
+Concepts: Entrepreneurship; Self-Belief
+Status: Confirmed
+---
+
+---
+ID: 47
+Text: Beware of advice from the successful
+Author: Barnaby James
+Source: Farnam Street
+URL: https://fs.blog/survivorship-bias/
+Concepts: Wealth; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 48
+Text: If it's in your control, why do you do it? If it's in someone else's, then who are you blaming? Atoms? The gods? Stupid either way. Blame no one
+Author: Marcus Aurelius
+Source: Meditations (Translated by Gregory Hays)
+URL: https://bookshop.org/p/books/meditations-marcus-aurelius/16cb0543f1af80bc?ean=9780812968255&next=t&utm_source=google&utm_medium=cpc&utm_campaign=%7Bcampaignname%7D&utm_content=6443417794&gad_source=1&gad_campaignid=16235479093&gbraid=0AAAAACfld40k1eUHIAa4WSoO_wI0_G1vo&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKy4JTRssArQkm4o73_-3HcsGKRhslsEBzofVZpQom0v9hk_G2n-sLwxoCqFUQAvD_BwE; https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255
+Concepts: Decision-Making
+Status: Confirmed
+Notes: Checked my physical copy
+---
+
+---
+ID: 49
+Text: Build credibility inside and outside the business
+Author: Royce Yudkoff
+Source: 
+URL: 
+Concepts: entrepreneurship, wisdom
+Status: Delete
+---
+
+---
+ID: 50
+Text: Build something where you are the first customer
+Author: Aubrey Marcus
+Source: 
+URL: 
+Concepts: customer-focus, entrepreneurship
+Status: Delete
+---
+
+---
+ID: 51
+Text: But the most important thing I learned ... is that the low end eats the high end: that it's good to be the "entry level" option, even though that will be less prestigious, because if you're not, someone else will be, and will squash you against the ceiling. Which in turn means that prestige is a danger sign
+Author: Paul Graham
+Source: What I Worked On (paulgraham.com)
+URL: http://www.paulgraham.com/worked.html
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 52
+Text: Change is not distributed evenly
+Author: Chris Urmson
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 53
+Text: CEO transitions are like brain surgery
+Author: Reid Hoffman
+Source: Leadership and CEO Succession
+URL: https://greylock.com/reid-hoffman/reid-hoffman-jeff-bezos-leadership-and-ceo-succession/
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 54
+Text: Choose not to be harmed - and you won't be harmed. 
+Don't feel harmed - and you haven't been.
+Author: Marcus Aurelius
+Source: Meditations (Translated by Gregory Hays)
+URL: https://bookshop.org/p/books/meditations-marcus-aurelius/16cb0543f1af80bc?ean=9780812968255&next=t&utm_source=google&utm_medium=cpc&utm_campaign=%7Bcampaignname%7D&utm_content=6443417794&gad_source=1&gad_campaignid=16235479093&gbraid=0AAAAACfld40k1eUHIAa4WSoO_wI0_G1vo&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKy4JTRssArQkm4o73_-3HcsGKRhslsEBzofVZpQom0v9hk_G2n-sLwxoCqFUQAvD_BwE; https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255
+Concepts: Decision-Making
+Status: Confirmed
+Notes: Checked my physical copy
+---
+
+---
+ID: 55
+Text: Comparison is the thief of joy
+Author: Theodore Roosevelt
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 56
+Text: [C]omplaining is not a strategy
+Author: Jeff Bezos
+Source: 60 Minutes interview with Charlie Rose
+URL: https://www.cbsnews.com/news/amazons-jeff-bezos-looks-to-the-future/
+Concepts: Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 57
+Text: Consulting is the canonical example of work that doesn't scale. But (like other ways of bestowing one's favors liberally) it's safe to do it so long as you're not being paid to. That's where companies cross the line. So long as you're a product company that's merely being extra attentive to a customer, they're very grateful even if you don't solve all their problems. But when they start paying you specifically for that attentiveness — when they start paying you by the hour — they expect you to do everything.
+Author: Paul Graham
+Source: Do Things that Don't Scale
+URL: http://www.paulgraham.com/ds.html
+Concepts: Entrepreneurship; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 58
+Text: Contrary to formulaic notions of how a buyout is done, we can’t wait until year two to start adding value. We need to start adding value the day after we complete the transaction and keep working at it until the day we exit. Thirty years ago, the hardest work occurred before we made the investment. Today, we work hard before we make the investment, but we work harder after we make the investment
+Author: Henry Kravis
+Source: A Letter A Day
+URL: https://aletteraday.substack.com/p/letter-97-henry-kravis-2004
+Concepts: Entrepreneurship; Wealth
+Status: Confirmed
+---
+
+---
+ID: 59
+Text: If there is one axiom that governs the consumer Internet — consumer anything, really — it is that convenience matters more than anything. 
+Author: Ben Thompson
+Source: Stratechery
+URL: https://stratechery.com/2022/instagram-tiktok-and-the-three-trends/
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 60
+Text: Copying is a fairly reliable rule for avoiding catastrophic decisions
+Author: Rory Sutherland
+Source: Invest Like the Best
+URL: https://www.joincolossus.com/episodes/64849045/sutherland-moonshots-and-marketing?tab=mentionedcontent
+Concepts: decision-making, wisdom
+Status: OK
+---
+
+---
+ID: 61
+Text: Costs are like fingernails, they need to be trimmed constantly
+Author: Carlos Alberto Sicupira
+Source: Dream Big by Cristiane Correa
+URL: https://www.amazon.com/Dream-Big-Brazilian-Sicupira-Anheuser-Busch-ebook/dp/B00JRDM4O6
+Concepts: wealth, wisdom
+Status: Delete
+---
+
+---
+ID: 62
+Text: Courage is not simply one of the virtues, but the form of every virtue at the testing point
+Author: C.S. Lewis
+Source: The Screwtape Letters
+URL: https://bookshop.org/p/books/the-screwtape-letters-c-s-lewis/b8e772cea7c1beea?ean=9780060652937&next=t&utm_source=google&utm_medium=cpc&utm_campaign=%7Bcampaignname%7D&utm_content=6443417794&gad_source=1&gad_campaignid=16235479093&gbraid=0AAAAACfld40k1eUHIAa4WSoO_wI0_G1vo&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKy1RPoSygC7WRm8gW6qjrz33UWYVS573SkhhFtCJtFazWYfUdZIbroxoCKoAQAvD_BwE; https://www.amazon.com/Screwtape-Letters-C-S-Lewis/dp/0060652934
+Concepts: Courage
+Status: Confirmed
+Notes: Checked https://www.lewissociety.org/quotes/ and confirmed it
+---
+
+---
+ID: 63
+Text: Courage is resistance to fear, mastery of fear - not absence of fear
+Author: Mark Twain
+Source: The tragedy of Pudd'nhead Wilson ; and the comedy Those extraordinary twins
+URL: https://babel.hathitrust.org/cgi/pt?id=nyp.33433074940903&seq=157
+Concepts: Courage
+Status: Confirmed
+---
+
+---
+ID: 64
+Text: [C]reating anything great requires zero to one, and that means you go back to zero, and that’s really painful and hard to do
+Author: Naval Ravikant
+Source: Modern Wisdom Podcast
+URL: https://www.youtube.com/watch?v=KyfUysrNaco
+Concepts: innovation, success, wisdom
+Status: Entrepreneurship; Courage; Self-Belief
+---
+
+---
+ID: 65
+Text: Cultivate 12 people who love you, because they are worth more than 12 million people who like you
+Author: Kevin Kelly
+Source: The Technium
+URL: https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/
+Concepts: relationships, wisdom
+Status: Relationships
+---
+
+---
+ID: 66
+Text: Culture beats strategy - so much that culture is strategy
+Author: Seth Godin
+Source: This Is Marketing: You Can't Be Seen Until You Learn To See
+URL: https://bookshop.org/p/books/this-is-marketing-you-can-t-be-seen-until-you-learn-to-see-seth-godin/8d75a8503c9c4712; https://www.amazon.com/This-Marketing-Cant-Until-Learn/dp/0525540830
+Concepts: Decision-Making
+Status: Confirmed
+Notes: Listened to audiobook from NYPL
+---
+
+---
+ID: 67
+Text: Culture eats strategy for breakfast
+Author: Peter Drucker
+Source: 
+URL: 
+Concepts: culture, strategy
+Status: Delete
+---
+
+---
+ID: 68
+Text: Culture is the collective behavior of everyone in the organization
+Author: Ben Horowitz
+Source: a16z
+URL: https://a16z.com/culture-and-revolution/
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 69
+Text: Customers may tell you they want a faster horse, and what you should hear is not that you should be injecting your horses with steroids but that your customers find their current mode of transportation, the aforementioned horse, to be too slow a means of getting around
+Author: Eugene Wei
+Source: TikTok and the Sorting Hat (eugenewei.com)
+URL: https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat
+Concepts: Learning
+Status: Confirmed
+---
+
+---
+ID: 70
+Text: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that
+Author: Martin Luther King Jr
+Source: Strength to Love
+URL: https://bookshop.org/p/books/strength-to-love-jr-martin-luther-king/9892594; https://www.amazon.com/Strength-Love-Martin-Luther-King/dp/0800614410
+Concepts: Leadership; Relationships
+Status: Confirmed
+Notes: Reviewed an eBook with NYPL 
+---
+
+---
+ID: 71
+Text: Don't look down on death, but welcome it. It too is one of the things required by nature. 
+Author: Marcus Aurelius
+Source: Meditations (Translated by Gregory Hays)
+URL: https://bookshop.org/p/books/meditations-marcus-aurelius/16cb0543f1af80bc?ean=9780812968255&next=t&utm_source=google&utm_medium=cpc&utm_campaign=%7Bcampaignname%7D&utm_content=6443417794&gad_source=1&gad_campaignid=16235479093&gbraid=0AAAAACfld40k1eUHIAa4WSoO_wI0_G1vo&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKy4JTRssArQkm4o73_-3HcsGKRhslsEBzofVZpQom0v9hk_G2n-sLwxoCqFUQAvD_BwE; https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255
+Concepts: Decision-Making
+Status: Confirmed
+Notes: Checked my physical copy
+---
+
+---
+ID: 72
+Text: Delight is the greatest form of virality
+Author: Andy Rachleff
+Source: The Twenty Minute VC with Harry Stebbings
+URL: https://www.thetwentyminutevc.com/andyrachleff2
+Concepts: Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 73
+Text: Designers of systems tend to design ways for themselves to bypass the system
+Author: John Gall
+Source: the Systems Bible
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 74
+Text: Desire is a contract you make with yourself to be unhappy until you get what you want
+Author: Naval Ravikant
+Source: 
+URL: https://x.com/naval/status/846774878195757057?lang=en
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 75
+Text: Bear in mind that time is your most important resource. You can do so much in ten minutes. Ten minutes, once gone, are gone for good. You can never get them back.
+
+Ten minutes are not just a sixth of your hourly pay. Ten minutes are a piece of yourself. Divide your life into 10-minute units and sacrifice as few of them as possible in meaningless activity.
+Author: Ingvar Kamprad
+Source: The Testament of a Furniture Dealer
+URL: https://ikeamuseum.com/en/explore/the-story-of-ikea/the-testament-of-a-furniture-dealer/#:~:text=To%20keep%20the%20IKEA%20culture,how%20to%20achieve%20this%20goal?
+Concepts: Learning
+Status: Leadership
+---
+
+---
+ID: 76
+Text: Do. Or do not. There is no try
+Author: Yoda
+Source: Star Wars: The Empire Strikes Back
+URL: 
+Concepts: Resilience
+Status: Confirmed
+---
+
+---
+ID: 77
+Text: Do you think that during the first five hours of the day you are the same as you are in the last five hours? No way. You’re tired, and if you’re tired, you stop listening, and the decisions you make are risky
+Author: Brunello Cucinelli
+Source: Om
+URL: https://om.co/2015/04/27/brunello-cucinelli-2
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 78
+Text: Does every employee feel that they personally own the culture
+Author: Reed Hastings
+Source: No Rules Rules
+URL: 
+Concepts: culture, leadership
+Status: Delete
+---
+
+---
+ID: 79
+Text: Doing the right thing rarely involves knowing how things will work out ahead of time. If you wait until you're 100% certain, or even 75% certain, it's probably too late
+Author: Casey Mullooly
+Source: 
+URL: 
+Concepts: integrity, success, time
+Status: Delete
+---
+
+---
+ID: 80
+Text: [T]he big thing is don't be afraid to fail ... Failure's a part of life
+Author: Nick Foles
+Source: Pro Football Talk
+URL: https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-foles-dont-be-afraid-to-fail-failure-is-part-of-life
+Concepts: Courage; Self-Belief
+Status: Confirmed
+---
+
+---
+ID: 81
+Text: Don't be judged by your peers
+Author: Nassim Nicholas Taleb
+Source: Incerto series
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 82
+Text: [I]f you play the long game, if you’re not a dick, you don’t dismiss people
+Author: Tim Ferriss
+Source: The Tim Ferriss Show
+URL: https://tim.blog/2018/06/22/the-tim-ferriss-show-transcripts-physical-training-and-dating-strategies/
+Concepts: Relationships
+Status: Confirmed
+---
+
+---
+ID: 83
+Text: Don't ever tell Babe Ruth how to hold his bat
+Author: Ace Greenberg
+Source: Frederik Journals
+URL: https://www.frederikjournals.com/p/dealing-with-mistakes
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 84
+Text: Don’t ever work for someone you don’t want to become
+Author: Kevin Kelly
+Source: The Technium
+URL: https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/
+Concepts: discipline, wisdom
+Status: Confirmed
+---
+
+---
+ID: 85
+Text: Don't ignore evidence contrary to your opinion by remaining certain in your views
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: wealth, wisdom
+Status: Delete
+---
+
+---
+ID: 86
+Text: Never judge other people's ideas unless you've been in brainstorming mode yourself
+Author: Adam Grant
+Source: 
+URL: https://www.youtube.com/watch?v=Pe8YUKR0QG4&t=4s
+Concepts: Decision-Making; Leadership
+Status: Confirmed
+---
+
+---
+ID: 87
+Text: A couple is a relational system and that system is continuously morphing and adapting itself to external things, work, money, where they live, moving, health, internal things, etc. And the conversations that you have are about that but there are a few basic ones you want to have in the beginning
+Author: Esther Perel
+Source: The Knowledge Project
+URL: https://fs.blog/knowledge-project-podcast-transcripts/esther-perel-71/
+Concepts: Relationships
+Status: Confirmed
+---
+
+---
+ID: 88
+Text: One thing that I find about human nature is that ambiguity is always perceived negatively. So, there might be nothing in that one-line email that would be in any way disparaging or insulting or anything. But because we as humans perceive ambiguity negatively, we tend to read into things that aren’t there in a way that makes us feel bad
+Author: Debbie Millman
+Source: The Tim Ferriss Show	
+URL: https://tim.blog/2018/06/21/the-tim-ferriss-show-transcripts-debbie-millman/
+Concepts: Resilience
+Status: Confirmed
+---
+
+---
+ID: 89
+Text: Don't seek praise, seek criticism
+Author: Benjamin Hardy
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 90
+Text: Don't take a no from someone who can't say yes
+Author: Steve Cohen via Gillian Segal
+Source: Fortune
+URL: https://fortune.com/2015/07/08/meet-powerful-people/
+Concepts: Decision-Making; Relationships
+Status: Confirmed
+---
+
+---
+ID: 91
+Text: Don't treat others the way you want to be treated, treat them the way they want to be treated
+Author: Chris Voss
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 92
+Text: Don’t be the best. Be the only
+Author: Kevin Kelly
+Source: Excellent Advice for Living
+URL: https://bookshop.org/p/books/excellent-advice-for-living-wisdom-i-wish-i-d-known-earlier-kevin-kelly/e08cf9f6dc009111?ean=9780593654521&next=t&; https://www.amazon.com/Excellent-Advice-Living-Wisdom-Earlier-ebook/dp/B0BCF78T14
+Concepts: Learning
+Status: Confirmed
+---
+
+---
+ID: 93
+Text: Don’t partner with cynics, and pessimists. Their beliefs are self-fulfilling
+Author: Naval Ravikant
+Source: Naval
+URL: https://nav.al/rich
+Concepts: Relationships
+Status: Confirmed
+---
+
+---
+ID: 94
+Text: Either you're in or you're in the way
+Author: Mark Bell
+Source: The Time Ferriss Show
+URL: https://tim.blog/2018/05/30/the-tim-ferriss-show-transcripts-mark-bell/
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 95
+Text: I just always wanted to get a hit. Everybody wants to get a hit. Everybody wants to bat a thousand, yet nobody can. It’s just the way it is. And some days you go four for four and some days you go 0 for fou
+Author: Bill Rasmussen
+Source: The Tim Ferriss Show
+URL: https://tim.blog/2022/02/04/bill-rasmussen-fearless-transcript/
+Concepts: Resilience
+Status: Confirmed
+---
+
+---
+ID: 96
+Text: Establishing operating metrics at the outset of a transaction is part of our approach because it provides us with indications of businesses in decline before the financial data would reveal such results
+Author: Henry Kravis
+Source: A Letter A Day
+URL: https://aletteraday.substack.com/p/letter-97-henry-kravis-2004
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 97
+Text: [E]very business has a golden goose. Doesn't mean it's one golden goose. Sometimes you have multiple golden gooses. But I think an error that people make is that not... God knows I've made this myself, is you look at the whole thing versus really getting down, again, into the constituent parts, into the details, and saying, Oh, well this makes that work. And because this makes that work, this then makes everything else work
+Author: Todd Combs
+Source: 
+URL: https://aletteraday.substack.com/p/letter-80-todd-combs-2023
+Concepts: Learning
+Status: Confirmed
+---
+
+---
+ID: 98
+Text: Everybody wants to make the quick nickel. Nobody wants to make the slow dime
+Author: William Wesley
+Source: TrueHoop
+URL: https://www.truehoop.com/p/william-wesleys-long-road-to-the
+Concepts: Relationships
+Status: Confirmed
+---
+
+---
+ID: 99
+Text: Everyone becomes pessimistic at the same time, everyone becomes optimistic at the same time
+Author: Tom Alberg
+Source: Acquired podcast, episode 28 on Amazon IPO
+URL: https://www.acquired.fm/episodes/episode-28-the-amazon-ipo-with-original-amazon-board-member-tom-alberg
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 100
+Text: [I]f somebody’s willing to be honest, everybody’s got an interesting story.
+Author: Brandon Stanton
+Source: The Tim Ferriss Show
+URL: https://tim.blog/2018/06/27/the-tim-ferriss-show-transcripts-brandon-stanton/
+Concepts: Courage
+Status: Confirmed
+---
+
+---
+ID: 101
+Text: Everyone is shy. Other people are waiting for you to introduce yourself to them, they are waiting for you to send them an email, they are waiting for you to ask them on a date. Go ahead
+Author: Kevin Kelly
+Source: Excellent Advice for Living
+URL: https://bookshop.org/p/books/excellent-advice-for-living-wisdom-i-wish-i-d-known-earlier-kevin-kelly/e08cf9f6dc009111?ean=9780593654521&next=t&; https://www.amazon.com/Excellent-Advice-Living-Wisdom-Earlier-ebook/dp/B0BCF78T14
+Concepts: Relationships; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 102
+Text: Everything happens over and over again
+Author: Ray Dalio
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 103
+Text: We believe everything is written in pencil and that in time it will be either obsolete or proven wrong
+Author: Ric Elias
+Source: 
+URL: https://www.redventures.com/blog/open-letter-from-ceo-ric-elias
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 104
+Text: Exposure does not equal competence
+Author: Sara Taylor
+Source: 
+URL: https://www.amazon.com/Filter-Shift-Effective-People-World/dp/1630479780
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 105
+Text: Failing is bad. Taking accountability for failure, that’s even heavier weight
+Author: John Cena
+Source: The Bill Simmons Podcast
+URL: https://www.theringer.com/podcasts/the-bill-simmons-podcast/2025/12/05/an-nba-six-pack-netflixs-wbd-pursuit-nfl-picks-and-john-cena-finally-stops-by-with-joe-house-and-matt-belloni
+Concepts: Courage
+Status: Confirmed
+---
+
+---
+ID: 106
+Text: Fate is not what drives men to their decisions and actions, but rather the human condition
+Author: Julius Caesar
+Source: 
+URL: 
+Concepts: decision-making, wisdom
+Status: Delete
+---
+
+---
+ID: 107
+Text: Fear creates its own self-fulfilling dynamic- as people give into it, they lose energy and momentum. Their lack of confidence translates into inaction that lowers confidence levels even further, on and on
+Author: Robert Greene
+Source: 
+URL: https://twitter.com/RobertGreene/status/1641545848298561537
+Concepts: Courage; Self-Belief
+Status: Confirmed
+---
+
+---
+ID: 108
+Text: Fear leads to anger. Anger leads to hate. Hate leads to suffering
+Author: Yoda
+Source: 
+URL: 
+Concepts: courage, stoicism, wisdom
+Status: Delete
+---
+
+---
+ID: 109
+Text: Feedback as they say is a gift, but most of us don’t know how to unwrap it. It’s not a gift that we usually want to receive at the moment it’s given to us and the way it’s given to us
+Author: Angela Duckworth
+Source: The Knowledge Project
+URL: https://fs.blog/knowledge-project-podcast-transcripts/angela-duckworth-109/
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 110
+Text: Few things are as important to the quality of your life as your choices about how to spend the precious resource of your free time
+Author: Winifred Gallagher
+Source: Farnam Street
+URL: https://fs.blog/improve-your-life-by-paying-attention/
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 111
+Text: Few things offer greater return on less investment than praise - offering credit to someone in your organization who has stepped up and done the job
+Author: Bill Walsh
+Source: The Score Takes Care of Itself
+URL: https://bookshop.org/p/books/the-score-takes-care-of-itself-my-philosophy-of-leadership-bill-walsh/ce6600a810b94b99; https://www.amazon.com/Score-Takes-Care-Itself-Philosophy/dp/1591843472
+Concepts: Relationships; Leadership
+Status: Confirmed
+---
+
+---
+ID: 112
+Text: Find one or two things your boss is rubbish at and be quite good at them
+Author: Rory Sutherland
+Source: Alchemy: The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life
+URL: https://bookshop.org/p/books/alchemy-the-dark-art-and-curious-science-of-creating-magic-in-brands-business-and-life-rory-sutherland/99719305c756b81c; https://www.amazon.com/Alchemy-Curious-Science-Creating-Business/dp/006238841X
+Concepts: Learning
+Status: Confirmed
+---
+
+---
+ID: 113
+Text: Find where you’re celebrated … not where you’re tolerated. Makes life A LOT more fulfilling
+Author: Pat McAfee
+Source: Twitter/X post
+URL: https://twitter.com/PatMcAfeeShow/status/1564383960196698114
+Concepts: Self-Belief
+Status: Confirmed
+---
+
+---
+ID: 114
+Text: Five star hotels typically need an occupancy rate of 60% for at least 10 years
+Author: Jan deRoos
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 115
+Text: For as long as they could (which turned out to be surprisingly long), Wufoo sent each new user a hand-written thank you note. Your first users should feel that signing up with you was one of the best choices they ever made. And you in turn should be racking your brains to think of new ways to delight them ... Tim Cook doesn't send you a hand-written note after you buy a laptop. He can't. But you can. That's one advantage of being small: you can provide a level of service no big company can
+Author: Paul Graham
+Source: Do Things that Don't Scale
+URL: http://www.paulgraham.com/ds.html
+Concepts: Decision-Making; Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 116
+Text: Forget credit. Do the work
+Author: Ryan Holiday
+Source: The Best Career Advice I've Ever Gotten
+URL: https://ryanholiday.net/career-advice/
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 117
+Text: Fortunes require leverage. Business leverage comes from capital, people and products with no marginal costs of replication
+Author: Naval Ravikant
+Source: 
+URL: https://twitter.com/naval/status/1002106317064949763?lang=en
+Concepts: Entrepreneurship; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 118
+Text: Four pillars of integrity - radical responsibility, feel my feelings, speak candidly and be impeccable with my agreements
+Author: Jim Dethner
+Source: The Knowledge Project
+URL: https://fs.blog/knowledge-project-podcast/best-of-2023/
+Concepts: Resilience; Leadership
+Status: Confirmed
+---
+
+---
+ID: 119
+Text: Friction shapes the world a lot more than policy
+Author: Tobi Lutke on This Week
+Source: This Week in Startups podcast March 2021
+URL: https://thisweekinstartups.com/episodes/KTCYdaENNaN)
+Concepts: Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 120
+Text: Friends are better than money. Almost anything money can do, friends can do better. In so many ways a friend with a boat is better than owning a boat
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: leadership, relationships, simplicity, wealth
+Status: Delete
+---
+
+---
+ID: 121
+Text: Gear your risk taking towards survival
+Author: Nassim Nicholas Taleb
+Source: Incerto series
+URL: 
+Concepts: courage, wisdom
+Status: Delete
+---
+
+---
+ID: 122
+Text: Genius is 1 percent inspiration and 99 percent perspiration
+Author: Thomas Edison
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 123
+Text: Get rid of the checkout
+Author: Ron Johnson
+Source: 
+URL: https://hbr.org/2011/11/what-i-learned-building-the-ap
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 124
+Text: Get the assholes out of your life
+Author: Yossi Vardi
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 125
+Text: Get up and get out
+Author: Hal Gregersen
+Source: HBR Ideacast
+URL: https://hbr.org/podcast/2017/03/break-out-of-your-managerial-bubble
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 126
+Text: Give me 6 hours to chop down a tree and I will spend the first 4 hours sharpening the axe
+Author: attributed to Abraham Lincoln
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 127
+Text: Give people a reputation to live up to
+Author: Robert Cialdini
+Source: Influence: The Psychology of Persuasion
+URL: 
+Concepts: relationships, wisdom
+Status: Delete
+---
+
+---
+ID: 128
+Text: Give people a uniform to make them feel part of a team ... focus on the people
+Author: Sameer Dholakia
+Source: 
+URL: 
+Concepts: culture, leadership, relationships, simplicity
+Status: Delete
+---
+
+---
+ID: 129
+Text: Give priority attention to evidence tending to disconfirm whatever cherished and hard-won theory you already have
+Author: Charlie Munger talking about Charles Darwin
+Source: Poor Charlie's Almanack
+URL: https://www.stripe.press/poor-charlies-almanack/talk-one?progress=67.69%
+Concepts: Learning; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 130
+Text: Go look
+Author: Bernard Arnault
+Source: 
+URL: https://hbr.org/2001/10/the-perfect-paradox-of-star-brands-an-interview-with-bernard-arnault-of-lvmh
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 131
+Text: Good managers are rarely surprised at how people react
+Author: Jason Fried
+Source: 
+URL: https://signalvnoise.com/svn3/on-being-a-bad-manager/
+Concepts: leadership, relationships
+Status: Delete
+---
+
+---
+ID: 132
+Text: Good, fast, cheap. Pick two
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: Delete
+---
+
+---
+ID: 133
+Text: Growth for the sake of growth is the ideology of the cancer cell
+Author: Edward Abbey
+Source: Desert Solitaire
+URL: https://www.target.com/p/desert-solitaire-by-edward-abbey-paperback/-/A-11401815?sid=&TCID=PDS-209734489&gclsrc=aw.ds&ds_rl=1246978&ds_rl=1248099&gad_source=4&gad_campaignid=209734489&gbraid=0AAAAAD-5dfYvj-NjMhtfO3R3GXO0BdemW&gclid=Cj0KCQiA8KTNBhD_ARIsAOvp6DI5SL5XD5BfNhUXV8nz0XyCB03xvdCv4SGx7nLnWZIMKWzkZeS8C8MaAvq3EALw_wcB
+Concepts: Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 134
+Text: Hard choices, easy life. Easy choices, hard life
+Author: Jerzy Gregorek
+Source: The Tim Ferriss Show
+URL: https://tim.blog/2017/03/16/jerzy-gregorek/
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 135
+Text: Have a maximum of 2-3 co-founders
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: entrepreneurship, wisdom
+Status: Delete
+---
+
+---
+ID: 136
+Text: Hire better than you
+Author: Davide Grasso
+Source: 
+URL: 
+Concepts: leadership, self-improvement
+Status: Delete
+---
+
+---
+ID: 137
+Text: Hold a meeting with all the staff every 2 months
+Author: Brunello Cucinelli
+Source: Om
+URL: https://om.co/2015/04/27/brunello-cucinelli-2
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 138
+Text: Hospitality is probably the single most powerful business strategy that doesn't get taught nearly enough in business school
+Author: Danny Meyer
+Source: Setting the Table
+URL: 
+Concepts: customer-focus, entrepreneurship, strategy
+Status: Delete
+---
+
+---
+ID: 139
+Text: [H]ow you do anything, is how you do everything
+Author: Ryan Holiday
+Source: How You Do Anything Is How You Do Everything
+URL: https://ryanholiday.net/how-you-do-anything-is-how-you-do-everything
+Concepts: Leadership
+Status: Confirmed
+---
+
+---
+ID: 140
+Text: [A]ll advice is a warning, all wisdom is a warning
+Author: Adam Robinson
+Source: The Knowledge Project
+URL: https://fs.blog/knowledge-project-podcast/adam-robinson-2/
+Concepts: Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 141
+Text: Hurt people hurt people. It’s a vicious cycle indeed; in business, and in life. While you can’t control the actions of others, you can find your own vibe and lead with it.
+Author: Geoff Lewis
+Source: 
+URL: https://twitter.com/GeoffLewisOrg/status/1650921790175350790
+Concepts: Relationships
+Status: Confirmed
+---
+
+---
+ID: 142
+Text: I can't fix lazy and I can't fix honest. As I like to say, on lazy and honest, If your mom didn't fix you by the time you were five or six, sure as hell, I can't fix you.
+Author: Nick Howley
+Source: A Letter A Day
+URL: https://open.substack.com/pub/aletteraday/p/letter-203-nick-howley-and-mark-howley
+Concepts: Resilience
+Status: Confirmed
+---
+
+---
+ID: 143
+Text: I did not succeed in life by intelligence, I succeeded because I have a long attention span
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: wealth, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 144
+Text: I didn’t go to Central Saint Martins, but I also didn’t go to Juilliard either in music and I mean, we see how that turned out
+Author: Pharrell
+Source: 
+URL: https://wwd.com/fashion-news/designer-luxury/pharrell-williams-talks-about-debut-collection-louis-vuitton-1235694763/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 145
+Text: I didn't have the time to write a short letter so I wrote a long one instead
+Author: Cicero
+Source: 
+URL: 
+Concepts: communication, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 146
+Text: I don't have time is just another way of saying it's not a priority
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: simplicity, time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 147
+Text: I don't trust people who don’t love themselves and tell me ‘I love you.’ … There is an African saying which is: ‘Be careful when a naked person offers you a shirt'
+Author: Maya Angelou quoted by Tim Ferriss in 5-Bullet Friday 12 March 2021
+Source: 
+URL: 
+Concepts: integrity, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 148
+Text: I only believe in peer relationships. I don’t believe in hierarchical relationships. I don’t want to be above anybody and I don’t want to be below anybody
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: mindset, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 149
+Text: I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times
+Author: Bruce Lee
+Source: 
+URL: 
+Concepts: courage, discipline
+Status: NEEDS REVIEW
+---
+
+---
+ID: 150
+Text: I find most meetings are best scheduled for 15-20 minutes, or 2 hours. The default of 1 hour is usually wrong and leads to a lot of wasted time
+Author: Sam Altman
+Source: Productivity (blog.samaltman.com)
+URL: https://blog.samaltman.com/productivity
+Concepts: failure, success, time
+Status: OK
+---
+
+---
+ID: 151
+Text: I got hired with no experience, no nothing, somebody just took the flyer, as they say. So I have always believed to hire people, bring people into your organization who are young, and who are inexperienced for the job that you give them. And sometimes that works, and sometimes that doesn't work
+Author: Barry Diller
+Source: 
+URL: 
+Concepts: culture, customer-focus, leadership, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 152
+Text: I guarantee I will spark the brain that will change the world. That's our job, is to spark somebody else watching us
+Author: Tupac
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 153
+Text: I had also, during many years, followed a golden rule, namely, that whenever a published fact, a new observation or thought came to me, which was opposed to my general results, to make a memorandum of it without fail and at once; for I had found by experience that such facts and thoughts were far more apt to escape from memory than favourable ones
+Author: Charles Darwin's Golden Rule
+Source: 
+URL: 
+Concepts: customer-focus, failure, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 154
+Text: I have a lot to accomplish. I don't have anything to prove. There's a little subtle difference there. What drives me is just having fun
+Author: Steph Curry
+Source: March 7 2021
+URL: http://www.asapsports.com/show_interview.php?id=162957
+Concepts: success, wisdom
+Status: OK
+---
+
+---
+ID: 155
+Text: I have a sense that I’m not making the right decision, but if I act bewildered, it excuses me from the consequences
+Author: Ryan Holiday
+Source: Hard Facts (ryanholiday.net)
+URL: https://ryanholiday.net/hard-facts/
+Concepts: action, decision-making, stoicism
+Status: OK
+---
+
+---
+ID: 156
+Text: I have always believed that every day you choose to hold an asset, you are also choosing to buy it. Would I buy our buildings at the price Blackstone was quoting? Nope.
+Author: Sam Zell
+Source: 
+URL: 
+Concepts: decision-making, discipline, mindset, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 157
+Text: I have been fortunate to have been mentored by, and to have worked with, some of the most brilliant women in the beauty industry, and because of them I’ve learned the lesson to never, ever make an important decision without a woman at the table
+Author: Leonard Lauder
+Source: 
+URL: 
+Concepts: decision-making, self-improvement, simplicity, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 158
+Text: I have no bucket list. Life is the bucket
+Author: Ted Rheingold
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 159
+Text: I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion than on the opinion of others
+Author: Marcus Aurelius
+Source: Meditations
+URL: 
+Concepts: relationships, simplicity, stoicism
+Status: OK
+---
+
+---
+ID: 160
+Text: I have seen truly silly improvements occasioned by someone just consistently asking in meetings “Could we do that faster? What is the minimum increment required to ship? Could that be done faster?” It’s the Charge More of management strategy; the upside is so dramatic, the cost so low, and the hit rate so high that you should just invoke it ritualistically
+Author: Patrick McKenzie
+Source: 
+URL: 
+Concepts: discipline, leadership, strategy, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 161
+Text: I hope whatever happens in the future is interesting enough that I can't predict it
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 162
+Text: I learned the hard way that if another manager is recommending a great employee to hire, that they are probably trying to get rid of the employee since they cannot fire them
+Author: Noam Bardin
+Source: 
+URL: https://www.linkedin.com/pulse/why-did-i-leave-google-stay-so-long-noam-bardin
+Concepts: leadership, self-improvement, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 163
+Text: I may not be the lion, but it was left to me to give the lion's roar
+Author: Winston Churchill
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 164
+Text: I still haven’t popped the champagne. I just raise the bar for what would be the right moment, and tell myself how tasty it will be if I ever accomplish something special in my work. Apparently the thing inside me that makes me work so hard is the same thing that keeps me unsatisfied. It’s a package deal. The best you can hope for is a family that understands
+Author: Scott Adams
+Source: 
+URL: 
+Concepts: relationships, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 165
+Text: I think a life properly lived is just learn, learn, learn all the time
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: mindset, self-improvement, time, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 166
+Text: I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better
+Author: Elon Musk
+Source: Public interviews
+URL: 
+Concepts: communication, mindset, self-improvement
+Status: OK
+---
+
+---
+ID: 167
+Text: I used to tell people at Wired, “Don’t come into Wired to work; work at home. Come into Wired to be interrupted and have chance meetings. And so interruption is actually, I think, a crucial part of how we learn
+Author: Kevin Kelly
+Source: Postcards from the Future (Alta Online)
+URL: https://altaonline.com/kevin-kelly-will-hearst
+Concepts: mindset, relationships, self-improvement
+Status: OK
+---
+
+---
+ID: 168
+Text: hearst/ I want to make things people love
+Author: Elon Musk
+Source: Public interviews
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 169
+Text: I would say that the five most important skills are of course, reading, writing, arithmetic, and then as you’re adding in, persuasion, which is talking
+Author: Naval Ravikant
+Source: 
+URL: https://nav.al/rich
+Concepts: self-improvement, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 170
+Text: I'm continually surprised that doing what you say you're going to do is a massive differentiator
+Author: Brett Berson
+Source: 
+URL: https://twitter.com/brettberson/status/1083540056369811456
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 171
+Text: I've been trained my whole life: maintain your emotions, don't do anything to give out a misconception of what your thoughts or feelings are
+Author: Michael Jordan
+Source: 
+URL: 
+Concepts: mindset, stoicism
+Status: NEEDS REVIEW
+---
+
+---
+ID: 172
+Text: If an argument lasts longer than 5 minutes, you are likely both wrong
+Author: Neil deGrasse Tyson
+Source: 
+URL: https://x.com/neiltyson/status/868498159676395521
+Concepts: failure, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 173
+Text: If at first the idea is not absurd, then there is no hope for it
+Author: Albert Einstein
+Source: 
+URL: 
+Concepts: innovation, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 174
+Text: If I give you regards and respect — out of esteem, responsibility is spawned. Then out of responsibility comes creativity, because every human being has an amount of genius in them. Man needs dignity even more than he needs bread
+Author: Brunello Cucinelli
+Source: Om
+URL: https://om.co/2015/04/27/brunello-cucinelli-2
+Concepts: self-improvement, wisdom
+Status: OK
+---
+
+---
+ID: 175
+Text: If I had asked people what they wanted, they would have said faster horses
+Author: Henry Ford
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 176
+Text: If I have seen a little farther than other men it is because I stood on the shoulders of giants
+Author: Isaac Newton
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 177
+Text: If I look at the mass, I will never act. If I look at the one, I will
+Author: Mother Theresa
+Source: 
+URL: 
+Concepts: action, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 178
+Text: If it takes twice as long and you only get half the rewards, is this still a no brainer?
+Author: Tim Ferriss
+Source: 
+URL: 
+Concepts: incentives, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 179
+Text: If my critics saw me walking over the Thames, they would say it was because I couldn't swim
+Author: Margaret Thatcher
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 180
+Text: If there's a doubt, there's doubt
+Author: Max Levchin
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 181
+Text: If we don't have any discipline, we can't solve any problems
+Author: Dr. M. Scott Peck
+Source: The Road Less Traveled
+URL: 
+Concepts: discipline, wisdom
+Status: OK
+---
+
+---
+ID: 182
+Text: If we kept in mind that we will soon inevitably die, our lives would be completely different
+Author: Leo Tolstoy
+Source: 
+URL: 
+Concepts: mindset, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 183
+Text: If you are not embarrassed by the first version of your product, you’ve launched too late
+Author: Reid Hoffman
+Source: 
+URL: https://twitter.com/reidhoffman/status/847142924240379904?
+Concepts: entrepreneurship, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 184
+Text: If you bungle raising your children, I don't think whatever else you do matters very much
+Author: Jacqueline Kennedy
+Source: 
+URL: 
+Concepts: mindset, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 185
+Text: If you can mix brilliance with bravery, we can ignite something
+Author: Kanye West
+Source: 
+URL: 
+Concepts: courage, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 186
+Text: If you can’t actually know what to do, just spreading money around is all you’ve got
+Author: Peter Thiel
+Source: Zero to One
+URL: 
+Concepts: self-improvement, wealth
+Status: OK
+---
+
+---
+ID: 187
+Text: If you do something every day, it's a system. If you're wanting to achieve it someday in the future, it's a goal
+Author: Scott Adams
+Source: Goals vs. Systems (scottadamssays.com)
+URL: https://www.scottadamssays.com/2013/11/18/goals-vs-systems/
+Concepts: discipline, success
+Status: OK
+---
+
+---
+ID: 188
+Text: If you do the work, you get rewarded. There are no shortcuts in life
+Author: Michael Jordan
+Source: 
+URL: 
+Concepts: action, incentives
+Status: NEEDS REVIEW
+---
+
+---
+ID: 189
+Text: If you don't commoditize yourself, someone else will
+Author: Steve Jobs
+Source: WWDC 1997
+URL: https://www.youtube.com/watch?v=EZll3dJ2AjY
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 190
+Text: If you don't own a piece of a business, you don't have a path towards financial freedom
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: entrepreneurship, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 191
+Text: If you feel safe in the area that you are working in, you are not working in the right area. Always go a little further into the water than you feel you are capable of being in. Go a little bit out of your depth
+Author: David Bowie
+Source: 
+URL: https://www.youtube.com/watch?v=cNbnef_eXBM&t=52s
+Concepts: courage, discipline, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 192
+Text: If you have an idea that you genuinely think is good, don't let some idiot talk you out of it … You can only do your best work if you’re doing what you want to do and if you’re doing it the way you think it should be done and if you can take pride in it after you’ve done it
+Author: Stan Lee at the 2017 UCLA Graduation Ceremony
+Source: Stan Lee Keynote at the 2017 UCLA Graduation Ceremony
+URL: https://www.youtube.com/watch?v=c_SXIUTwfvo
+Concepts: humility, mindset, success
+Status: OK
+---
+
+---
+ID: 193
+Text: If you interrupt that means you aren't listening
+Author: Gregg Popovich
+Source: 
+URL: 
+Concepts: communication, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 194
+Text: If you see fraud and do not say fraud, you are a fraud
+Author: Nassim Nicholas Taleb
+Source: Incerto series
+URL: 
+Concepts: integrity, wisdom
+Status: OK
+---
+
+---
+ID: 195
+Text: If you think about people, there are two categories of high-quality people: there is the ammunition, and then there are the barrels. You can add all the ammunition you want, but if you have only five barrels in your company, you can literally do only five things simultaneously. If you add one more barrel, you can now do six things simultaneously. If you add another one, you can do seven, and so on. Finding those barrels that you can shoot through — someone who can take an idea from conception to live and it’s almost perfect — are incredibly difficult to find. This kind of person can pull people with them. They can charge up the hill. They can motivate their team, and they can edit themselves autonomously. Whenever you find a barrel, you should hire them instantly, regardless of whether you have money for them or whether you have a role for them. Just close them
+Author: Keith Rabois
+Source: 
+URL: https://review.firstround.com/keith-rabois-on-the-role-of-a-coo-how-to-hire-and-why-transparency-matters/
+Concepts: culture, entrepreneurship, failure, humility
+Status: NEEDS REVIEW
+---
+
+---
+ID: 196
+Text: If you think words can hurt, you're going to live in a world of misery and pain your entire life
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: communication, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 197
+Text: If you think you’ve got problems, or everybody puts their problems on the table, you’ll pick yours back up real quick
+Author: Chris Bosh
+Source: The Tim Ferriss Show #515
+URL: https://tim.blog/2021/05/31/chris-bosh-transcript/
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 198
+Text: If you wait for the customer to tell you what to do, you're too late, so we were our own customer
+Author: Yvon Chouinard
+Source: 
+URL: 
+Concepts: customer-focus, entrepreneurship
+Status: NEEDS REVIEW
+---
+
+---
+ID: 199
+Text: If you wanna see the true character of a person, watch the way they treat someone who can't do anything for them
+Author: Kanye West
+Source: 
+URL: 
+Concepts: integrity, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 200
+Text: If you want to make the wrong decision, ask everyone
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: decision-making, failure, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 201
+Text: If you're a nobody, opportunity is defined by no one having an advantage. Long Substack, Shopify, Stripe and every other platform on the internet that is accessible to anyone. No permission necessary
+Author: Ben Thompson
+Source: X (Twitter)
+URL: https://x.com/benthompson/status/1328355284272574465
+Concepts: humility, strategy
+Status: OK
+---
+
+---
+ID: 202
+Text: If you're doing anything interesting in the world, you are going to have critics
+Author: Jeff Bezos
+Source: 
+URL: 
+Concepts: entrepreneurship, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 203
+Text: If you're evenly split on a difficult decision, take the path that's more painful in the short term
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: decision-making, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 204
+Text: If you're going to do anything new or innovative, you have to be willing to be misunderstood
+Author: Jeff Bezos
+Source: The Bush Center, April 2018
+URL: https://youtu.be/xu6vFIKAUxk?t=1742
+Concepts: entrepreneurship, innovation
+Status: OK
+---
+
+---
+ID: 205
+Text: If you're lonely when you're alone, you're in bad company
+Author: Jean-Paul Sartre
+Source: 
+URL: 
+Concepts: entrepreneurship, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 206
+Text: If you're trying to choose between two theories and one gives you an excuse for being lazy, the other is probably right
+Author: Paul Graham
+Source: What You'll Wish You'd Known (paulgraham.com)
+URL: http://www.paulgraham.com/hs.html
+Concepts: decision-making, wealth
+Status: OK
+---
+
+---
+ID: 207
+Text: If your only tool is a hammer, then every problem looks like a nail
+Author: Mark Twain
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 208
+Text: In a Corporation ... Being promoted has more impact on the individual’s economic success than the product growth. The decision which product to work on stems from the odds of getting promoted and thus we began onboarding people with the wrong state of mind
+Author: Noam Bardin
+Source: 
+URL: https://www.linkedin.com/pulse/why-did-i-leave-google-stay-so-long-noam-bardin
+Concepts: decision-making, entrepreneurship, failure, leadership
+Status: NEEDS REVIEW
+---
+
+---
+ID: 209
+Text: In any human interaction, the required amount of communication is inversely proportional to the amount of trust
+Author: Ben Horowitz
+Source: 
+URL: 
+Concepts: integrity, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 210
+Text: In every good marriage, it helps sometimes to be a little deaf
+Author: Ruth Bader Ginsburg
+Source: 
+URL: https://www.cbsnews.com/news/ruth-bader-ginsburgs-iconic-quotes-on-law-love-and-the-fight-for-equality/
+Concepts: mindset, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 211
+Text: In general, the slippery slope argument is nonsense no matter what topic you are discussing. Things do lead to other things but every decision stands on its own, and should
+Author: Scott Adams
+Source: The Worst Gun Control Arguments (scottadamssays.com)
+URL: https://www.scottadamssays.com/the-worst-gun-control-arguments/
+Concepts: decision-making, success
+Status: OK
+---
+
+---
+ID: 212
+Text: In life we never get what we deserve but what we have the leverage to negotiate
+Author: Jalen Rose
+Source: 
+URL: https://twitter.com/jalenrose/status/65233608864051202
+Concepts: humility, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 213
+Text: In my experience, there’s always a price to pay for choosing greatness, even if we aren’t conscious of all the costs because some of them are born by those around us
+Author: Eugene Wei
+Source: Remains of the Day, Issue 08
+URL: https://eugenewei.substack.com/p/remains-of-the-day-issue-08
+Concepts: customer-focus, success, wealth
+Status: OK
+---
+
+---
+ID: 214
+Text: In order to scale, you have to do things that don’t scale
+Author: Reid Hoffman
+Source: 
+URL: 
+Concepts: strategy, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 215
+Text: In teams, find a common project
+Author: Carlos Ghosn
+Source: 
+URL: 
+Concepts: culture, leadership
+Status: NEEDS REVIEW
+---
+
+---
+ID: 216
+Text: In terms of picking people to work with, pick ones that have high intelligence, high energy, and high integrity
+Author: Naval Ravikant
+Source: 
+URL: https://nav.al/rich
+Concepts: integrity, relationships, resilience, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 217
+Text: Incentives run the world
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: incentives, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 218
+Text: Innovation has a simple definition. It's the process of going from invention to adoption
+Author: Horace Dediu
+Source: 
+URL: 
+Concepts: decision-making, innovation, simplicity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 219
+Text: It has long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things
+Author: Leonardo da Vinci or Alinor Smith
+Source: 
+URL: 
+Concepts: relationships, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 220
+Text: It is a truth universally acknowledged, that a person in possession of little fortune, must be in want of more social capital
+Author: Jane Austen
+Source: 
+URL: 
+Concepts: self-improvement, wealth, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 221
+Text: [I]t’s an advantage being small. It’s not good to be too big. If you’re too big, you have lots and lots of space to fill. We focus on the essential
+Author: Bernard Arnault
+Source: 
+URL: https://wwd.com/business-news/retail/bernard-arnault-la-samaritaine-tourism-1234853367/
+Concepts: simplicity, strategy
+Status: NEEDS REVIEW
+---
+
+---
+ID: 222
+Text: It is difficult to get a man to understand something, when his salary depends on his not understanding it
+Author: Upton Sinclair
+Source: I, Candidate for Governor: And How I Got Licked
+URL: 
+Concepts: incentives, wisdom
+Status: OK
+---
+
+---
+ID: 223
+Text: It is easy to hate and difficult to love ... All good things are difficult to achieve and bad things are very easy to get
+Author: Confucius
+Source: 
+URL: 
+Concepts: relationships, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 224
+Text: It is not that we have a short space of time, but that we waste much of it. Life is long enough, and it has been given in sufficiently generous measure to allow the accomplishment of the very greatest things if the whole of it is well invested ... I cannot doubt the truth of that utterance which the greatest of poets delivered with all the seeming of an oracle: “The part of life we really live is small.” For all the rest of existence is not life, but merely time
+Author: Seneca
+Source: Epistulae Morales
+URL: 
+Concepts: action, stoicism, time, wealth
+Status: OK
+---
+
+---
+ID: 225
+Text: It is symptomatic of the bias towards cost management in the pursuit of profit that the standard profit-and-loss statement devotes a single line to revenues and a long list of lines to costs. Imagine reversing this order of priority by breaking down revenues into multiple lines according to the source of sales and, conversely, aggregating all costs into a single line. Might this not have the desirable effect of shifting strategic attention from the cost of sales to the growth of sales
+Author: Jules Goddard
+Source: The fatal bias (London Business School)
+URL: https://www.london.edu/think/the-fatal-bias
+Concepts: entrepreneurship, leadership, simplicity, wealth
+Status: OK
+---
+
+---
+ID: 226
+Text: It needs to be on the verge of uncomfortable otherwise you are probably not pushing yourself hard enough
+Author: Daniel Ek
+Source: 
+URL: 
+Concepts: courage, discipline
+Status: NEEDS REVIEW
+---
+
+---
+ID: 227
+Text: It was nature’s intention that there should be no need of great equipment for a good life: every individual can make himself happy
+Author: Seneca
+Source: Epistulae Morales
+URL: https://www.brainpickings.org/2017/05/02/seneca-consolation-to-helvia/?mc_cid=738b4015b1&mc_eid=6dced6f150
+Concepts: stoicism, success
+Status: OK
+---
+
+---
+ID: 228
+Text: It's always the good men who do the most harm in the world
+Author: Henry Adams, referring to Robert E. Lee
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 229
+Text: It's amazing what you can accomplish if you do not care who gets the credit
+Author: Harry Truman
+Source: 
+URL: 
+Concepts: success, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 230
+Text: It's easier to act your way into a new way of thinking than to think your way into a new way of acting
+Author: AJ Jacobs
+Source: 
+URL: https://tim.blog/2016/12/26/a-j-jacobs-self-experimenter-extraordinaire/
+Concepts: action, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 231
+Text: It's easier to ask forgiveness than it is to get permission
+Author: Rear Admiral Grace Murray Hopper
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 232
+Text: It's good to have someone older and wiser than you to figure out the next challenge
+Author: Angela Duckworth
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 233
+Text: It's not who you know that matters - it's who knows you that's important
+Author: Jarod Kintz
+Source: This Book is Not for Sale
+URL: https://www.amazon.com/This-Book-SALE-Jarod-Kintz-ebook/dp/B0051OEDDA
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 234
+Text: I’ve seen a staggering number of folks fail in an organization primarily because they want to hold others to a higher standard than their organization’s management is willing to enforce
+Author: Will Larson
+Source: Hard to work with (Irrational Exuberance)
+URL: https://lethain.com/hard-to-work-with
+Concepts: culture, failure, leadership
+Status: OK
+---
+
+---
+ID: 235
+Text: I’ve always believed whatever you’re interested in, get on the widest road, not the narrowest road
+Author: Barry Diller
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 236
+Text: I’ve come to believe that this is the defining characteristic of my generation: keeping our options open. The Polish philosopher Zygmunt Bauman has a great phrase for what I’m talking about: liquid modernity
+Author: Pete Davis in Dedicated
+Source: 
+URL: 
+Concepts: decision-making, integrity, mindset, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 237
+Text: I’ve never given an interview to a newspaper or magazine before. I’ve told them all no. When you’re making the kind of money we’re making, what’s the upside? I’d rather be unknown than known
+Author: Stewart Resnick
+Source: A Kingdom from Dust (California Sunday Magazine)
+URL: https://story.californiasunday.com/resnick-a-kingdom-from-dust
+Concepts: relationships, wealth
+Status: OK
+---
+
+---
+ID: 238
+Text: Just get started
+Author: Stewart Resnick
+Source: A Kingdom from Dust (California Sunday Magazine)
+URL: https://story.californiasunday.com/resnick-a-kingdom-from-dust
+Concepts: action, wisdom
+Status: OK
+---
+
+---
+ID: 239
+Text: Just taking away sugar works better than adding broccoli to your diet
+Author: Shane Parrish
+Source: 
+URL: 
+Concepts: discipline, self-improvement
+Status: NEEDS REVIEW
+---
+
+---
+ID: 240
+Text: Lack of time is lack of priorities
+Author: Tim Ferriss
+Source: 
+URL: 
+Concepts: time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 241
+Text: Leadership is the art of getting someone else to do something that you want done because he wants to do it, not because your position of power can compel him to do it, or your position of authority
+Author: Dwight Eisenhower
+Source: 
+URL: 
+Concepts: action, leadership, strategy
+Status: NEEDS REVIEW
+---
+
+---
+ID: 242
+Text: Life is beautiful. Take a chill pill
+Author: Geoff Lewis
+Source: 
+URL: https://twitter.com/GeoffLewisOrg/status/1654574940950269952?cxt=HHwWgMDUmY_JnfYtAAAA
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 243
+Text: Life is growth. You grow or you die
+Author: Phil Knight
+Source: Shoe Dog
+URL: 
+Concepts: entrepreneurship, self-improvement, time
+Status: OK
+---
+
+---
+ID: 244
+Text: Life isn't nearly as hard as we make it
+Author: Kyrie Irving
+Source: 
+URL: https://www.espn.com/nba/story/_/id/26659275/kyrie-irving-celtics-state-dismay
+Concepts: discipline, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 245
+Text: Life's most persistent and urgent question is "What are you doing for others?"
+Author: Martin Luther King Jr
+Source: 
+URL: 
+Concepts: discipline, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 246
+Text: Look for things that don't make sense
+Author: Adam Robinson
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 247
+Text: Lord, deliver me from the man who never makes a mistake, and also from the man who makes the same mistake twice
+Author: Dr. William J Mayo
+Source: 
+URL: 
+Concepts: action, failure
+Status: NEEDS REVIEW
+---
+
+---
+ID: 248
+Text: Make it happen
+Author: Paul Heyman
+Source: 
+URL: 
+Concepts: action, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 249
+Text: Make others look good in front of the people they care about most
+Author: Shane Parrish
+Source: 
+URL: 
+Concepts: mindset, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 250
+Text: Make sure the main thing remains the main thing, whatever that is for you
+Author: Pat Riley
+Source: 
+URL: https://www.sbnonline.com/article/at-the-top-of-his-game-pat-riley-defied-the-odds-to-build-a-championship-team/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 251
+Text: Make sure you have immense passion for what you are doing … It should be your personal passion
+Author: Bill Gurley
+Source: Runnin' Down a Dream (UT Austin talk)
+URL: https://www.youtube.com/watch?v=xmYekD6-PZ8
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 252
+Text: Make the absolute best experience for the customer
+Author: Joseph Zwillinger
+Source: 
+URL: 
+Concepts: customer-focus, entrepreneurship, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 253
+Text: Make your job irrelevant
+Author: Ryan Holiday
+Source: 
+URL: 
+Concepts: stoicism, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 254
+Text: Make yourself obsolete
+Author: Jeb Blount
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 255
+Text: Making grand pronouncements in the first inning is often a mistake
+Author: Ben Thompson
+Source: Stratechery June 21, 2021
+URL: https://stratechery.com/2021/pandemic-progress/
+Concepts: failure, wisdom
+Status: OK
+---
+
+---
+ID: 256
+Text: Man does not create, he discovers
+Author: Anton Gaudi
+Source: 
+URL: 
+Concepts: innovation, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 257
+Text: Man is not worried by real problems so much as by his imagined anxieties about real problems
+Author: Epictetus
+Source: Discourses
+URL: 
+Concepts: stoicism, wisdom
+Status: OK
+---
+
+---
+ID: 258
+Text: Many decisions are reversible, two-way doors
+Author: Jeff Bezos
+Source: Amazon shareholder letters
+URL: https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders
+Concepts: decision-making, entrepreneurship
+Status: OK
+---
+
+---
+ID: 260
+Text: Mediocre hires hurt you twice: they get less done, but they also make you big, because you need more of them to solve a given problem
+Author: Paul Graham
+Source: 
+URL: 
+Concepts: leadership, simplicity, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 261
+Text: Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you're probably being slow
+Author: Jeff Bezos
+Source: Amazon shareholder letters
+URL: https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders
+Concepts: decision-making, entrepreneurship
+Status: OK
+---
+
+---
+ID: 262
+Text: Most misunderstandings in the world could be avoided if people would simply take the time to ask, "What else could this mean?"
+Author: Shannon L Adler
+Source: 
+URL: 
+Concepts: relationships, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 263
+Text: Most of the things that show up as unlucky things end up being lucky things in life if you choose to see them that way
+Author: Ric Elias
+Source: 
+URL: 
+Concepts: decision-making, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 264
+Text: Most people try to maximize the number of times they’re right … The real question is how much you make when you’re right
+Author: Bill Miller
+Source: 
+URL: 
+Concepts: mindset, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 265
+Text: Most successful people are people you've never heard of. They want it that way. It keeps them sober. It helps them do their jobs
+Author: Ryan Holiday
+Source: ryanholiday.net
+URL: https://ryanholiday.net/the-most-successful-people-are-the-ones-youve-never-heard-of-and-why-they-want-it-that-way/
+Concepts: relationships, stoicism, success, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 266
+Text: My success is based on persistence, not luck
+Author: Estee Lauder
+Source: 
+URL: https://www.amazon.com/Estee-Success-Story-Lauder/dp/0394551915
+Concepts: discipline, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 267
+Text: My dad was never an easy person to be around, he was like a skin covered landmine, like you just never knew when you were going to step on the wrong spot and it was just going to explode. So it creates a situation where as a kid, you start to really try to predict the future. And I think predicting the future is a big brick in the wall of anxiety, which is we cannot predict the future
+Author: Ryan Reynolds Smartless podcast
+Source: 
+URL: https://www.smartless.com/episodes/episode/203c495e/ryan-reynolds
+Concepts: failure, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 268
+Text: Never abandon life. There is a way out of everything except death
+Author: Winston Churchill
+Source: 
+URL: 
+Concepts: time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 269
+Text: Never ascribe to malice that which is adequately explained by incompetence
+Author: Napoleon Bonaporte
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 270
+Text: Never ask your barber if he thinks you need a haircut
+Author: Warren Buffett
+Source: 
+URL: 
+Concepts: mindset, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 271
+Text: Never miss a good chance to shut up
+Author: Will Rogers
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 272
+Text: Never play to the gallery
+Author: David Bowie
+Source: 
+URL: https://www.youtube.com/watch?v=cNbnef_eXBM&t=52s
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 273
+Text: Never promise more than you can deliver, and always deliver what you promise
+Author: Jim Casey
+Source: Jim Casey: The Unknown Entrepreneur Who Built The Great UPS
+URL: https://americanbusinesshistory.org/jim-casey-the-unknown-entrepreneur-who-built-the-great-ups
+Concepts: action, wisdom
+Status: OK
+---
+
+---
+ID: 274
+Text: Never start a sentence with three words - no, but or however
+Author: Marshall Goldsmith
+Source: 
+URL: 
+Concepts: communication, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 275
+Text: Never underestimate the power of being likable
+Author: Ed Latimore
+Source: 
+URL: https://edlatimore.com/about/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 276
+Text: Never use a credit card for credit. The only kind of credit, or debt, that is acceptable is debt to acquire something whose exchange value is extremely likely to increase, like in a home. The exchange value of most things diminishes or vanishes the moment you purchase them. Don’t be in debt to losers
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: failure, relationships, stoicism, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 277
+Text: Never, ever, think about something else when you should be thinking about the power of incentives
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: incentives, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 278
+Text: No company has ever had much of a future by cutting costs alone
+Author: Jamie Dimon 2000 Bank One Shareholder Letter
+Source: 
+URL: https://aletteraday.substack.com/p/letter-64-jamie-dimon-2001?utm_source=post-email-title&publication_id=61806&post_id=93479449&isFreemail=true&utm_medium=email
+Concepts: entrepreneurship, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 279
+Text: No one can make you feel inferior without your consent
+Author: Eleanor Roosevelt
+Source: Brain Food newsletter March 27 2022
+URL: 
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 280
+Text: No one cares about you ... You're really not that important
+Author: BowTiedBull
+Source: 
+URL: 
+Concepts: humility, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 281
+Text: No one cares what you can do, everyone cares what you can do for them
+Author: Jack Butcher
+Source: 
+URL: https://threadreaderapp.com/thread/1245423421015633920.html
+Concepts: humility, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 282
+Text: No one in business ever gets fired for doing the obvious thing
+Author: Rory Sutherland
+Source: 
+URL: 
+Concepts: entrepreneurship, leadership
+Status: NEEDS REVIEW
+---
+
+---
+ID: 283
+Text: No one is paying attention to you
+Author: Melissa Dahl
+Source: 
+URL: https://www.amazon.com/Cringeworthy-Theory-Awkwardness-Melissa-Dahl/dp/0735211639
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 284
+Text: Nobody cares what I do and nobody is looking at me
+Author: Unknown
+Source: 
+URL: 
+Concepts: humility, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 285
+Text: [N]obody likes to pay for marketing or distribution
+Author: Glenn Fogel
+Source: Stratechery interview 9/25/2025
+URL: https://stratechery.com/2025/an-interview-with-booking-ceo-glenn-fogel-about-travel-and-aggregation/
+Concepts: entrepreneurship, wisdom
+Status: OK
+---
+
+---
+ID: 286
+Text: Nobody knows anything ... Not one person in the entire motion picture field knows for a certainty what's going to work. Every time out it's a guess and, if you're lucky, an educated one
+Author: William Goldman
+Source: Adventures in the Screen Trade
+URL: 
+Concepts: humility, time
+Status: OK
+---
+
+---
+ID: 287
+Text: Not all all readers are leaders but all leader are readers
+Author: Harry Truman
+Source: 
+URL: 
+Concepts: leadership, self-improvement
+Status: NEEDS REVIEW
+---
+
+---
+ID: 288
+Text: Not everything that happens happen for a reason, but everything that survives survive for a reason
+Author: Nassim Taleb
+Source: Skin in the Game, 2018
+URL: 
+Concepts: resilience, wisdom
+Status: OK
+---
+
+---
+ID: 289
+Text: Nothing is as important as we think it is while we are thinking about it
+Author: Daniel Kahneman
+Source: Thinking, Fast and Slow
+URL: 
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 290
+Text: Nothing is more persuasive than the opinion you desperately want to believe is true
+Author: Morgan Housel
+Source: The Psychology of Money
+URL: https://twitter.com/morganhousel/status/1396872511204126722
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 291
+Text: Nothing that deeply matters in business is new
+Author: Gary Hoover
+Source: 
+URL: https://neckar.substack.com/p/business-history-with-gary-hoover
+Concepts: entrepreneurship, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 292
+Text: [O]bsessive customer focus is by far the most protective of Day 1 vitality.
+Author: Jeff Bezos
+Source: 
+URL: 
+Concepts: customer-focus, entrepreneurship, simplicity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 293
+Text: On the Lindy effect: If you want your book to be read 20 years from now make sure it could have been read by someone 20 years ago
+Author: Nassim Nicholas Taleb
+Source: Incerto series
+URL: 
+Concepts: self-improvement, wisdom
+Status: OK
+---
+
+---
+ID: 294
+Text: One of the things you will find, which is interesting and people don’t think of it enough, with most businesses and with most individuals, life tends to snap you at your weakest link. So it isn’t the strongest link you’re looking for among the individuals in the room. It isn’t even the average strength of the chain. It’s the weakest link that causes the problem
+Author: Warren Buffett Lectures at The University of Notre Dame
+Source: 1991
+URL: https://www.tilsonfunds.com/BuffettNotreDame.pdf
+Concepts: entrepreneurship, mindset, relationships, wealth
+Status: OK
+---
+
+---
+ID: 295
+Text: One heuristic to tell how good someone is at making decisions is how much time they have. The busiest people are often the ones who make the worst decisions. Not only do they have less time to dedicate to thinking about the problem, but they are often busy correcting poor decisions from the past
+Author: Shane Parrish
+Source: 
+URL: 
+Concepts: decision-making, relationships, simplicity, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 296
+Text: One important key to success is self-confidence. An important key to self-confidence is preparation
+Author: Arthur Ashe
+Source: 
+URL: 
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 297
+Text: One sign that determination matters more than talent: there are lots of talented people who never achieve anything, but not that many determined people who don't
+Author: Paul Graham
+Source: 
+URL: https://twitter.com/paulg/status/1617159491425902594?lang=en
+Concepts: relationships, success, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 298
+Text: Only the individual transcends
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 299
+Text: Only what people do counts. The rest is cheap signaling, bureaucratic BS, or just blather
+Author: Nassim Nicholas Taleb
+Source: X (Twitter)
+URL: https://x.com/nntaleb/status/1355748168898646018
+Concepts: relationships, wisdom
+Status: OK
+---
+
+---
+ID: 300
+Text: Organizations converge to groupthink
+Author: Gary Taubes
+Source: 
+URL: 
+Concepts: culture, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 301
+Text: Our mission in life is to make a positive difference, not to prove we’re smart and not to prove we’re right. We are not here on earth to prove how smart we are
+Author: Marshall Goldsmith
+Source: 
+URL: https://fs.blog/knowledge-project-podcast/marshall-goldsmith/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 302
+Text: Passion is in high supply. What's in short supply is passion and capability
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 303
+Text: Passionate feedback is a clue that your product really matters to someone and one passionate user can lead to many if you listen to them carefully
+Author: Reid Hoffman
+Source: 
+URL: 
+Concepts: communication, customer-focus, entrepreneurship
+Status: NEEDS REVIEW
+---
+
+---
+ID: 304
+Text: People act out of fear
+Author: Andy Rachleff
+Source: 
+URL: 
+Concepts: action, courage, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 305
+Text: People bred, selected and compensated to find complicated solutions do not have an incentive to implement simplified ones
+Author: Nassim Nicholas Taleb
+Source: Incerto series
+URL: 
+Concepts: incentives, relationships
+Status: OK
+---
+
+---
+ID: 306
+Text: People care a heck of a lot more about their problems than about your problems
+Author: Dale Carnegie
+Source: How to Win Friends and Influence People
+URL: 
+Concepts: relationships, wisdom
+Status: OK
+---
+
+---
+ID: 307
+Text: People don't care how much you know until they know how much you care
+Author: Pat Summitt
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 308
+Text: People need to be seen
+Author: Hugh Jackman
+Source: 
+URL: https://tim.blog/2020/06/30/hugh-jackman-transcript/
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 309
+Text: People want to connect with nature. They want experiences, not stuff
+Author: Sarah Tevel
+Source: 
+URL: 
+Concepts: customer-focus, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 310
+Text: People who are driven to excel have this unconscious propensity to underinvest in their families and overinvest in their careers
+Author: Clayton Christensen
+Source: The Innovator
+URL: 
+Concepts: relationships, success, wealth
+Status: OK
+---
+
+---
+ID: 311
+Text: Perhaps the most counter-intuitive truth of the universe is that the more you give to others, the more you’ll get. Understanding this is the beginning of wisdom
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 312
+Text: Praise specifically, criticize generally
+Author: Warren Buffett
+Source: 
+URL: 
+Concepts: wealth, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 313
+Text: Pressure is a privilege
+Author: Ed Bastian
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 314
+Text: Pride is the enemy of learning … Pride prevents you from saying I’m wrong
+Author: Naval Ravikant
+Source: 
+URL: https://www.youtube.com/watch?v=KyfUysrNaco
+Concepts: failure, humility, self-improvement
+Status: NEEDS REVIEW
+---
+
+---
+ID: 315
+Text: Professionals value consistency
+Author: Shane Parrish
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 316
+Text: Quality holds its value
+Author: Bob Iger
+Source: 
+URL: https://deadline.com/2020/12/bob-iger-disney-will-always-prioritize-content-quality-over-volume-1234654297/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 317
+Text: Quality, service, price, ethics
+Author: James Leprino
+Source: 
+URL: 
+Concepts: customer-focus, integrity, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 318
+Text: Rank things from 1 to 10 and don't include 7. Anything 8 or above is a go
+Author: Tim Ferriss
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 319
+Text: Remove friction from your life
+Author: Noah Kagan
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 320
+Text: See when you’re in school, you take test after test, after test, after test. You have to prove you’re smart over and over. Thousands of times, you have to prove you’re smart. It’s very difficult to stop. We are programmed to prove we’re smart
+Author: Marshall Goldsmith
+Source: 
+URL: 
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 321
+Text: Service industries are quite a bit different from manufacturing industries. Services are often more geographically distributed than factories. Toyota dealers are in a lot more places than Toyota factories. Airlines, hotels, banks, restaurants and retail chains, and many other organizations are by definition spread out in many nodes. This requires a whole different relationship with communities and employees. Geographically distributed businesses are also costly to maintain and manage, requiring more travel more often, more communications systems, more logistics, etc. etc
+Author: Gary Hoover
+Source: 
+URL: https://neckar.substack.com/p/business-history-with-gary-hoover
+Concepts: culture, customer-focus, entrepreneurship, leadership
+Status: NEEDS REVIEW
+---
+
+---
+ID: 322
+Text: Show me the incentive and I'll show you the outcome
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: incentives, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 323
+Text: Simple example of the levels of leverage: - A lumberjack w/ no tools. - A lumberjack w/ an axe. - A lumberjack w/ a chainsaw and a friend. - A lumberjack w/ a team, multiple chainsaws. and a tractor
+Author: Eric Jorgenson
+Source: The Almanack of Naval Ravikant
+URL: https://twitter.com/EricJorgenson/status/1326926781807517698
+Concepts: culture, leadership, relationships, simplicity
+Status: OK
+---
+
+---
+ID: 324
+Text: Six emotional skills that matter: Kindness Optimism Work ethic Curious intelligence Empathy Self-awareness and integrity
+Author: Danny Meyer
+Source: Setting the Table
+URL: 
+Concepts: integrity, relationships, resilience, stoicism
+Status: OK
+---
+
+---
+ID: 325
+Text: Skate to where the puck is going, not to where it has been
+Author: Wayne Gretzky
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 326
+Text: Skill probably plays a much greater role than people typically think
+Author: Peter Thiel
+Source: Zero to One
+URL: 
+Concepts: mindset, relationships, self-improvement, success
+Status: OK
+---
+
+---
+ID: 327
+Text: So many of the leaders of our big companies are custodians of those big companies, and they get paid more if the stock price goes up. And so if they take their capital reserves, if they take that third shoebox and they spend it to get the stock price going up and they don’t hold billions of dollars in reserve, they only do that knowing that they’re going to get bailed out if shit hits the fan, like ’08, like ’01, like ’89, like now
+Author: Nick Kokonas
+Source: 
+URL: https://tim.blog/2020/05/17/nick-kokonas-2-transcript
+Concepts: leadership, success, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 328
+Text: Some black swan is likely to happen, a particular black swan is unlikely to happen
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 329
+Text: Some lack the fickleness to live as they wish and just live as they have begun
+Author: Seneca
+Source: Epistulae Morales
+URL: 
+Concepts: stoicism, wisdom
+Status: OK
+---
+
+---
+ID: 330
+Text: Sometimes even though people might say they don’t want a sales rep, actually they do, they want a relationship
+Author: Jeff Lawson
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 331
+Text: Somewhere in everybody's life ... you ought to be with a startup. If you're with a startup that's well funded, it's going to be fun. Because you start off with a clean piece of paper
+Author: John Madden
+Source: 
+URL: https://www.theringer.com/nfl/2018/12/13/18137938/nfl-fox-deal-rupert-murdoch-1993-john-madden-terry-bradshaw-howie-long-jimmy-johnson-cbs-nbc
+Concepts: entrepreneurship, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 332
+Text: Speak it into existence
+Author: Lavar Ball
+Source: 
+URL: https://www.cbssports.com/college-basketball/news/lavar-ball-says-lonzo-will-play-for-lakers-im-going-to-speak-it-into-existence/
+Concepts: communication, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 333
+Text: Spend a small amount of time thinking about the competition as there's nothing you can do about it. Focus on the service / product
+Author: Reed Hastings
+Source: No Rules Rules
+URL: 
+Concepts: customer-focus, entrepreneurship, simplicity, time
+Status: OK
+---
+
+---
+ID: 334
+Text: Spend as much time crafting the subject line of an email as the message itself because the subject line is often the only thing people read
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: communication, relationships, self-improvement, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 335
+Text: Startups shouldn't worry about how to put out fires, they should worry about how to start them
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: entrepreneurship, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 336
+Text: Status is a relative ladder
+Author: Eugene Wei
+Source: Status as a Service
+URL: https://www.eugenewei.com/blog/2019/2/19/status-as-a-service
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 337
+Text: Stay close to the money
+Author: Josh Wolfe
+Source: 
+URL: https://ritholtz.com/2019/08/transcript-josh-wolfe/
+Concepts: failure, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 338
+Text: Stay hungry, stay foolish
+Author: Steve Jobs
+Source: WWDC 1997
+URL: https://www.youtube.com/watch?v=EZll3dJ2AjY
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 339
+Text: Strong beliefs, loosely held
+Author: Marc Andreessen
+Source: The Tim Ferriss Show #163
+URL: https://tim.blog/2016/05/29/marc-andreessen/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 340
+Text: Success = Results - Expectations
+Author: Byron Deeter
+Source: 
+URL: 
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 341
+Text: Success and failure is much more about how you control, manage and break addictions than going out and doing something
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: failure, leadership, stoicism, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 342
+Text: Success is dangerous. One begins to copy oneself and to copy oneself is more dangerous than to copy others
+Author: Pablo Picasso
+Source: 
+URL: 
+Concepts: stoicism, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 343
+Text: Success isn't about how your life looks to others. It's about how it feels to you
+Author: Michelle Obama
+Source: 
+URL: https://obamawhitehouse.archives.gov/the-press-office/2012/06/17/remarks-first-lady-oregon-state-university-commencement
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 344
+Text: Successful people ... are extremely persistent and willing to work hard. As far as I can tell, there is no high-probability way to be very successful without this, and you should be suspicious of people who tell you otherwise unless you’d be happy having their career
+Author: Sam Altman
+Source: Researchers and Founders (blog.samaltman.com)
+URL: https://blog.samaltman.com/researchers-and-founders
+Concepts: discipline, relationships, simplicity, success
+Status: OK
+---
+
+---
+ID: 345
+Text: Successful people aren't smarter than you, they're just way more persistent
+Author: Sam Altman
+Source: 
+URL: 
+Concepts: discipline, relationships, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 346
+Text: Successful people tend to underappreciate the value of luck and unsuccessful people tend to over appreciate the value of luck
+Author: Tim Ferriss
+Source: 
+URL: 
+Concepts: relationships, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 347
+Text: Sun, steak and steel: Lift weights Eat meat and eggs Get some sun Practicing these will keep you far healthier than following government advice
+Author: PD Mangan
+Source: 
+URL: https://x.com/Mangan150/status/1860712376108007664
+Concepts: communication, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 348
+Text: Take six deep breaths
+Author: Aubrey Marcus
+Source: 
+URL: https://www.nateliason.com/notes/own-the-day-own-your-life-by-aubrey-marcus
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 349
+Text: Talent achieves what others cannot achieve, whereas genius achieves what others cannot imagine
+Author: Arthur Schopenhauer
+Source: 
+URL: 
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 350
+Text: Talent sets the floor, character sets the ceiling
+Author: Bill Belichick
+Source: 
+URL: 
+Concepts: integrity, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 351
+Text: Talented people are the most difficult to manage
+Author: Chuck Todd
+Source: 
+URL: 
+Concepts: leadership, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 352
+Text: Tech is governed by a world of zero marginal costs, is what makes tech economics fundamentally different from most businesses
+Author: Ben Thompson
+Source: Stratechery
+URL: https://stratechery.com/2020/is-the-internet-different/
+Concepts: entrepreneurship, mindset, wealth
+Status: OK
+---
+
+---
+ID: 353
+Text: Technology has always been a double edged sword since fire kept us warm but burned down our houses
+Author: Ray Kurzweil
+Source: 
+URL: https://www.businesstoday.in/magazine/features/story/ray-kurzweil-interview-27284-2012-03-27
+Concepts: communication, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 354
+Text: Tell people what they want to hear and you can be wrong indefinitely without penalty
+Author: Morgan Housel
+Source: 
+URL: 
+Concepts: failure, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 355
+Text: That depends on the length of the speech,” answered the President. “If it is a ten- minute speech it takes me all of two weeks to prepare it; if it is a half-hour speech it takes me a week; if I can talk as long as I want to it requires no preparation at all. I am ready now
+Author: Woodrow Wilson
+Source: the amount of time it takes to prepare a speech
+URL: https://books.google.com/books?id=zhcdAQAAMAAJ&q=%22ten-minute%22&hl=en#v=snippet&q=%22ten-minute%22&f=false
+Concepts: self-improvement, time
+Status: OK
+---
+
+---
+ID: 356
+Text: The ability to change your mind is a superpower
+Author: Shane Parrish
+Source: X (Twitter)
+URL: https://twitter.com/farnamstreet/status/909956034076307456
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 357
+Text: The average human has one breast and one testicle
+Author: Nassim Taleb
+Source: 
+URL: https://www.youtube.com/watch?v=FIc5p79CxDk
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 358
+Text: The battle between every startup and incumbent comes down to whether the startup gets distribution before the incumbent gets innovation
+Author: Alex Rampell
+Source: Distribution vs. Innovation (a16z)
+URL: https://a16z.com/2015/11/05/distribution-v-innovation
+Concepts: entrepreneurship, innovation
+Status: OK
+---
+
+---
+ID: 359
+Text: The best thing founders can do is subtraction. It’s much, much, much easier to add things than it is to remove things. Adding things is a lot more expensive than removing things. However, it requires some measure of bravery and risk-taking
+Author: Tobi Lutke
+Source: The Knowledge Project podcast
+URL: https://fs.blog/knowledge-project-podcast/tobi-lutke-2/
+Concepts: courage, entrepreneurship, simplicity, success
+Status: OK
+---
+
+---
+ID: 360
+Text: Subtraction • fs.blog The best way to know God is to love many things
+Author: Vincent Van Gogh
+Source: 
+URL: https://www.themarginalian.org/2014/05/07/vincent-van-gogh-art-love-letters/
+Concepts: relationships, simplicity, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 361
+Text: The cost-savings argument is often a fig-leaf for an acquisition that reduces competition
+Author: Ben Thompson
+Source: Stratechery
+URL: https://stratechery.com/
+Concepts: wealth, wisdom
+Status: OK
+---
+
+---
+ID: 362
+Text: The dead abandon you; then, with the passage of time, you abandon the dead
+Author: Jennifer Senior
+Source: Twenty Years Gone (The Atlantic)
+URL: https://www.theatlantic.com/magazine/archive/2021/09/twenty-years-gone-911-bobby-mcilvaine/619490
+Concepts: time, wisdom
+Status: OK
+---
+
+---
+ID: 363
+Text: The defining quality of startups is that they grow fast, and consulting just can't scale the way a product can
+Author: Paul Graham
+Source: 
+URL: 
+Concepts: entrepreneurship, self-improvement, strategy, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 364
+Text: The dynamic of friendship is almost always underestimated as a constant force in human life: a diminishing circle of friends is the first terrible diagnostic of a life in deep trouble
+Author: David Whyte
+Source: 
+URL: https://www.themarginalian.org/2015/04/29/david-whyte-consolations-words/
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 365
+Text: The enemy of good is better
+Author: Howard Luks
+Source: 
+URL: https://x.com/hjluks/status/1855222843304292587
+Concepts: mindset, self-improvement
+Status: NEEDS REVIEW
+---
+
+---
+ID: 366
+Text: The first draft of anything is shit
+Author: Ernest Hemingway
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 367
+Text: The first thing we do in my house is say do you want empathy or do you want a solution?
+Author: Lisa Feldman Barrett
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 368
+Text: The Four Agreements are: 1. Be Impeccable With Your Word 2. Don't Take Anything Personally 3. Don't Make Assumptions 4. Always Do Your Best
+Author: Don Miguel Ruiz
+Source: The Four Agreements
+URL: 
+Concepts: communication, success
+Status: OK
+---
+
+---
+ID: 369
+Text: The fox knows many things, the hedgehog one big thing
+Author: Archilochus
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 370
+Text: The further backward you look, the further forward you can see
+Author: Winston Churchill
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 371
+Text: The future is already here, it's just not evenly distributed yet
+Author: William Gibson
+Source: 
+URL: 
+Concepts: self-improvement, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 372
+Text: The great storytellers have an unfair competitive advantage
+Author: Bill Gurley
+Source: In Defense of the Deck (Above the Crowd)
+URL: https://abovethecrowd.com/2015/07/07/in-defense-of-the-deck/
+Concepts: communication, strategy, success
+Status: OK
+---
+
+---
+ID: 373
+Text: The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it
+Author: Michelangelo
+Source: 
+URL: 
+Concepts: stoicism, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 374
+Text: The idea is not important
+Author: Yossi Vardi
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 375
+Text: The invention of the ship was also the invention of the shipwreck
+Author: Paul Virilio
+Source: 
+URL: 
+Concepts: innovation, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 376
+Text: The key to learning any skill is to rehearse it. If you're doing something other than that, you're wasting your time
+Author: Adam Robinson
+Source: 
+URL: 
+Concepts: self-improvement, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 377
+Text: The modern stoic sage is someone who transforms fear into prudence, pain into information, mistakes into initiation and desire into understanding
+Author: Nassim Nicholas Taleb
+Source: Incerto series
+URL: 
+Concepts: courage, failure, stoicism
+Status: OK
+---
+
+---
+ID: 378
+Text: The more homogenous your tribe, and the more each of you are peers with one another, the more inevitable mimetic conflict becomes
+Author: Alex Danco
+Source: Secrets about People: A Short and Dangerous Introduction to René Girard
+URL: https://alexdanco.com/2019/04/28/secrets-about-people-a-short-and-dangerous-introduction-to-rene-girard
+Concepts: culture, wisdom
+Status: OK
+---
+
+---
+ID: 379
+Text: The more you make it important, the more important it becomes
+Author: John Cena
+Source: JRE #423
+URL: https://www.youtube.com/watch?v=sJ4Ho4ccuFg
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 380
+Text: The more you are interested in others, the more interesting they find you. To be interesting, be interested
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 381
+Text: The most frequently written word in the language is "the", but the most frequently spoken word is "I"
+Author: Tom Shactman
+Source: 
+URL: 
+Concepts: communication, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 382
+Text: The most urgent decisions are rarely the most important ones
+Author: Dwight Eisenhower
+Source: 
+URL: 
+Concepts: decision-making, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 383
+Text: The only factor becoming scarce in a world of abundance is human attention
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 384
+Text: The only man I know who behaves sensibly is my tailor; he takes my measurements anew each time he sees me. The rest go on with their old measurements and expect me to fit them
+Author: George Bernard Shaw, Man and Superman
+Source: Man and Superman
+URL: 
+Concepts: time, wisdom
+Status: OK
+---
+
+---
+ID: 385
+Text: The only place where success comes before work is in the dictionary
+Author: Vidal Sassoon
+Source: 
+URL: 
+Concepts: discipline, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 386
+Text: The only secret to life that I’ve discovered is that you’ve got to keep going. Right? That’s what I’ve always subscribed to. If you keep going, you find happiness, because people will need you
+Author: Glenn Vogt
+Source: He Was the Manager of Windows on the World (The Atlantic)
+URL: https://www.theatlantic.com/ideas/archive/2021/09/glenn-vogt-september-11/620030
+Concepts: innovation, relationships
+Status: OK
+---
+
+---
+ID: 387
+Text: The pain of discipline is nothing compared to the pain of disappointment
+Author: Justin Langer
+Source: The Nightly
+URL: https://thenightly.com.au/opinion/justin-langer-how-australias-ashes-success-provides-so-many-lessons-for-everyday-life-c-21329597
+Concepts: discipline, wisdom
+Status: OK
+---
+
+---
+ID: 388
+Text: The past is the past, the future is all that’s worth discussing
+Author: Littlefinger
+Source: Game of Thrones
+URL: https://www.youtube.com/watch?v=bkm-pnMQy3Q
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 389
+Text: The people who win deals are the ones who want to win them most
+Author: Attributed to Josh Kushner
+Source: The New World - Colossus
+URL: https://www.sourcery.vc/p/breaking-inside-thrive-capital
+Concepts: relationships, success
+Status: OK
+---
+
+---
+ID: 390
+Text: The person who acts in a certain way towards us is entitled to a similar return action
+Author: Robert Cialdini
+Source: Influence
+URL: 
+Concepts: action, wealth
+Status: OK
+---
+
+---
+ID: 391
+Text: The practice of deep listening consists of keeping compassion alive in your heart the whole time you are listening. You do not listen to judge, criticize or evaluate. You listen for one reason alone, to sacrifice the other person a chance to express himself
+Author: Stephen Covey
+Source: 
+URL: 
+Concepts: communication, discipline, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 392
+Text: The problem with diversification is … selling the winner to buy the losers
+Author: Michael Saylor
+Source: UpOnly Podcast
+URL: https://x.com/saylor/status/1330537116258996226
+Concepts: failure, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 393
+Text: The quality of your life is determined by the quality of your questions
+Author: Tony Robbins
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 394
+Text: The real performance enhancing drug is giving a damn
+Author: Naval Ravikant
+Source: 
+URL: https://twitter.com/BrianNorgard/status/1594782291309563919
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 395
+Text: The real value in anything is the people, it’s not like a coal mine where you’ve got coal underground, this is the people, and so we create a structure that gives them the upside if we’re really successful
+Author: Glenn Fogel
+Source: Stratechery interview 9/25/2025
+URL: https://stratechery.com/2025/an-interview-with-booking-ceo-glenn-fogel-about-travel-and-aggregation/
+Concepts: innovation, relationships, success
+Status: OK
+---
+
+---
+ID: 396
+Text: The reason that university politics is so vicious is because stakes are so small
+Author: Wallace Sayre (often attributed to Henry Kissinger)
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 397
+Text: The reasonable man adapts himself to the world. The unreasonable man persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man
+Author: George Bernard Shaw
+Source: Maxims for Revolutionists
+URL: 
+Concepts: discipline, wisdom
+Status: OK
+---
+
+---
+ID: 398
+Text: The rich invest in time, the poor invest in money
+Author: Warren Buffett
+Source: 
+URL: 
+Concepts: time, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 399
+Text: The riskiest thing you can do is not take risks
+Author: Geoff Lewis
+Source: 
+URL: 
+Concepts: courage, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 401
+Text: The secret to doing good research is always to be a little underemployed. You waste years by not being able to waste hours
+Author: Amos Tversky
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 402
+Text: The solution is always inside the company, so listen
+Author: Carlos Ghosn
+Source: 
+URL: https://hbr.org/2002/01/saving-the-business-without-losing-the-company
+Concepts: communication, entrepreneurship
+Status: NEEDS REVIEW
+---
+
+---
+ID: 403
+Text: The standard pace is for chumps
+Author: Derek Sivers
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 404
+Text: The struggle ends when the gratitude begins
+Author: Neale Donald Wilson
+Source: Conversations with God
+URL: 
+Concepts: resilience, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 405
+Text: [T]he thing I have noticed is that when the anecdotes and the data disagree, the anecdotes are usually right. There is something wrong with the way that you are measuring it
+Author: Jeff Bezos
+Source: 
+URL: 
+Concepts: entrepreneurship, failure
+Status: NEEDS REVIEW
+---
+
+---
+ID: 406
+Text: The things I did because I wanted to see them in reality have never let me down
+Author: Neil Gaiman
+Source: 
+URL: https://www.uarts.edu/neil-gaiman-keynote-address-2012
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 407
+Text: The three big needle movers ... are selection, price and convenience (delivery speed etc.)
+Author: Jeff Bezos
+Source: 
+URL: 
+Concepts: action, entrepreneurship, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 408
+Text: [T]he trick is don't try to hold on to previous culture, just evolve your culture to be better than it was before, bring forward your strengths, double down your strengths, try to leave some of the weaknesses behind and just make sure that next version of your company is a better version than the previous company. I think the way cultures end up bad is when people hold on to things that were appropriate in previous times and make both things that are unnegotiable
+Author: Tobi Lutke
+Source: 
+URL: 
+Concepts: culture, entrepreneurship, humility, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 409
+Text: The trouble with market research is that people don't think what they feel, they don't say what they think, and they don't do what they say
+Author: David Ogilvy
+Source: 
+URL: 
+Concepts: entrepreneurship, mindset, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 410
+Text: There are certain men born in this world, and they’re supposed to die setting an example for the rest of the weak bastards we’re surrounded with
+Author: Dan Hill
+Source: The Real Heroes Are Dead (The New Yorker)
+URL: http://www.newyorker.com/magazine/2002/02/11/the-real-heroes-are-dead
+Concepts: time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 411
+Text: There are only two ways to make money in business: one is to bundle, the other is to unbundle
+Author: Jim Barksdale
+Source: HBR interview
+URL: https://hbr.org/2014/06/how-to-succeed-in-business-by-bundling-and-unbundling
+Concepts: entrepreneurship, strategy, wealth
+Status: OK
+---
+
+---
+ID: 412
+Text: There are people I do not know yet that need me
+Author: Bobby McIlvaine
+Source: Twenty Years Gone (The Atlantic)
+URL: https://www.theatlantic.com/magazine/archive/2021/09/twenty-years-gone-911-bobby-mcilvaine/619490
+Concepts: relationships, wisdom
+Status: OK
+---
+
+---
+ID: 413
+Text: There are three things you cannot buy. Fitness: You have to keep fit, whether you’re rich or not. Diet: You cannot pay someone to be on a diet for you. I think that diet is the biggest sacrifice in my life. Then, looking after your soul. No one can possibly treat your soul but you yourself. This is something you can do through culture and philosophy.
+Author: Brunello Cucinelli
+Source: Om
+URL: https://om.co/2015/04/27/brunello-cucinelli-2
+Concepts: culture, mindset, wealth, wisdom
+Status: OK
+---
+
+---
+ID: 414
+Text: There are two ways to live your life. You can play to win or play not to lose
+Author: Adam Robinson
+Source: 
+URL: 
+Concepts: failure, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 415
+Text: There is a fool in every market and if you don't know who it is, it's probably you
+Author: Warren Buffett
+Source: 
+URL: 
+Concepts: entrepreneurship, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 416
+Text: There is a mysterious cycle in human events. To some generations much is given. Of other generations much is expected
+Author: President Franklin D. Roosevelt
+Source: 
+URL: https://www.presidency.ucsb.edu/documents/acceptance-speech-for-the-renomination-for-the-presidency-philadelphia-pa
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 417
+Text: There is no hopeless case
+Author: Carlos Ghosn
+Source: 
+URL: https://hbr.org/2002/01/saving-the-business-without-losing-the-company
+Concepts: simplicity, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 418
+Text: There is no way to avoid risk in life. The real risk is in making your life small
+Author: Steph Davis, BASE jumper
+Source: The Economist 30 January 2021
+URL: 
+Concepts: courage, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 419
+Text: [T]here is nothing either good or bad, but thinking makes it so
+Author: Shakespeare
+Source: Hamlet
+URL: 
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 420
+Text: There will come a time when you believe everything is finished. That will be the beginning
+Author: Louis L’Amour
+Source: 
+URL: https://www.louislamour.com/firstchapt/lonelyonmountain1st.htm
+Concepts: mindset, resilience, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 421
+Text: There's no such thing as perfect, there's only the relentless pursuit of perfection
+Author: Tom Brady
+Source: 
+URL: https://www.nbcsportsboston.com/nfl/tom-bradys-super-bowl-55-hype-video-is-predictably-awesome/172420/
+Concepts: discipline, simplicity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 422
+Text: There's no time like the present
+Author: Chris Anderson
+Source: 
+URL: 
+Concepts: time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 423
+Text: There’s a lot of power in making those technical advocates inside of a company the people who bring you in
+Author: Jeff Lawson
+Source: 
+URL: 
+Concepts: entrepreneurship, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 424
+Text: They may forget what you said, but they will never forget how you made them feel
+Author: Carl W. Buehner (often attributed to Maya Angelou)
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 425
+Text: They say, and it's true, movies aren't finished, they're abandoned. And you have to make your peace with that
+Author: David Fincher
+Source: 
+URL: https://www.filmindependent.org/blog/movies-arent-finished-theyre-abandoned-david-fincher-on-why-he-hates-watching-his-films/
+Concepts: resilience, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 426
+Text: [On private equity firms]: They try to make you doubt yourself - it's a standard part of their pitch
+Author: Hamdi Ulukaya
+Source: 
+URL: https://neckar.substack.com/p/the-chobani-story
+Concepts: resilience, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 427
+Text: Things have happened the way they’ve happened and that’s how they needed to happen
+Author: John Cena
+Source: 
+URL: https://www.theringer.com/podcasts/the-bill-simmons-podcast/2025/12/05/an-nba-six-pack-netflixs-wbd-pursuit-nfl-picks-and-john-cena-finally-stops-by-with-joe-house-and-matt-belloni
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 428
+Text: This is not your responsibility but it is your problem
+Author: Cheryl Strayed
+Source: Wild / Dear Sugar
+URL: 
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 429
+Text: Those who do not learn from history are condemned to repeat it
+Author: Winston Churchill
+Source: 
+URL: 
+Concepts: communication, self-improvement, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 430
+Text: Three shoeboxes - money in, money out and money leftover
+Author: Nick Kokonas
+Source: 
+URL: 
+Concepts: wealth, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 431
+Text: To achieve great things, two things are needed: a plan, and not quite enough time
+Author: Elbert Hubbard (often attributed to Leonard Bernstein)
+Source: 
+URL: 
+Concepts: resilience, success, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 432
+Text: To criticize the other person is a protection against being hurt
+Author: Esther Perel
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 433
+Text: To get people to build a boat you don’t need to get them to weave canvas, forge nails, or read the sky. You need to give them a shared yearning for the sea
+Author: Antoine de Saint-Exupéry
+Source: The Wisdom of the Sands
+URL: 
+Concepts: relationships, self-improvement
+Status: OK
+---
+
+---
+ID: 434
+Text: To quote a Caribbean proverb, 'Trust grows at the speed of a coconut tree and falls at the speed of a coconut'
+Author: Rory Sutherland
+Source: 
+URL: 
+Concepts: integrity, relationships, self-improvement, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 435
+Text: To slightly modify Naval's original formulation, there are four forms of leverage: Tools People Capital (money) Digital Products (software, media)
+Author: Eric Jorgensen
+Source: 
+URL: https://twitter.com/EricJorgenson/status/1326926781807517698
+Concepts: entrepreneurship, innovation, relationships, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 436
+Text: Today I escaped from the crush of circumstances or, better put, I threw them out, for the crush wasn't from the outside but in my own assumptions
+Author: Marcus Aurelius
+Source: Meditations
+URL: 
+Concepts: self-improvement, stoicism
+Status: OK
+---
+
+---
+ID: 437
+Text: Treat your older self well
+Author: AJ Jacobs
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 438
+Text: Trusted third parties are security holes
+Author: Nick Szabo
+Source: Trusted Third Parties Are Security Holes
+URL: https://nakamotoinstitute.org/trusted-third-parties/
+Concepts: integrity, relationships
+Status: OK
+---
+
+---
+ID: 439
+Text: Turn up an hour early for interviews and watch how happy the people working there are
+Author: Amy Chang
+Source: 
+URL: 
+Concepts: relationships, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 440
+Text: Twenty years from now you will be more disappointed by the things you didn't do than by the things you did
+Author: Mark Twain
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 441
+Text: Unnecessary meetings (and most are) are a mutually assured destruction of time. Learning how to avoid them is a prerequisite of doing anything great
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: self-improvement, success, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 442
+Text: Use media to stop saying the same things twice, use software to stop doing the same things twice
+Author: Jack Butcher
+Source: 
+URL: 
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 443
+Text: Use promotions
+Author: Daniel Kahneman
+Source: Thinking, Fast and Slow
+URL: 
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 444
+Text: Use the phrase "disagree and commit"
+Author: Jeff Bezos
+Source: Amazon shareholder letters
+URL: https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders
+Concepts: decision-making, entrepreneurship
+Status: OK
+---
+
+---
+ID: 445
+Text: We are all advice monsters
+Author: Michael Bungay Stanier
+Source: 
+URL: 
+Concepts: communication, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 446
+Text: We are all looking at the same datasets, what happens one or two clicks below that? That's where the real value is
+Author: Daniel Ek
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 447
+Text: We are at the receiving end of a huge gift simply by being alive
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 448
+Text: We are more often frightened than hurt; and we suffer more from imagination than reality
+Author: Seneca
+Source: Epistulae Morales
+URL: 
+Concepts: mindset, stoicism
+Status: OK
+---
+
+---
+ID: 449
+Text: We are what we repeatedly do. Excellence, then, is not an act, but a habit
+Author: Aristotle
+Source: Steve Jobs in his own words
+URL: 
+Concepts: action, discipline, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 450
+Text: We believe that the way you make people feel is what they remember more than anything
+Author: Danny Meyer
+Source: Setting the Table
+URL: 
+Concepts: mindset, relationships
+Status: OK
+---
+
+---
+ID: 451
+Text: We evolved to basically CYA, and win in social competitions. But if you learn some skills, you can actually be very effective as a teacher, as someone who persuades, as someone who changes people
+Author: Jonathan Haidt
+Source: The Knowledge Project
+URL: https://fs.blog/knowledge-project/jonathan-haidt/
+Concepts: relationships, self-improvement, success
+Status: OK
+---
+
+---
+ID: 452
+Text: We had to decide what fundamental direction we were going in, and what makes sense and what doesn’t, and there were a bunch of things that didn’t…You think about focusing, focusing is about saying “No. You’ve got to say “No”, “No”, “No”, “No”, “No”, and when you say “No” you piss off people…
+Author: Steve Jobs
+Source: 
+URL: 
+Concepts: decision-making, mindset, relationships, simplicity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 454
+Text: We make our money on the startups that work and we make our reputation on the ones that don't
+Author: Marc Andreessen
+Source: 
+URL: 
+Concepts: entrepreneurship, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 455
+Text: We suffer more in imagination than in reality
+Author: Seneca
+Source: Epistulae Morales
+URL: 
+Concepts: mindset, stoicism
+Status: OK
+---
+
+---
+ID: 456
+Text: We're all dealt something
+Author: Soren Gordhamer
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 457
+Text: Weso continues to try more to profit from always remembering the obvious than from grasping the esoteric ... It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent. There must be some wisdom in the folk saying; "It's the strong swimmers who drown"
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: discipline, relationships, strategy, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 458
+Text: What focus means is saying no to something that you with every your bone in your body is a phenomenal idea and you wake up thinking about it but you say no to it because you are focusing om on something else
+Author: Jony Ive
+Source: 
+URL: https://twitter.com/ricburton/status/1372769450148032518
+Concepts: mindset, simplicity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 459
+Text: What gets mismeasured gets mismanaged
+Author: Rory Sutherland
+Source: 
+URL: 
+Concepts: leadership, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 460
+Text: What I regret most in my life are failures of kindness. Those moments when another human being was there, in front of me, suffering, and I responded . . . sensibly. Reservedly. Mildly
+Author: George Saunders
+Source: George Saunders's Advice to Graduates (NYT)
+URL: https://6thfloor.blogs.nytimes.com/2013/07/31/george-saunderss-advice-to-graduates
+Concepts: failure, relationships, stoicism
+Status: OK
+---
+
+---
+ID: 461
+Text: saunderss-advice-to-graduates/ What is right is not always popular and what is popular is not always right
+Author: Jerry West
+Source: 
+URL: 
+Concepts: communication, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 462
+Text: What people really want in life is independence and autonomy
+Author: Morgan Housel
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 463
+Text: What the human being is best at doing is interpreting all new information so that their prior conclusions remain intact
+Author: Warren Buffett
+Source: 
+URL: 
+Concepts: success, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 464
+Text: What will survive: things that don't make sense yet have been around for a very very long time
+Author: Nassim Nicholas Taleb
+Source: Incerto series
+URL: 
+Concepts: resilience, time
+Status: OK
+---
+
+---
+ID: 465
+Text: Whatever is hot among the MBA students basically crashes a few years later
+Author: Jeff Jordan
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 466
+Text: When a management with a reputation for brilliance tackles a business with a reputation for bad economics, it is the reputation of the business that remains intact
+Author: Warren Buffett
+Source: 
+URL: 
+Concepts: entrepreneurship, leadership, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 467
+Text: When building teams, follow the Wizard of Oz - look for brains, courage and heart
+Author: Rich Barton
+Source: 
+URL: 
+Concepts: courage, culture, leadership, mindset
+Status: NEEDS REVIEW
+---
+
+---
+ID: 468
+Text: When our young, bright analysts and associates come to our Investment Committee, a review of the numbers and returns is not sufficient. We expect an analysis of the business, why we want to own it, what are the value creating opportunities, how does it compete in its industry, why should it succeed in a downturn, and other arguments for its attractiveness as an investment. The computer model is the last thing we look at
+Author: Henry Kravis
+Source: 
+URL: https://aletteraday.substack.com/p/letter-97-henry-kravis-2004
+Concepts: entrepreneurship, innovation, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 469
+Text: When public speaking, pause frequently. Pause before you say something in a new way, pause after you have said something you believe is important, and pause as a relief to let listeners absorb details
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: communication, mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 470
+Text: When someone gossips to you, they eventually gossip about you
+Author: Shane Parrish
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 471
+Text: When someone is nasty, rude, hateful, or mean with you, pretend they have a disease. That makes it easier to have empathy toward them which can soften the conflict
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 472
+Text: When someone tells you something is wrong, they’re usually right. When someone tells you how to fix it, they’re usually wrong
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: failure, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 473
+Text: advice/ When you believe something, what's the best piece of evidence you have and, conversely, what would it take for you to be wrong
+Author: Neil deGrasse Tyson
+Source: 
+URL: 
+Concepts: communication, failure, mindset, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 474
+Text: When you cannot make up your mind which of two evenly balanced courses of action you should take - choose the bolder
+Author: General W. J. Slim
+Source: Defeat Into Victory
+URL: https://www.amazon.com/Defeat-Into-Victory-Battling-1942-1945/dp/0815410220
+Concepts: action, courage, decision-making, mindset
+Status: OK
+---
+
+---
+ID: 475
+Text: When you decide to sell a company, you need to be honest with yourself that this is the end of your era, and not pretend that you will be able to continue to build the company but with a different shareholders. This will make the selling decision harder and looking back, would have forced us to be more honest about what selling means
+Author: Noam Bardin
+Source: 
+URL: 
+Concepts: decision-making, entrepreneurship, integrity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 476
+Text: When you die you take absolutely nothing with you except your reputation
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 477
+Text: When you don’t know how much to pay someone for a particular task, ask them “what would be fair” and their answer usually is
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 478
+Text: When you focus on the past, that’s your ego ... When I focus on the future, that's my pride. I try to focus on the present. That's humility
+Author: Giannis Antetokounmpo
+Source: 
+URL: https://www.youtube.com/watch?app=desktop&v=-qLchg4xkOY
+Concepts: humility, simplicity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 479
+Text: When you get an invitation to do something in the future, ask yourself: would you accept this if it was scheduled for tomorrow? Not too many promises will pass that immediacy filter
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: stoicism, time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 480
+Text: [On working at your company after you sell it] When you sell your house, you don't move into the attic
+Author: James Averdieck
+Source: Rory Sutherland's On Brand podcast
+URL: 
+Concepts: discipline, entrepreneurship
+Status: NEEDS REVIEW
+---
+
+---
+ID: 481
+Text: When you're the janitor, reasons matter. Somewhere between the janitor and the CEO, reasons stop mattering
+Author: Steve Jobs
+Source: 
+URL: 
+Concepts: leadership, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 482
+Text: Whenever the correlation between two scores is imperfect, there will be regression to the mean
+Author: Daniel Kahneman
+Source: Thinking, Fast and Slow
+URL: 
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 483
+Text: Whenever you feel yourself getting angry, don’t say or do anything until you’ve repeated the 24 letters of the alphabet to yourself
+Author: Athenodorus
+Source: 
+URL: 
+Concepts: communication, stoicism
+Status: NEEDS REVIEW
+---
+
+---
+ID: 484
+Text: Whenever you see a business that's done the same thing for a long time, a new guy can come in and do it better. I guarantee it
+Author: Michael Bloomberg
+Source: 
+URL: 
+Concepts: action, entrepreneurship, self-improvement, time
+Status: NEEDS REVIEW
+---
+
+---
+ID: 485
+Text: Whoever could make two ears of corn, or two blades of grass, to grow upon a spot of ground where only one grew before, would deserve better of mankind, and do more essential service to his country, than the whole race of politicians put together
+Author: Jonathan Swift, Gulliver's Travels
+Source: Gulliver
+URL: 
+Concepts: customer-focus, relationships, self-improvement
+Status: OK
+---
+
+---
+ID: 486
+Text: Willpower isn't just a skill. It's a muscle, like the muscles in your arms or legs, and it gets tired as it works harder, so there's less power left over for other things
+Author: Charles Duhigg
+Source: The Power of Habit
+URL: 
+Concepts: self-improvement, simplicity
+Status: OK
+---
+
+---
+ID: 487
+Text: Winners like winners ... Winners hang out with winners
+Author: Colin Cowherd
+Source: The Herd
+URL: 
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 488
+Text: Winning has a price. And leadership has a price. So I pulled people along when they didn’t want to be pulled. I challenged people when they didn’t want to be challenged. And I earned that right … Once you join the team you live at a certain standard that I play the game (at) and I wasn’t going to take anything less … I wanted to win but I wanted them to be a part of it as well
+Author: Michael Jordan
+Source: The Last Dance
+URL: 
+Concepts: culture, leadership, simplicity, wealth
+Status: OK
+---
+
+---
+ID: 489
+Text: Winning is better than losing but everybody loses when the war isn't one worth fighting
+Author: Peter Thiel
+Source: Zero to One
+URL: 
+Concepts: failure, self-improvement, success
+Status: OK
+---
+
+---
+ID: 490
+Text: Without discipline, mediocrity rules
+Author: Jamie Dimon 2000 Bank One Shareholder Letter
+Source: 
+URL: https://aletteraday.substack.com/p/letter-64-jamie-dimon-2001?utm_source=post-email-title&publication_id=61806&post_id=93479449&isFreemail=true&utm_medium=email
+Concepts: discipline, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 491
+Text: Without escalation, the default dispute resolution mechanism for this scenario is exhaustion. Whoever has the most stamina carries the decision
+Author: Jeff Bezos
+Source: Amazon shareholder letters
+URL: https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders
+Concepts: decision-making, entrepreneurship
+Status: OK
+---
+
+---
+ID: 492
+Text: Work as hard as you can. Even though who you work with and what you work on are more important than how hard you work
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: discipline, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 493
+Text: You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential
+Author: David Goggins
+Source: Can
+URL: 
+Concepts: stoicism, time
+Status: OK
+---
+
+---
+ID: 494
+Text: You are not a tree, you can get up and move
+Author: Jim Rome
+Source: 
+URL: 
+Concepts: action, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 495
+Text: You are not thinking, you are merely being logical
+Author: Niels Bohr apparently once said to Einstein
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 496
+Text: You are the average of the five people you spend the most time with
+Author: Jim Rohn
+Source: jimrohn.com
+URL: https://www.goodreads.com/quotes/1798-you-are-the-average-of-the-five-people-you-spend
+Concepts: relationships, time
+Status: OK
+---
+
+---
+ID: 497
+Text: You can be a victim or you can be a survivor
+Author: Dr Julie Gurner
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 498
+Text: You can get in way more trouble with a good idea than a bad idea because you forget that the good idea has limits
+Author: Ben Graham
+Source: The Intelligent Investor
+URL: 
+Concepts: mindset, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 499
+Text: You can have anything you want in life but not everything
+Author: Ray Dalio
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 500
+Text: You can increase the velocity of development with three variables: (1) The quantity of focused repetitions; (2) The situations under which they occur; and (3) The quality of feedback
+Author: Shane Parrish
+Source: 
+URL: 
+Concepts: communication, self-improvement, simplicity
+Status: NEEDS REVIEW
+---
+
+---
+ID: 501
+Text: You can learn a lot from your mistakes when you aren't busy denying them
+Author: Stephen Covey
+Source: The 7 Habits of Highly Effective People
+URL: 
+Concepts: failure, self-improvement
+Status: OK
+---
+
+---
+ID: 502
+Text: You can obsess about serving your customers/audience/clients, or you can obsess about beating the competition. Both work, but of the two, obsessing about your customers will take you further
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: customer-focus, entrepreneurship, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 503
+Text: You can shear a sheep many times, but you can only skin him once
+Author: Tim Ferriss
+Source: How I Built a #1-Ranked Podcast (tim.blog)
+URL: https://tim.blog/2016/04/11/tim-ferriss-podcast-business/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 504
+Text: You can't connect the dots looking forward, you can only connect them looking backward. So you have to trust that the dots will somehow connect in the future
+Author: Steve Jobs during his Stanford commencement address in 2005,
+Source: 
+URL: 
+Concepts: integrity, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 505
+Text: You can't have a bubble when people are constantly screaming "bubble"
+Author: Marc Andreeseen
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 506
+Text: You can't reason with a tiger when your head is in its mouth
+Author: Winston Churchill
+Source: Darkest Hour
+URL: 
+Concepts: mindset, wisdom
+Status: OK
+---
+
+---
+ID: 507
+Text: You can't stop the waves but you can learn to surf
+Author: Soren Gordhamer
+Source: 
+URL: 
+Concepts: self-improvement, success
+Status: NEEDS REVIEW
+---
+
+---
+ID: 508
+Text: You cannot escape the responsibility of tomorrow by evading it today
+Author: Abraham Lincoln
+Source: 
+URL: 
+Concepts: time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 509
+Text: You cannot truly listen to anyone and do anything else at the same time
+Author: M Scott Peck
+Source: The Road Less Traveled
+URL: 
+Concepts: communication, time
+Status: OK
+---
+
+---
+ID: 510
+Text: You could be good today but instead you chose tomorrow
+Author: Marcus Aurelius
+Source: Meditations
+URL: 
+Concepts: stoicism, time
+Status: OK
+---
+
+---
+ID: 511
+Text: You could leave life right now. Let that determine what you do and say and think
+Author: Marcus Aurelius
+Source: Meditations
+URL: 
+Concepts: mindset, stoicism
+Status: OK
+---
+
+---
+ID: 512
+Text: You don’t have to like it. You just have to do it
+Author: Attributed to the Army
+Source: source: Ryan Holiday https://ryanholiday.net/18-stories/
+URL: 
+Concepts: action, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 513
+Text: You don’t just reciprocate affection, you reciprocate animosity, and the whole thing can escalate
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: wealth, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 514
+Text: You don’t own these jobs. You rent them. They are not yours. Ultimately, no matter how long you are there, you’re just passing through
+Author: Dough Herzog
+Source: 
+URL: https://deadline.com/2023/10/roy-wood-jr-leaving-daily-show-explains-why-social-media-1235565527/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 515
+Text: You get *more stuff done* when you work from home You make *more progress* when you meet in person It's important not to confuse doing stuff for progress! Sometimes the same, sometimes not
+Author: Sara Mauskopf
+Source: Twitter/X post
+URL: https://twitter.com/sm/status/1687512778486288385
+Concepts: discipline, wisdom
+Status: OK
+---
+
+---
+ID: 516
+Text: You get negative returns when people run out of ideas
+Author: Peter Thiel
+Source: Zero to One
+URL: 
+Concepts: relationships, wealth
+Status: OK
+---
+
+---
+ID: 517
+Text: You gotta give up power to keep power
+Author: Randall Stutman
+Source: 
+URL: https://ryanholiday.net/best-parenting-advice/
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 518
+Text: You have to keep in mind human beings aren’t good at understanding exponential growth; it’s just not something we see in our everyday life. But things don’t grow this fast outside of Petri dishes. It just doesn’t happen
+Author: Jeff Bezos
+Source: 
+URL: 
+Concepts: action, entrepreneurship, mindset, self-improvement
+Status: NEEDS REVIEW
+---
+
+---
+ID: 519
+Text: You have to somehow make high quality, high velocity decisions
+Author: Jeff Bezos
+Source: Amazon shareholder letters
+URL: https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders
+Concepts: decision-making, entrepreneurship
+Status: OK
+---
+
+---
+ID: 520
+Text: You know it's working when it's working
+Author: Marc Andreessen
+Source: 
+URL: 
+Concepts: discipline, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 521
+Text: You must do the things you think you cannot do
+Author: Eleanor Roosevelt
+Source: 
+URL: 
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 522
+Text: You must never confuse faith that you will prevail in the end—which you can never afford to lose—with the discipline to confront the most brutal facts of your current reality, whatever they might be
+Author: Admiral Jim Stockdale
+Source: 
+URL: https://www.jimcollins.com/concepts/Stockdale-Concept.html
+Concepts: discipline, failure
+Status: NEEDS REVIEW
+---
+
+---
+ID: 523
+Text: You need struggle
+Author: Joe Rogan
+Source: 
+URL: 
+Concepts: resilience, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 524
+Text: You never change a system by taking the existing thing and re-working it … You are better off changing it by creating something brand new
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: innovation, self-improvement
+Status: NEEDS REVIEW
+---
+
+---
+ID: 525
+Text: You never think it's gonna end. Then it always does
+Author: Pat Riley
+Source: 
+URL: https://www.espn.com/espn/feature/story/_/id/19233570/why-miami-heat-president-pat-riley-leave-nba
+Concepts: mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 526
+Text: You only live once, but if you work it right, once is enough
+Author: Joe E. Lewis
+Source: 
+URL: 
+Concepts: discipline, mindset, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 527
+Text: You wake up and you do whatever it takes to be better
+Author: Giannis Antetokounmpo
+Source: 
+URL: 
+Concepts: self-improvement, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 528
+Text: You work for Apple first and your boss second
+Author: Steve Jobs
+Source: 
+URL: 
+Concepts: discipline, leadership
+Status: NEEDS REVIEW
+---
+
+---
+ID: 529
+Text: You’ll get 10x better results by elevating good behavior rather than punishing bad behavior, especially in children and animals
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: incentives, relationships, self-improvement
+Status: NEEDS REVIEW
+---
+
+---
+ID: 530
+Text: You'll receive criticism you deserve and un-deserve. Don't let it get to your head or defeat you. How you handle it is a mark of your character
+Author: John Wooden
+Source: 
+URL: https://www.amazon.com/Wooden-Lifetime-Observations-Reflections-Court/dp/0809230410
+Concepts: integrity, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 531
+Text: You're going to die one day, and none of this is going to matter. So enjoy yourself. Do something positive. Project some love. Make someone happy. Laugh a little bit. Appreciate the moment. And do your work
+Author: Naval Ravikant
+Source: 
+URL: 
+Concepts: relationships, time, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 532
+Text: You're going to figure out one day that it's harder to be kind than clever
+Author: Jeff Bezos relaying what his grandad said to him
+Source: 
+URL: 
+Concepts: entrepreneurship, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 533
+Text: You're looking for three things, generally, in a person - intelligence, energy and integrity
+Author: Warren Buffett
+Source: 
+URL: 
+Concepts: integrity, resilience, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 534
+Text: You've got to find a niche ... a niche that's moving
+Author: James Averdieck
+Source: Rory Sutherland's On Brand podcast
+URL: 
+Concepts: strategy, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 535
+Text: You've got to find what you love ... Keep looking, don't settle
+Author: Steve Jobs
+Source: 
+URL: 
+Concepts: relationships, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 536
+Text: You've got to hang experience on a latticework of models in your head
+Author: Charlie Munger
+Source: 
+URL: 
+Concepts: customer-focus, wealth
+Status: NEEDS REVIEW
+---
+
+---
+ID: 537
+Text: You've got to start with the customer experience and work backwards to the technology
+Author: Steve Jobs
+Source: WWDC 1997
+URL: https://www.youtube.com/watch?v=EZll3dJ2AjY
+Concepts: customer-focus, entrepreneurship
+Status: OK
+---
+
+---
+ID: 538
+Text: Your best response to an insult is “You’re probably right.” Often they are
+Author: Kevin Kelly
+Source: 
+URL: 
+Concepts: success, wisdom
+Status: NEEDS REVIEW
+---
+
+---
+ID: 539
+Text: All the important decisions about your career are made when you’re not in the room. People decide to hire you, fire you, promote you, fund you, send you on the overseas assignment, all when you’re not there. So how do you ensure that you have someone in the room fighting for you? I would strongly argue that you need to have in place your Personal Board of Directors. Those are your mentors, your sponsors, your confidantes
+Author: Carla Harris
+Source: 
+URL: https://tim.blog/2021/09/01/machiavelli-for-women-7-power-strategies/?utm_source=convertkit&utm_medium=convertkit&utm_campaign=weekly-roundup-sir-james-dyson-machiavelli
+Concepts: leadership, relationships
+Status: NEEDS REVIEW
+---
+
+---
+ID: 540
+Text: The hardest thing in the world is to simplify your life because everything pulls you to be more and more complex
+Author: Yvon Chouinard
+Source: How I Built This - Guy Raz
+URL: https://www.npr.org/2018/02/06/572558864/patagonia-yvon-chouinard
+Concepts: Entrepreneurship; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 541
+Text: I never look back ... I don't spent a lot of time regretting things that went wrong
+Author: Herb Kelleher
+Source: How I Built This - Guy Raz
+URL: https://www.npr.org/2016/11/21/502344848/southwest-airlines-herb-kelleher
+Concepts: Resilience; Entrepreneurship
+Status: Confirmed
+---
+
+
+---
+ID: 542
+Text: It ends up being much more valuable to have a brand name you've made up ... I've liked two syllables, I think that's the most memorable
+Author: Rich Barton
+Source: How I Built This - Guy Raz
+URL: https://www.npr.org/2021/06/11/1005526927/expedia-zillow-rich-barton
+Concepts: Entrepreneurship; Decision-Making
+Status: Confirmed
+---
+
+---
+ID: 543
+Text: Like so many business ideas, they're born of frustration
+Author: Rich Barton
+Source: How I Built This - Guy Raz
+URL: https://www.npr.org/2021/06/11/1005526927/expedia-zillow-rich-barton
+Concepts: Entrepreneurship
+Status: Confirmed
+---
+
+---
+ID: 544
+Text: If you're fishing in a big pond and you have good fisherman, you're going to figure it out
+Author: Rich Barton
+Source: How I Built This - Guy Raz
+URL: https://www.npr.org/2021/06/11/1005526927/expedia-zillow-rich-barton
+Concepts: Entrepreneurship; Self-Belief
+Status: Confirmed
+---
+
+ID: 545
+Text: If I have seen further it is by standing on [the] sho[u]lders of Giants.
+Author: Isaac Newton
+Source: The Marginalian
+URL: https://www.themarginalian.org/2016/02/16/newton-standing-on-the-shoulders-of-giants/#:~:text=The%20idea%20of%20knowledge%20as,both%20endure%20to%20hear%20objections.”
+Concepts: Entrepreneurship; Learning
+Status: Confirmed
+---
+
+
