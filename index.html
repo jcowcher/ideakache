@@ -39,7 +39,10 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // --- Clerk client (auth) ---
-const clerk = new window.Clerk('pk_test_ZW5hYmxpbmctc25haWwtMzEuY2xlcmsuYWNjb3VudHMuZGV2JA');
+const CLERK_KEY = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'pk_test_ZW5hYmxpbmctc25haWwtMzEuY2xlcmsuYWNjb3VudHMuZGV2JA'
+  : 'pk_live_Y2xlcmsuaWRlYWthY2hlLmNvbSQ';
+const clerk = new window.Clerk(CLERK_KEY);
 const clerkReady = clerk.load();
 
 // --- Landing quotes (unauthenticated) ---
