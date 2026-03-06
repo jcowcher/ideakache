@@ -42,8 +42,18 @@ const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const CLERK_KEY = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   ? 'pk_test_ZW5hYmxpbmctc25haWwtMzEuY2xlcmsuYWNjb3VudHMuZGV2JA'
   : 'pk_live_Y2xlcmsuaWRlYWthY2hlLmNvbSQ';
-const clerk = new window.Clerk(CLERK_KEY);
-const clerkReady = clerk.load();
+let clerk = null;
+let clerkReady = Promise.resolve();
+try {
+  if (window.Clerk) {
+    clerk = new window.Clerk(CLERK_KEY);
+    clerkReady = clerk.load().catch(err => console.error('Clerk load error:', err));
+  } else {
+    console.error('Clerk library not loaded');
+  }
+} catch (err) {
+  console.error('Clerk init error:', err);
+}
 
 // --- Landing quotes (unauthenticated) ---
 const LANDING_QUOTES = [
@@ -241,10 +251,12 @@ function App() {
   // --- Auth listener (Clerk) ---
   useEffect(() => {
     clerkReady.then(() => {
-      setUser(clerk.user ?? null);
+      if (clerk) {
+        setUser(clerk.user ?? null);
+        clerk.addListener(({ user: u }) => setUser(u ?? null));
+      }
       setAuthLoading(false);
-      clerk.addListener(({ user: u }) => setUser(u ?? null));
-    });
+    }).catch(() => setAuthLoading(false));
   }, []);
 
   // --- Fetch quotes when authenticated ---
@@ -279,10 +291,10 @@ function App() {
   [SOURCED]);
 
   // --- Auth handlers (Clerk) ---
-  const handleSignUp = () => clerk.openSignUp();
-  const handleSignIn = () => clerk.openSignIn();
+  const handleSignUp = () => clerk && clerk.openSignUp();
+  const handleSignIn = () => clerk && clerk.openSignIn();
   const handleSignOut = async () => {
-    await clerk.signOut();
+    if (clerk) await clerk.signOut();
     setView('home');
     setFilter(null);
     setSearch('');
