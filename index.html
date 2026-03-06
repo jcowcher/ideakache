@@ -608,28 +608,6 @@ function App() {
       <footer style={S.footer}>
         <a href="https://ideakache.com" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: 500 }} onClick={e => { e.preventDefault(); goHome(); }}>ideakache.com</a>
         {' '}&middot; {SOURCED.length} quotes &middot; {AUTHORS.length} authors &middot; {ALL_CONCEPTS.length} concepts
-        {(verIds.length > 0 || rejIds.length > 0) && <>
-          {' '}&middot;{' '}
-          <a href="#" style={{ color: '#94a3b8', textDecoration: 'none' }}
-            onMouseOver={e => e.target.style.color='#6366f1'}
-            onMouseOut={e => e.target.style.color='#94a3b8'}
-            onClick={e => {
-              e.preventDefault();
-              const log = JSON.parse(localStorage.getItem('ik_ver_log') || '[]');
-              const csv = ['Action,ID,Author,Quote,Timestamp',
-                ...log.map(r => `${r.action},${r.id},"${r.author}","${r.text.replace(/"/g,'""')}",${r.timestamp}`)
-              ].join('\n');
-              const blob = new Blob([csv], { type: 'text/csv' });
-              const a = document.createElement('a');
-              const url = URL.createObjectURL(blob);
-              a.href = url;
-              a.download = `ik-verification-log-${new Date().toISOString().slice(0,10)}.csv`;
-              a.click();
-              URL.revokeObjectURL(url);
-            }}>
-            Export log ({verIds.length} verified, {rejIds.length} rejected)
-          </a>
-        </>}
       </footer>
     </div>
   );
