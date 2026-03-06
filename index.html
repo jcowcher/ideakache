@@ -483,7 +483,7 @@ function App() {
 
       {view === 'home' && (
         <div style={{ textAlign: 'center', padding: '80px 24px 40px', maxWidth: 700, margin: '0 auto' }}>
-          <h1 style={{ fontFamily: "'Source Serif 4', serif", fontSize: 'clamp(28px, 5vw, 42px)', fontWeight: 700, color: '#6366f1', marginBottom: 32, lineHeight: 1.3 }}>
+          <h1 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontStyle: 'italic', fontSize: 'clamp(26px, 4.5vw, 38px)', fontWeight: 400, color: '#8b7355', marginBottom: 32, lineHeight: 1.4 }}>
             What will you explore today?
           </h1>
           <div style={{ ...S.searchWrap, maxWidth: 560, margin: '0 auto 40px' }}>
@@ -607,7 +607,6 @@ function App() {
 
       <footer style={S.footer}>
         <a href="https://ideakache.com" style={{ color: '#6366f1', textDecoration: 'none', fontWeight: 500 }} onClick={e => { e.preventDefault(); goHome(); }}>ideakache.com</a>
-        {' '}&middot; {SOURCED.length} quotes &middot; {AUTHORS.length} authors &middot; {ALL_CONCEPTS.length} concepts
       </footer>
     </div>
   );
