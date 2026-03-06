@@ -9,7 +9,22 @@
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@clerk/clerk-js@5/dist/clerk.browser.js"></script>
+<script id="clerk-script"></script>
+<script>
+  (function() {
+    var isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    var key = isLocal
+      ? 'pk_test_ZW5hYmxpbmctc25haWwtMzEuY2xlcmsuYWNjb3VudHMuZGV2JA'
+      : 'pk_live_Y2xlcmsuaWRlYWthY2hlLmNvbSQ';
+    var frontendApi = isLocal
+      ? 'https://enabling-snail-31.clerk.accounts.dev'
+      : 'https://clerk.ideakache.com';
+    var s = document.getElementById('clerk-script');
+    s.setAttribute('data-clerk-publishable-key', key);
+    s.setAttribute('crossorigin', 'anonymous');
+    s.src = frontendApi + '/npm/@clerk/clerk-js@latest/dist/clerk.browser.js';
+  })();
+</script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <style>
   @keyframes highlightFade {
@@ -39,21 +54,8 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // --- Clerk client (auth) ---
-const CLERK_KEY = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? 'pk_test_ZW5hYmxpbmctc25haWwtMzEuY2xlcmsuYWNjb3VudHMuZGV2JA'
-  : 'pk_live_Y2xlcmsuaWRlYWthY2hlLmNvbSQ';
-let clerk = null;
-let clerkReady = Promise.resolve();
-try {
-  if (window.Clerk) {
-    clerk = new window.Clerk(CLERK_KEY);
-    clerkReady = clerk.load().catch(err => console.error('Clerk load error:', err));
-  } else {
-    console.error('Clerk library not loaded');
-  }
-} catch (err) {
-  console.error('Clerk init error:', err);
-}
+// Clerk is loaded via script tag with data-clerk-publishable-key
+// window.Clerk is set after the script loads; we wait for it in useEffect
 
 // --- Landing quotes (unauthenticated) ---
 const LANDING_QUOTES = [
@@ -250,13 +252,22 @@ function App() {
 
   // --- Auth listener (Clerk) ---
   useEffect(() => {
-    clerkReady.then(() => {
-      if (clerk) {
-        setUser(clerk.user ?? null);
-        clerk.addListener(({ user: u }) => setUser(u ?? null));
+    const waitForClerk = () => {
+      if (window.Clerk && window.Clerk.loaded) {
+        setUser(window.Clerk.user ?? null);
+        window.Clerk.addListener(({ user: u }) => setUser(u ?? null));
+        setAuthLoading(false);
+      } else if (window.Clerk && window.Clerk.load) {
+        window.Clerk.load().then(() => {
+          setUser(window.Clerk.user ?? null);
+          window.Clerk.addListener(({ user: u }) => setUser(u ?? null));
+          setAuthLoading(false);
+        }).catch(() => setAuthLoading(false));
+      } else {
+        setTimeout(waitForClerk, 100);
       }
-      setAuthLoading(false);
-    }).catch(() => setAuthLoading(false));
+    };
+    waitForClerk();
   }, []);
 
   // --- Fetch quotes when authenticated ---
@@ -291,10 +302,10 @@ function App() {
   [SOURCED]);
 
   // --- Auth handlers (Clerk) ---
-  const handleSignUp = () => clerk && clerk.openSignUp();
-  const handleSignIn = () => clerk && clerk.openSignIn();
+  const handleSignUp = () => window.Clerk && window.Clerk.openSignUp();
+  const handleSignIn = () => window.Clerk && window.Clerk.openSignIn();
   const handleSignOut = async () => {
-    if (clerk) await clerk.signOut();
+    if (window.Clerk) await window.Clerk.signOut();
     setView('home');
     setFilter(null);
     setSearch('');
